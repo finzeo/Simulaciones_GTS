@@ -1,0 +1,20 @@
+Start run at mar mar 28 12:37:30 ART 2023
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/finzeo/saturne-vof/bin/code_saturne run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      code_saturne
+                      ============
+
+Version:   7.2.0-patch
+Path:      /share/storage/pub/finzeo/saturne-vof
+
+Result directory:
+  /share/storage/finzeo/Simulaciones/GTSstudy/1-GTS_Rao/RESU/20230328-1237
+

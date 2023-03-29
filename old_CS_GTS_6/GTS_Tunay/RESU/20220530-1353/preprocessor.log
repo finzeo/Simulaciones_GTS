@@ -1,0 +1,194 @@
+
+/home/user/Code_Saturne/7.0.4/code_saturne-7.0.4/arch/Linux_x86_64/libexec/code_saturne/cs_preprocess 
+--reorient --out mesh_input.csm --log 
+/home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/DATA/Mesh_1.unv 
+
+  .------------------------------.
+  |                              |
+  |   Code_Saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 7.0.4   (built Tue Mar 22 15:58:27 2022)
+
+  Reading of compressed files ('.gz') with Zlib 1.2.11
+
+
+
+Case configuration
+------------------
+
+  Date                : Mon May 30 13:53:42 2022
+  System              : Linux 5.4.0-113-generic
+  Machine             : newton
+  Processor           : Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+  Memory              : 11408004
+  User                : user (Facu)
+  Directory           : /home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/RESU/20220530-1353
+
+  Case name           : preprocess
+  Mesh file           : /home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/DATA/Mesh_1.unv
+
+
+
+Reading mesh from file in I-deas universal format
+----------------------
+  Mesh file: /home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/DATA/Mesh_1.unv
+
+
+  Number of vertices                          :   161672
+  Number of faces                             :    52148
+                                    Color 7   :    52148
+  Number of cells                             :   694409
+                                    Color 7   :   694409
+  Group 1 "inlet"
+    Number of faces    :      712
+  Group 2 "outlet"
+    Number of faces    :      712
+  Group 3 "lateral"
+    Number of faces    :     6288
+  Group 4 "top"
+    Number of faces    :     3206
+  Group 5 "bottomNoSlip"
+    Number of faces    :     1222
+  Group 6 "bottomSlip"
+    Number of faces    :     2886
+  Group 7 "vehicleSurface"
+    Number of faces    :    37122
+
+  Wall-clock time: 1.122475 s; CPU time: 1.114203 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:                35.932 Mb
+  Theoretical current memory:           39.632 Mb
+  Theoretical peak memory:              64.829 Mb
+  Total memory used:                    82.398 Mb
+
+  Domain coordinate extents:
+
+  [-3.78000e+01, -1.80000e+01, -5.04000e-01]
+  [ 1.17000e+02,  1.80000e+01,  3.20960e+01]
+  Number of elements                    tria3 :    51938
+  Number of elements                    quad4 :      210
+  Number of elements                   tetra4 :   579377
+  Number of elements                   penta6 :   115032
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:                81.885 Mb
+  Theoretical current memory:           85.585 Mb
+  Theoretical peak memory:             195.054 Mb
+  Total memory used:                   216.262 Mb
+
+
+Main mesh properties
+--------------------
+
+  Number of cells:                                694409
+  Number of internal faces:                      1420260
+  Number of boundary faces:                        52148
+  Number of vertices:                             161672
+
+
+Definition of face and cell families
+------------------------------------
+
+  Family 1
+         Group "7"
+  Number of cells          :   694409
+  Family 2
+         Group "7"
+         Group "bottomNoSlip"
+  Number of boundary faces :     1222
+  Family 3
+         Group "7"
+         Group "bottomSlip"
+  Number of boundary faces :     2886
+  Family 4
+         Group "7"
+         Group "inlet"
+  Number of boundary faces :      712
+  Family 5
+         Group "7"
+         Group "lateral"
+  Number of boundary faces :     6288
+  Family 6
+         Group "7"
+         Group "outlet"
+  Number of boundary faces :      712
+  Family 7
+         Group "7"
+         Group "top"
+  Number of boundary faces :     3206
+  Family 8
+         Group "7"
+         Group "vehicleSurface"
+  Number of boundary faces :    37122
+  Family 8
+         Default family
+         (no group)
+  Number of internal faces :  1420260
+
+
+Write output for Kernel
+-----------------------
+
+  Opening file: mesh_input.csm
+
+  Wrote: "start_block:dimensions"
+  Wrote: "n_cells"                         ; Type: "u8"; Size: 1
+  Wrote: "n_faces"                         ; Type: "u8"; Size: 1
+  Wrote: "n_vertices"                      ; Type: "u8"; Size: 1
+  Wrote: "face_vertices_size"              ; Type: "u8"; Size: 1
+  Wrote: "n_group_classes"                 ; Type: "i8"; Size: 1
+  Wrote: "n_group_class_props_max"         ; Type: "i8"; Size: 1
+  Wrote: "n_groups"                        ; Type: "u8"; Size: 1
+  Wrote: "group_name_index"                ; Type: "i8"; Size: 9
+  Wrote: "group_name"                      ; Type: "c "; Size: 66
+  Wrote: "group_class_properties"          ; Type: "i8"; Size: 18
+  Wrote: "end_block:dimensions"
+  Wrote: "start_block:data"
+  Wrote: "face_cells"                      ; Type: "i8"; Size: 2944816
+  Wrote: "cell_group_class_id"             ; Type: "i8"; Size: 694409
+  Wrote: "face_group_class_id"             ; Type: "i8"; Size: 1472408
+  Wrote: "face_vertices_index"             ; Type: "u8"; Size: 1472409
+  Wrote: "face_vertices"                   ; Type: "i8"; Size: 4589877
+  Wrote: "vertex_coords"                   ; Type: "r8"; Size: 485016
+  Wrote: "end_block:data"
+  Wrote: "EOF"
+
+  Closing file: mesh_input.csm
+
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :        4.92
+  System CPU time                     (sec)   :        0.16
+  Total time                          (sec)   :        5.13
+  Total CPU time / Total time                 :        0.99
+
+Memory use summary:
+
+  Total memory used:                                 216.262 Mb
+  Theoretical instrumented dynamic memory:           195.054 Mb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

@@ -1,0 +1,189 @@
+/share/storage/pub/mstorti/saturne-vof/libexec/code_saturne/cs_preprocess --log 
+--out mesh_input 
+/share/storage/finzeo/GTS_Tunay_2/DATA/gts_converted8_floorTreatment.med 
+
+  .------------------------------.
+  |                              |
+  |   Code_Saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 6.1-alpha   (built Tue 25 Aug 2020 04:47:33 PM ART)
+
+  CGNS 3.4.0 file format support
+  MED 3.2.0 (HDF5 1.8.14) file format support
+  Reading of compressed files ('.gz') with Zlib 1.2.3
+
+
+
+Case configuration
+------------------
+
+  Date                : Fri 22 Jul 2022 12:47:17 PM ART
+  Processor           : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory              : 132181124
+  User                : finzeo ()
+  Directory           : /share/storage/finzeo/GTS_Tunay_2/RESU/20220722-1247
+
+  Case name           : preprocess
+  Mesh file           : /share/storage/finzeo/GTS_Tunay_2/DATA/gts_converted8_floorTreatment.med
+
+
+
+Reading mesh from file in MED (EDF/CEA) format
+----------------------
+  Mesh file: /share/storage/finzeo/GTS_Tunay_2/DATA/gts_converted8_floorTreatment.med
+
+
+  Mesh name: gts_converted8_floorTreatment
+
+  Number of vertices                          :  7237548
+  Number of faces                             :   267258
+                                   Family 1   :    45096
+                                   Family 2   :      810
+                                   Family 3   :      810
+                                   Family 4   :     6912
+                                   Family 5   :     8880
+                                   Family 6   :   186880
+                                   Family 7   :    17870
+  Number of cells                             :  6913107
+                                   Family 0   :  6913107
+
+  Wall-clock time: 2.481992 s; CPU time: 2.478623 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:               532.101 Mb
+  Theoretical current memory:          697.755 Mb
+  Theoretical peak memory:               1.279 Gb
+  Total memory used:                     1.444 Gb
+
+  Domain coordinate extents:
+
+  [-3.78000e+01, -1.80000e+01, -5.04000e-01]
+  [ 1.17000e+02,  1.80000e+01,  3.20960e+01]
+  Number of elements                    quad4 :   262774
+  Number of elements                  polygon :     4484
+  Number of elements                   penta6 :     5429
+  Number of elements                    hexa8 :  6749929
+  Number of elements               polyhedron :   157749
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+Warning
+=======
+20 elements of type hexa8 are mis-oriented or highly warped
+
+
+EnSight output of mesh: Orientation Error
+-----------------------
+  Creating file: preprocess.ensight/MESH.case
+  Creating file: preprocess.ensight/mesh.geo
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:                 1.228 Gb
+  Theoretical current memory:            1.390 Gb
+  Theoretical peak memory:               3.095 Gb
+  Total memory used:                     3.284 Gb
+
+
+Main mesh properties
+--------------------
+
+  Number of cells:                               6913107
+  Number of internal faces:                     20794105
+  Number of boundary faces:                       267258
+  Number of vertices:                            7237548
+
+
+Definition of face and cell families
+------------------------------------
+
+  Family 1
+         Group "bottomNoSlip"
+  Number of boundary faces :   186880
+  Family 2
+         Group "bottomSlip"
+  Number of boundary faces :    17870
+  Family 3
+         Group "gtsModel"
+  Number of boundary faces :    45096
+  Family 4
+         Group "inlet"
+  Number of boundary faces :      810
+  Family 5
+         Group "lateral"
+  Number of boundary faces :     6912
+  Family 6
+         Group "outlet"
+  Number of boundary faces :      810
+  Family 7
+         Group "top"
+  Number of boundary faces :     8880
+  Family 7
+         Default family
+         (no group)
+  Number of cells          :  6913107
+  Number of internal faces : 20794105
+
+
+Write output for Kernel
+-----------------------
+
+  Opening file: mesh_input
+
+  Wrote: "start_block:dimensions"
+  Wrote: "n_cells"                         ; Type: "u8"; Size: 1
+  Wrote: "n_faces"                         ; Type: "u8"; Size: 1
+  Wrote: "n_vertices"                      ; Type: "u8"; Size: 1
+  Wrote: "face_vertices_size"              ; Type: "u8"; Size: 1
+  Wrote: "n_group_classes"                 ; Type: "i8"; Size: 1
+  Wrote: "n_group_class_props_max"         ; Type: "i8"; Size: 1
+  Wrote: "n_groups"                        ; Type: "u8"; Size: 1
+  Wrote: "group_name_index"                ; Type: "i8"; Size: 8
+  Wrote: "group_name"                      ; Type: "c "; Size: 58
+  Wrote: "group_class_properties"          ; Type: "i8"; Size: 8
+  Wrote: "end_block:dimensions"
+  Wrote: "start_block:data"
+  Wrote: "face_cells"                      ; Type: "i8"; Size: 42122726
+  Wrote: "cell_group_class_id"             ; Type: "i8"; Size: 6913107
+  Wrote: "face_group_class_id"             ; Type: "i8"; Size: 21061363
+  Wrote: "face_vertices_index"             ; Type: "u8"; Size: 21061364
+  Wrote: "face_vertices"                   ; Type: "i8"; Size: 84515580
+  Wrote: "vertex_coords"                   ; Type: "r8"; Size: 21712644
+  Wrote: "end_block:data"
+  Wrote: "EOF"
+
+  Closing file: mesh_input
+
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :       17.01
+  System CPU time                     (sec)   :        3.32
+  Total time                          (sec)   :       20.68
+  Total CPU time / Total time                 :        0.98
+
+Memory use summary:
+
+  Total memory used:                                   3.284 Gb
+  Theoretical instrumented dynamic memory:             3.095 Gb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

@@ -1,0 +1,27 @@
+Start run at Tue Aug 9 12:55:48 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+Traceback (most recent call last):
+  File "/share/storage/pub/mstorti/saturne-vof/bin/code_saturne", line 76, in <module>
+    retcode = cs.execute()
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_script.py", line 91, in execute
+    return self.commands[command](options)
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_script.py", line 166, in run
+    return cs_run.main(options, self.package)
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_run.py", line 329, in main
+    return run(argv, pkg)[0]
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_run.py", line 317, in run
+    stages=stages)
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_case.py", line 1975, in run
+    self.set_result_dir(force_id)
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_case.py", line 602, in set_result_dir
+    os.mkdir(self.result_dir)
+OSError: [Errno 17] File exists: '/share/storage/finzeo/GTS_Tunay_2/RESU/20220809-1255'
+make: *** [run] Error 1

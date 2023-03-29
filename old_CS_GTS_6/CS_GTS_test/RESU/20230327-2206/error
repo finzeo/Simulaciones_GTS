@@ -1,0 +1,23 @@
+SIGTERM signal (termination) received.
+--> computation interrupted by environment.
+
+Call stack:
+   1: 0x7f5ec7ee8cfb <+0x3e2cfb>                      (libsaturne.so.6)
+   2: 0x7f5ec6c348af <GOMP_parallel+0x3f>             (libgomp.so.1)
+   3: 0x7f5ec7ee9852 <+0x3e3852>                      (libsaturne.so.6)
+   4: 0x7f5ec7ef919e <+0x3f319e>                      (libsaturne.so.6)
+   5: 0x7f5ec7efc683 <cs_gradient_vector_synced_input+0xa3> (libsaturne.so.6)
+   6: 0x7f5ec7ebe441 <cs_convection_diffusion_vector+0x6d1> (libsaturne.so.6)
+   7: 0x7f5ec7e78e5b <cs_balance_vector+0x24b>        (libsaturne.so.6)
+   8: 0x7f5ec7c5273c <cs_equation_iterative_solve_vector+0x54c> (libsaturne.so.6)
+   9: 0x7f5ec8406b99 <__cs_c_bindings_MOD_coditv+0x319> (libsaturne.so.6)
+  10: 0x7f5ec7d6a03b <predvv_+0xa34b>                 (libsaturne.so.6)
+  11: 0x7f5ec7d48dcc <navstv_+0x134c>                 (libsaturne.so.6)
+  12: 0x7f5ec7d9cec0 <tridim_+0x2ea0>                 (libsaturne.so.6)
+  13: 0x7f5ec7bc7e32 <caltri_+0x17c2>                 (libsaturne.so.6)
+  14: 0x7f5eccd9ebff <cs_run+0x5bf>                   (libcs_solver.so.6)
+  15: 0x7f5eccd9e4d7 <main+0x167>                     (libcs_solver.so.6)
+  16: 0x35f081ed1d <__libc_start_main+0xfd>         (libc.so.6)
+  17: 0x4049f9     <>                               (cs_solver)
+End of stack
+

@@ -1,0 +1,39 @@
+Start run at lun mar 27 22:33:25 ART 2023
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml --execute
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+cs_user_scripts: hostname pirayu
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/Simulaciones/CS_GTS_test/RESU/20230327-2233
+
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Traceback (most recent call last):
+  File "/share/storage/pub/mstorti/saturne-vof/lib/python2.7/site-packages/code_saturne/cs_exec_environment.py", line 538, in run_command
+    p = subprocess.Popen(args, universal_newlines=True, env = env, **kwargs)
+  File "/share/apps/python/2.7.13/lib/python2.7/subprocess.py", line 390, in __init__
+    errread, errwrite)
+OSError: [Errno 2] No such file or directory
+
+Failed calling subprocess with:
+  args = ['/share/storage/finzeo/Simulaciones/CS_GTS_test/RESU/20230327-2233/run_solver']
+  env = None
+  kwargs = {}
+make: *** [run] Error 1

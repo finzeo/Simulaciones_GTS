@@ -1,0 +1,15 @@
+SIGTERM signal (termination) received.
+--> computation interrupted by environment.
+
+Call stack:
+   1: 0x7f0c719063a9 <cs_ext_force_flux+0x309>        (libsaturne-7.2.so)
+   2: 0x7f0c7150bd1e <+0x1fed1e>                      (libsaturne-7.2.so)
+   3: 0x7f0c7150ef61 <cs_pressure_correction+0x15c1>  (libsaturne-7.2.so)
+   4: 0x7f0c715dd75f <navstv_+0x550f>                 (libsaturne-7.2.so)
+   5: 0x7f0c7162e037 <tridim_+0x35c7>                 (libsaturne-7.2.so)
+   6: 0x7f0c713d41d9 <caltri_+0x15e9>                 (libsaturne-7.2.so)
+   7: 0x7f0c72c05e11 <main+0x731>                     (libcs_solver-7.2.so)
+   8: 0x316c21ed1d <__libc_start_main+0xfd>         (libc.so.6)
+   9: 0x4013b1     <>                               (cs_solver)
+End of stack
+

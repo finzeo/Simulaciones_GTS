@@ -1,0 +1,5 @@
+[mpiexec@compute-0-19.local] match_arg (utils/args/args.c:159): unrecognized argument cs_solver
+[mpiexec@compute-0-19.local] HYDU_parse_array (utils/args/args.c:174): argument matching returned error
+[mpiexec@compute-0-19.local] parse_args (ui/mpich/utils.c:1596): error parsing input array
+[mpiexec@compute-0-19.local] HYD_uii_mpx_get_parameters (ui/mpich/utils.c:1648): unable to parse user arguments
+[mpiexec@compute-0-19.local] main (ui/mpich/mpiexec.c:153): error parsing parameters

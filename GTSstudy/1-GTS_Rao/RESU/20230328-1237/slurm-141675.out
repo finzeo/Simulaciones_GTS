@@ -1,0 +1,33 @@
+Start run at lun oct 17 22:36:07 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup2.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTSstudy/1-GTS_Rao/RESU/20221017-2236
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ *****************************
+  Post-calculation operations
+ *****************************
+
+ Error in compile or link stage.
+
+make: *** [run2] Error 1

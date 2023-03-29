@@ -1,0 +1,23 @@
+
+Local case configuration:
+
+  Date:                Tue 31 May 2022 11:42:17 AM ART
+  System:              Linux 2.6.32-642.11.1.el6.x86_64 (CentOS release 6.10 (Final))
+  Machine:             cluster62
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              128945 MB
+  Directory:           /share/storage/finzeo/GTS_Tunay/RESU/20220531-1142
+  OpenMP threads:      1
+  Processors/node:     20
+  I/O read method:     standard input and output, serial access
+  I/O write method:    standard input and output, serial access
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Halo creation:                             0 s
+
+  Total time for halo creation:              0 s
+
+--------------------------------------------------------------------------------

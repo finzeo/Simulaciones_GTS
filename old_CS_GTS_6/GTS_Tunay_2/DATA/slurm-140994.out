@@ -1,0 +1,91 @@
+Start run at mié sep 21 01:35:14 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTS_Tunay_2/RESU/20220921-0135
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 40 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+step 1, time 0.000800, maxvel 3.000000, total vol 183257, vol(u>maxvel) 183257, cell count 46888464
+bounding box (containing cells with vel>maxvel): xmin -37.5001 -17.7002 -0.50396, xmax 116.7 17.7002 32.1087m 
+bounding box of vehicle: xmin -12.2 -1.30008 -6.44084e-18, xmax 6.64751e-18 1.30008 3.6m 
+gts area: 163.426 
+yplus max: 105.298, yplus min: 0 
+position of yplus max: -8.09529 -1.21164 3.58697 
+yplus prom: 6.80335 
+forces: 49818883.573218 -791.894961 -5788593.242983 
+Drag coefficient: 13902.898923 
+Lateral coefficient: -0.220993 
+Lift coefficient: -1615.416103 
+torque (ref. CG): 1108.652946 (roll) 34436018.220283 (pitch) 4830.559264 (yaw) 
+----------------------------------------------------- 
+step 2, time 0.001600, maxvel 3.000000, total vol 183257, vol(u>maxvel) 183257, cell count 46924792
+bounding box (containing cells with vel>maxvel): xmin -37.5001 -17.7002 -0.50396, xmax 116.7 17.7002 32.1087m 
+bounding box of vehicle: xmin -12.2 -1.30008 -6.44084e-18, xmax 6.64751e-18 1.30008 3.6m 
+gts area: 163.426 
+yplus max: 109.012, yplus min: 0.285739 
+position of yplus max: -8.09529 -1.21164 3.58697 
+yplus prom: 3.27037 
+forces: 737405.739109 0.232847 -95355.637853 
+Drag coefficient: 205.786977 
+Lateral coefficient: 0.000065 
+Lift coefficient: -26.610789 
+torque (ref. CG): -0.325986 (roll) 450698.643852 (pitch) -1.420368 (yaw) 
+----------------------------------------------------- 
+step 3, time 0.002400, maxvel 3.000000, total vol 183257, vol(u>maxvel) 183247, cell count 48920046
+bounding box (containing cells with vel>maxvel): xmin -37.5001 -17.7002 -0.50396, xmax 116.7 17.7002 32.1087m 
+bounding box of vehicle: xmin -12.2 -1.30008 -6.44084e-18, xmax 6.64751e-18 1.30008 3.6m 
+gts area: 163.426 
+yplus max: 304.507, yplus min: 0.0680278 
+position of yplus max: -0.00238167 1.3 1.64831 
+yplus prom: 3.4498 
+forces: 14787.245649 -0.544162 -2435.437880 
+Drag coefficient: 4.126660 
+Lateral coefficient: -0.000152 
+Lift coefficient: -0.679655 
+torque (ref. CG): 0.761826 (roll) 5845.972839 (pitch) 3.319385 (yaw) 
+----------------------------------------------------- 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 140994.0 ON compute-0-17 CANCELLED AT 2022-09-21T10:49:58 ***
+slurmstepd: error: *** JOB 140994 ON compute-0-17 CANCELLED AT 2022-09-21T10:49:58 ***
+srun: forcing job termination
+make: *** [run] Terminado

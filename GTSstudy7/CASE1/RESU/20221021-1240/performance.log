@@ -1,0 +1,32 @@
+
+Local case configuration:
+
+  Date:                Fri 21 Oct 2022 12:40:24 PM ART
+  System:              Linux 2.6.32-504.16.2.el6.x86_64 (CentOS release 6.6 (Final))
+  Machine:             compute-0-7.local
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              129083 MB
+  Directory:           /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1240
+  OpenMP threads:      1
+  Processors/node:     1
+
+  Compilers used for build:
+    C compiler:        gcc (GCC) 4.9.4
+    C++ compiler:      g++ (GCC) 4.9.4
+    Fortran compiler:  GNU Fortran (GCC) 4.9.4
+
+  MPI version: 3.1 (MPICH 3.2)
+  OpenMP version: 4.0
+
+  I/O read method:     standard input and output, serial access
+  I/O write method:    standard input and output, serial access
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Halo creation:                             0 s
+
+  Total time for halo creation:              0 s
+
+--------------------------------------------------------------------------------

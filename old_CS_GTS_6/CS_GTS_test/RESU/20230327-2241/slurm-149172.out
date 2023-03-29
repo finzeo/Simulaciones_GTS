@@ -1,0 +1,6 @@
+Makefile:94: atención: se imponen comandos para el objetivo `prepare'
+Makefile:65: atención: se ignoran las instrucciones viejas para el objetivo `prepare'
+octave-cli -qH --no-gui mkdata.m
+error: no such file, '/share/storage/finzeo/Simulaciones/CS_GTS_test/DATA/mkdata.m'
+error: source: error sourcing file '/share/storage/finzeo/Simulaciones/CS_GTS_test/DATA/mkdata.m'
+make: *** [prepare] Error 1

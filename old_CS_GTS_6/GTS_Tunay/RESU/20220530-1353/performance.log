@@ -1,0 +1,29 @@
+
+Local case configuration:
+
+  Date:                lun 30 may 2022 13:53:47 -03
+  System:              Linux 5.4.0-113-generic (Ubuntu 18.04.6 LTS)
+  Machine:             newton
+  Processor:           model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+  Memory:              11140 MB
+  Directory:           /home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/RESU/20220530-1353
+  OpenMP threads:      1
+  Processors/node:     8
+
+  Compilers used for build:
+    C compiler:        gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+    C++ compiler:      g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+    Fortran compiler:  GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+
+  I/O read method:     standard input and output, serial access
+  I/O write method:    standard input and output, serial access
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Halo creation:                             0 s
+
+  Total time for halo creation:              0 s
+
+--------------------------------------------------------------------------------

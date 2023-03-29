@@ -1,0 +1,722 @@
+Start run at Fri Jul 22 12:47:12 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run -n 3 --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTS_Tunay_2/RESU/20220722-1247
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 3 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+step 1, time 0.000750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 2, time 0.001500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 3, time 0.002250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 4, time 0.003000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00301778, cell count 182
+bounding box: xmin -0.0175345 -1.32406 0.788996, xmax -0.0107014 -1.30945 2.35494m 
+step 5, time 0.003750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00459694, cell count 270
+bounding box: xmin -0.0175345 -1.33247 0.677142, xmax -0.00676372 -1.30945 2.50408m 
+step 6, time 0.004500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00533813, cell count 310
+bounding box: xmin -0.0175345 -1.33247 0.639858, xmax -0.00676372 -0.0185547 3.61637m 
+step 7, time 0.005250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00542886, cell count 314
+bounding box: xmin -0.0175345 -1.33247 0.602573, xmax -0.00676372 -0.0185547 3.61637m 
+step 8, time 0.006000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00526777, cell count 304
+bounding box: xmin -0.0175345 -1.33247 0.602573, xmax -0.00676372 -0.0185547 3.61637m 
+step 9, time 0.006750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00501811, cell count 288
+bounding box: xmin -0.0175345 -1.33247 0.602573, xmax -0.00676372 -0.0185547 3.61637m 
+step 10, time 0.007500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00453611, cell count 259
+bounding box: xmin -10.9261 -1.33247 0.602573, xmax -0.00676372 -0.0185547 3.61637m 
+step 11, time 0.008250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00377032, cell count 217
+bounding box: xmin -10.9261 -1.33247 0.602573, xmax -0.00676372 -0.0185547 3.61637m 
+step 12, time 0.009000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00350096, cell count 205
+bounding box: xmin -10.9261 -1.32406 0.602573, xmax -0.0107014 -0.0185547 3.61637m 
+step 13, time 0.009750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0033841, cell count 199
+bounding box: xmin -10.9261 -1.32406 0.602573, xmax -0.0107014 -0.0185547 3.61637m 
+step 14, time 0.010500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00327492, cell count 193
+bounding box: xmin -10.9261 -1.32406 0.602573, xmax -0.0107014 -0.0185547 3.61637m 
+step 15, time 0.011250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00308746, cell count 183
+bounding box: xmin -10.9261 -1.32406 0.602573, xmax -0.0107014 -0.0185547 3.61637m 
+step 16, time 0.012000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00293164, cell count 175
+bounding box: xmin -10.9261 -1.32406 0.602573, xmax -0.0107014 -0.0185547 3.61637m 
+step 17, time 0.012750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00267396, cell count 161
+bounding box: xmin -10.9261 -1.32406 0.639858, xmax -0.0107014 -0.0185547 3.61637m 
+step 18, time 0.013500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00240128, cell count 147
+bounding box: xmin -10.9261 -1.32406 0.639858, xmax -0.0107014 -0.0185547 3.61637m 
+step 19, time 0.014250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00187092, cell count 119
+bounding box: xmin -10.9261 -1.31641 0.639858, xmax -0.0140391 -0.0185547 3.61637m 
+step 20, time 0.015000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00180801, cell count 115
+bounding box: xmin -10.9261 -1.31641 0.677142, xmax -0.0140391 -0.0185547 3.61637m 
+step 21, time 0.015750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0017451, cell count 111
+bounding box: xmin -10.9261 -1.31641 0.677142, xmax -0.0140391 -0.0185547 3.61637m 
+step 22, time 0.016500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00168256, cell count 107
+bounding box: xmin -10.9261 -1.31641 0.677142, xmax -0.0140391 -0.0185547 3.61637m 
+step 23, time 0.017250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00155673, cell count 99
+bounding box: xmin -10.9261 -1.31641 0.714427, xmax -0.0142808 -1.30349 3.21132m 
+step 24, time 0.018000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00155673, cell count 99
+bounding box: xmin -10.9261 -1.31641 0.714427, xmax -0.0142808 -1.30349 3.21132m 
+step 25, time 0.018750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00149344, cell count 95
+bounding box: xmin -10.9261 -1.31641 0.751711, xmax -0.0142808 -1.30349 3.21132m 
+step 26, time 0.019500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00149344, cell count 95
+bounding box: xmin -10.9261 -1.31641 0.751711, xmax -0.0142808 -1.30349 3.21132m 
+step 27, time 0.020250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0014618, cell count 93
+bounding box: xmin -10.9261 -1.31641 0.751711, xmax -0.0142808 -1.30349 3.21132m 
+step 28, time 0.021000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00139851, cell count 89
+bounding box: xmin -10.9261 -1.31641 0.788996, xmax -0.0142808 -1.30349 3.21132m 
+step 29, time 0.021750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00136686, cell count 87
+bounding box: xmin -10.9261 -1.31641 0.82628, xmax -0.0142808 -1.30349 3.21132m 
+step 30, time 0.022500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00133521, cell count 85
+bounding box: xmin -10.9261 -1.31641 0.82628, xmax -0.0142808 -1.30349 3.21132m 
+step 31, time 0.023250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00127192, cell count 81
+bounding box: xmin -10.9261 -1.31641 0.863565, xmax -0.0142808 -1.30349 3.21132m 
+step 32, time 0.024000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00124028, cell count 79
+bounding box: xmin -10.9261 -1.31641 0.900849, xmax -0.0142808 -1.30349 3.21132m 
+step 33, time 0.024750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00122976, cell count 78
+bounding box: xmin -10.9261 -1.31641 0.900849, xmax -0.0142808 -1.30349 3.21132m 
+step 34, time 0.025500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00116647, cell count 74
+bounding box: xmin -10.9261 -1.31641 0.938134, xmax -0.0142808 -1.30349 3.21132m 
+step 35, time 0.026250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00110318, cell count 70
+bounding box: xmin -10.9261 -1.31641 0.975418, xmax -0.0142808 -1.30349 3.21132m 
+step 36, time 0.027000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00103989, cell count 66
+bounding box: xmin -10.9261 -1.31641 1.0127, xmax -0.0142808 -1.30349 3.21132m 
+step 37, time 0.027750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000976594, cell count 62
+bounding box: xmin -10.9261 -1.31641 1.04999, xmax -0.0142808 -1.30349 3.21132m 
+step 38, time 0.028500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000934517, cell count 59
+bounding box: xmin -10.9261 -1.31641 1.08727, xmax -0.0142808 -1.30349 3.21132m 
+step 39, time 0.029250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00083958, cell count 53
+bounding box: xmin -10.9261 -1.31641 1.12456, xmax -0.0142808 -1.30349 3.21132m 
+step 40, time 0.030000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000776289, cell count 49
+bounding box: xmin -10.9261 -1.31641 1.16184, xmax -0.0142808 -1.30349 3.21132m 
+step 41, time 0.030750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000670841, cell count 42
+bounding box: xmin -10.9261 -1.31641 1.23641, xmax -0.0142808 -1.30349 3.24839m 
+step 42, time 0.031500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000544258, cell count 34
+bounding box: xmin -10.9261 -1.31641 1.31098, xmax -0.0142808 -1.30349 3.24839m 
+step 43, time 0.032250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000354384, cell count 22
+bounding box: xmin -10.9261 -1.31641 1.42283, xmax -0.0142808 -1.30349 3.24839m 
+step 44, time 0.033000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 45, time 0.033750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 46, time 0.034500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 47, time 0.035250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 48, time 0.036000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 49, time 0.036750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 50, time 0.037500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 51, time 0.038250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 52, time 0.039000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 53, time 0.039750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 54, time 0.040500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 55, time 0.041250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 56, time 0.042000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 57, time 0.042750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 58, time 0.043500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 59, time 0.044250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 60, time 0.045000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 61, time 0.045750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 62, time 0.046500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 63, time 0.047250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 64, time 0.048000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 65, time 0.048750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 66, time 0.049500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 67, time 0.050250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 68, time 0.051000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 69, time 0.051750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 70, time 0.052500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 71, time 0.053250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 72, time 0.054000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 73, time 0.054750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 74, time 0.055500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 75, time 0.056250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 76, time 0.057000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 77, time 0.057750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 78, time 0.058500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 79, time 0.059250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 80, time 0.060000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000101218, cell count 6
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30349 3.24839m 
+step 81, time 0.060750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 82, time 0.061500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 83, time 0.062250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 84, time 0.063000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 85, time 0.063750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 86, time 0.064500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 87, time 0.065250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000124644, cell count 8
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -9.34199 -1.30331 3.24839m 
+step 88, time 0.066000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 89, time 0.066750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 90, time 0.067500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 91, time 0.068250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 92, time 0.069000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 93, time 0.069750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 94, time 0.070500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 95, time 0.071250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 96, time 0.072000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 97, time 0.072750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 98, time 0.073500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 99, time 0.074250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 100, time 0.075000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 101, time 0.075750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 102, time 0.076500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 103, time 0.077250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 104, time 0.078000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 105, time 0.078750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 106, time 0.079500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 107, time 0.080250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 108, time 0.081000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 109, time 0.081750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 110, time 0.082500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 111, time 0.083250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 112, time 0.084000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 113, time 0.084750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 114, time 0.085500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 115, time 0.086250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 116, time 0.087000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 117, time 0.087750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 118, time 0.088500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 119, time 0.089250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 120, time 0.090000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 121, time 0.090750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 122, time 0.091500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 123, time 0.092250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 124, time 0.093000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 125, time 0.093750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 126, time 0.094500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 127, time 0.095250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 128, time 0.096000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 129, time 0.096750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 130, time 0.097500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 131, time 0.098250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 132, time 0.099000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 133, time 0.099750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 134, time 0.100500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 135, time 0.101250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 136, time 0.102000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 137, time 0.102750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 138, time 0.103500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 139, time 0.104250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 140, time 0.105000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 141, time 0.105750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 142, time 0.106500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 143, time 0.107250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 144, time 0.108000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 145, time 0.108750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 146, time 0.109500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 147, time 0.110250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 148, time 0.111000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 149, time 0.111750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 150, time 0.112500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 151, time 0.113250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 152, time 0.114000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 153, time 0.114750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 154, time 0.115500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 155, time 0.116250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 156, time 0.117000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 157, time 0.117750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 158, time 0.118500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 159, time 0.119250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 160, time 0.120000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 161, time 0.120750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 162, time 0.121500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 163, time 0.122250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 164, time 0.123000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 165, time 0.123750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 166, time 0.124500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 167, time 0.125250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 168, time 0.126000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 169, time 0.126750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 170, time 0.127500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 171, time 0.128250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 172, time 0.129000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 173, time 0.129750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 174, time 0.130500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 175, time 0.131250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 176, time 0.132000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 177, time 0.132750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 178, time 0.133500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 179, time 0.134250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 180, time 0.135000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 181, time 0.135750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 182, time 0.136500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 183, time 0.137250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 184, time 0.138000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 185, time 0.138750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 186, time 0.139500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 187, time 0.140250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 188, time 0.141000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 189, time 0.141750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 190, time 0.142500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 191, time 0.143250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 192, time 0.144000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 193, time 0.144750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 194, time 0.145500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 195, time 0.146250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 196, time 0.147000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 197, time 0.147750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 198, time 0.148500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 199, time 0.149250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 200, time 0.150000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 201, time 0.150750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 202, time 0.151500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 203, time 0.152250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 204, time 0.153000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 205, time 0.153750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 206, time 0.154500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 207, time 0.155250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 208, time 0.156000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 209, time 0.156750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 210, time 0.157500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 211, time 0.158250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 212, time 0.159000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 213, time 0.159750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 214, time 0.160500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 215, time 0.161250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 216, time 0.162000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 217, time 0.162750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 218, time 0.163500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 219, time 0.164250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 220, time 0.165000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 221, time 0.165750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 222, time 0.166500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 223, time 0.167250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 224, time 0.168000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 225, time 0.168750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 226, time 0.169500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 227, time 0.170250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 228, time 0.171000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 229, time 0.171750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 230, time 0.172500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 231, time 0.173250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 232, time 0.174000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 233, time 0.174750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 234, time 0.175500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 235, time 0.176250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 236, time 0.177000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 237, time 0.177750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 238, time 0.178500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 239, time 0.179250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 240, time 0.180000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 241, time 0.180750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 242, time 0.181500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 243, time 0.182250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 244, time 0.183000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 245, time 0.183750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 246, time 0.184500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 247, time 0.185250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 248, time 0.186000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 249, time 0.186750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 250, time 0.187500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 251, time 0.188250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 252, time 0.189000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 253, time 0.189750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 254, time 0.190500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 255, time 0.191250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 256, time 0.192000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 257, time 0.192750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 258, time 0.193500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 259, time 0.194250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 260, time 0.195000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 261, time 0.195750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 262, time 0.196500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 263, time 0.197250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 264, time 0.198000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 265, time 0.198750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000148006, cell count 10
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 266, time 0.199500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 267, time 0.200250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 268, time 0.201000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 269, time 0.201750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 270, time 0.202500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 271, time 0.203250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 272, time 0.204000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 273, time 0.204750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 274, time 0.205500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 275, time 0.206250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 276, time 0.207000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 277, time 0.207750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 278, time 0.208500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 279, time 0.209250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 280, time 0.210000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 281, time 0.210750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 282, time 0.211500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 283, time 0.212250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 284, time 0.213000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 285, time 0.213750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 286, time 0.214500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 287, time 0.215250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 288, time 0.216000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 289, time 0.216750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 290, time 0.217500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 291, time 0.218250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 292, time 0.219000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 293, time 0.219750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 294, time 0.220500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 295, time 0.221250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 296, time 0.222000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000126878, cell count 9
+bounding box: xmin -10.9261 -1.30674 2.8388, xmax -8.77831 -1.3033 3.24839m 
+step 297, time 0.222750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 298, time 0.223500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 299, time 0.224250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 300, time 0.225000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 301, time 0.225750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 302, time 0.226500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 303, time 0.227250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 304, time 0.228000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 305, time 0.228750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 306, time 0.229500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000105743, cell count 8
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 307, time 0.230250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00012138, cell count 9
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 308, time 0.231000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00012138, cell count 9
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 309, time 0.231750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00012138, cell count 9
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 310, time 0.232500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000152674, cell count 11
+bounding box: xmin -10.9261 -1.30352 2.8388, xmax -8.77831 -1.3033 3.21132m 
+step 311, time 0.233250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000183871, cell count 13
+bounding box: xmin -12.1328 -1.30352 1.08727, xmax -8.77831 -1.24367 3.21132m 
+step 312, time 0.234000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000246384, cell count 17
+bounding box: xmin -12.1329 -1.30352 1.04999, xmax -8.77831 -1.24364 3.21132m 
+step 313, time 0.234750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000293272, cell count 20
+bounding box: xmin -12.1333 -1.30352 1.04999, xmax -8.77831 -1.24364 3.21132m 
+step 314, time 0.235500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000371464, cell count 25
+bounding box: xmin -12.1333 -1.30352 0.975417, xmax -8.77831 -1.24362 3.21132m 
+step 315, time 0.236250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000434049, cell count 29
+bounding box: xmin -12.1333 -1.30352 0.938131, xmax -8.77831 -1.24362 3.21132m 
+step 316, time 0.237000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000465329, cell count 31
+bounding box: xmin -12.1333 -1.30352 0.900847, xmax -8.77831 -1.24362 3.21132m 
+step 317, time 0.237750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000527907, cell count 35
+bounding box: xmin -12.1333 -1.30352 0.900847, xmax -8.77831 -1.24329 3.21132m 
+step 318, time 0.238500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000561407, cell count 37
+bounding box: xmin -12.1333 -1.30352 0.863564, xmax -8.77831 -1.24329 3.21132m 
+step 319, time 0.239250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000561407, cell count 37
+bounding box: xmin -12.1333 -1.30352 0.863564, xmax -8.77831 -1.24329 3.21132m 
+step 320, time 0.240000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000663799, cell count 43
+bounding box: xmin -12.1333 -1.30352 0.826282, xmax -8.77831 -1.24329 3.21132m 
+step 321, time 0.240750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000819157, cell count 50
+bounding box: xmin -12.1333 -1.30352 0.826282, xmax -8.77831 -1.24329 3.21132m 
+step 322, time 0.241500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000902827, cell count 54
+bounding box: xmin -12.1333 -1.30352 0.826282, xmax -8.77831 -1.24329 3.21132m 
+step 323, time 0.242250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000936078, cell count 56
+bounding box: xmin -12.1333 -1.30352 0.788979, xmax -8.77831 -1.24329 3.21132m 
+step 324, time 0.243000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00102237, cell count 61
+bounding box: xmin -12.1384 -1.30352 0.788979, xmax -8.77831 -1.24329 3.21132m 
+step 325, time 0.243750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00128481, cell count 76
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24329 3.21132m 
+step 326, time 0.244500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00138871, cell count 82
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24329 3.21132m 
+step 327, time 0.245250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00169925, cell count 101
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24329 3.21132m 
+step 328, time 0.246000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00181445, cell count 108
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24329 3.21132m 
+step 329, time 0.246750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00197673, cell count 118
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 330, time 0.247500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00210484, cell count 125
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 331, time 0.248250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00221037, cell count 131
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 332, time 0.249000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00228075, cell count 135
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 333, time 0.249750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00240051, cell count 142
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 334, time 0.250500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00252606, cell count 149
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 335, time 0.251250, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00262907, cell count 155
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 336, time 0.252000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00279659, cell count 165
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 337, time 0.252750, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00284093, cell count 167
+bounding box: xmin -12.1389 -1.30352 0.788979, xmax -8.77831 -1.24321 3.21132m 
+step 338, time 0.253500, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0029288, cell count 172
+bounding box: xmin -12.1389 -1.30352 0.751693, xmax -8.77831 -1.24321 3.21132m 

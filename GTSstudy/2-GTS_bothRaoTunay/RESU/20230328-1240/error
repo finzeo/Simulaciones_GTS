@@ -1,0 +1,23 @@
+SIGTERM signal (termination) received.
+--> computation interrupted by environment.
+
+Call stack:
+   1: 0x7feab9e1e3e8 <MPIDI_CH3I_MRAILI_Get_next_vbuf+0xb8> (libmpi.so.12)
+   2: 0x7feab9df62d1 <MPIDI_CH3I_read_progress+0x81>  (libmpi.so.12)
+   3: 0x7feab9df5cf3 <MPIDI_CH3I_Progress+0x1a3>      (libmpi.so.12)
+   4: 0x7feab9d807c5 <MPIR_Waitall_impl+0x2f5>        (libmpi.so.12)
+   5: 0x7feab9d80b9a <MPI_Waitall+0x9a>               (libmpi.so.12)
+   6: 0x7feabc952de8 <cs_halo_sync_var+0x3a8>         (libsaturne.so.6)
+   7: 0x7feabcbb5dcb <cs_face_viscosity+0xbb>         (libsaturne.so.6)
+   8: 0x7feabca529ac <predvv_+0x9cbc>                 (libsaturne.so.6)
+   9: 0x7feabca31dcc <navstv_+0x134c>                 (libsaturne.so.6)
+  10: 0x7feabca85ec0 <tridim_+0x2ea0>                 (libsaturne.so.6)
+  11: 0x7feabc8b0e32 <caltri_+0x17c2>                 (libsaturne.so.6)
+  12: 0x7feabe161bff <cs_run+0x5bf>                   (libcs_solver.so.6)
+  13: 0x7feabe1614d7 <main+0x167>                     (libcs_solver.so.6)
+  14: 0x393281ed1d <__libc_start_main+0xfd>         (libc.so.6)
+  15: 0x4013a1     <>                               (cs_solver)
+End of stack
+
+[cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

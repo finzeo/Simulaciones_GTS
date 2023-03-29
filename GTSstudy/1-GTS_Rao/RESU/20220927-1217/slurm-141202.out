@@ -1,0 +1,337 @@
+Start run at mar sep 27 12:16:06 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+/usr/bin/lua: /usr/share/lmod/lmod/libexec/lmod:65: module 'posix' not found:
+	no field package.preload['posix']
+	no file './posix.lua'
+	no file '/usr/share/lua/5.1/posix.lua'
+	no file '/usr/share/lua/5.1/posix/init.lua'
+	no file '/usr/lib64/lua/5.1/posix.lua'
+	no file '/usr/lib64/lua/5.1/posix/init.lua'
+	no file './posix.so'
+	no file '/usr/lib64/lua/5.1/posix.so'
+	no file '/usr/lib64/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/usr/share/lmod/lmod/libexec/lmod:65: in main chunk
+	[C]: ?
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTSstudy/1-GTS_Rao/RESU/20220927-1216
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 60 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+/share/storage/pub/mstorti/saturne-vof/libexec/code_saturne/cs_preprocess: error while loading shared libraries: libjsoncpp.so.19: cannot open shared object file: No such file or directory
+Error running the preprocessor.
+Check the preprocessor.log file for details.
+
+ Error in preprocessing stage.
+
+
+ *****************************
+  Post-calculation operations
+ *****************************
+
+ Error in preprocessing stage.
+
+make: *** [run] Error 1

@@ -1,0 +1,148 @@
+/share/storage/pub/finzeo/saturne-vof/libexec/code_saturne/cs_preprocess --out 
+mesh_input.csm --log 
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/MESH/GTS_ofcom10.med 
+
+  .------------------------------.
+  |                              |
+  |   code_saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 7.2.0-patch   (built Thu Oct 20 18:47:52 2022)
+
+  CGNS 3.3.1 file format support
+  MED 3.3.1 (HDF5 1.8.14) file format support
+  Reading of compressed files ('.gz') with Zlib 1.2.3
+
+
+
+Case configuration
+------------------
+
+  Date                : Tue Mar 28 10:01:06 2023
+  System              : Linux 2.6.32-504.16.2.el6.x86_64
+  Machine             : compute-0-0.local
+  Processor           : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory              : 132181124
+  User                : finzeo ()
+  Directory           : /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001
+
+  Case name           : preprocess
+  Mesh file           : /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/MESH/GTS_ofcom10.med
+
+
+
+Reading mesh from file in MED (EDF/CEA) format
+----------------------
+  Mesh file: /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/MESH/GTS_ofcom10.med
+
+
+  Mesh name: GTS_ofcom10
+
+  Number of vertices                          : 35844130
+  Number of faces                             :  1221473
+                                   Family 1   :     1260
+                                   Family 2   :     6750
+                                   Family 3   :     4680
+                                   Family 4   :     4680
+                                   Family 5   :   104822
+                                   Family 6   :     6552
+                                   Family 7   :  1092729
+  Number of cells                             : 34111254
+                                   Family 0   : 34111254
+
+  Wall-clock time: 8.363480 s; CPU time: 7.100921 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:                 2.591 Gb
+  Theoretical current memory:            3.392 Gb
+  Theoretical peak memory:               6.298 Gb
+  Total memory used:                     6.353 Gb
+
+  Domain coordinate extents:
+
+  [-7.33423e+00, -1.52400e+00, -7.62000e-02]
+  [ 4.40057e+00,  1.52400e+00,  2.05740e+00]
+  Number of elements                    tria3 :      148
+  Number of elements                    quad4 :  1206769
+  Number of elements                  polygon :    14556
+  Number of elements                   penta6 :    25018
+  Number of elements                    hexa8 : 33221946
+  Number of elements               polyhedron :   864290
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+Warning
+=======
+45 elements of type hexa8 are mis-oriented or highly warped.
+
+
+EnSight output of mesh: Orientation Error
+-----------------------
+  Creating file: preprocess.ensight/MESH.case
+  Creating file: preprocess.ensight/mesh.geo
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:                 6.071 Gb
+  Theoretical current memory:            6.873 Gb
+  Theoretical peak memory:              15.297 Gb
+  Total memory used:                    15.360 Gb
+
+Warning
+=======
+There are 1 faces of which one same side belongs
+to at least 2 cells --> bad connectivity.
+
+Main mesh properties
+--------------------
+
+  Number of cells:                              34111254
+  Number of internal faces:                    102837437
+  Number of boundary faces:                      1221487
+  Number of vertices:                           35844130
+
+Creating mesh for output: Connectivity Error Faces
+-------------------------
+
+  Number of elements                    quad4 :        1
+
+
+EnSight output of mesh: Connectivity Error Faces
+-----------------------
+
+Warning
+=======
+The mesh has face -> cell connectivity errors.
+We can go no further.
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :       82.98
+  System CPU time                     (sec)   :        7.10
+  Total time                          (sec)   :       91.43
+  Total CPU time / Total time                 :        0.99
+
+Memory use summary:
+
+  Total memory used:                                  15.360 Gb
+  Theoretical instrumented dynamic memory:            15.297 Gb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

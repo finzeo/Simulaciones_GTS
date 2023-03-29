@@ -1,0 +1,292 @@
+Start run at mar oct 18 11:45:42 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup2.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTSstudy/1-GTS_Rao/RESU/20221018-1145
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 60 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+step 1, time 0.000750 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 7.91316, yplus min: 0 
+position of yplus max: -1.11763 -0.0282332 0.5139 
+yplus prom: 4.45263 
+forces: 16.227612 -0.000350 -1.300652 
+Drag coefficient: 120.657796 
+Lateral coefficient: -0.002606 
+Lift coefficient: -9.670791 
+torque (ref. CG): 0.000084 (roll) 2.259235 (pitch) 0.000434 (yaw) 
+----------------------------------------------------- 
+step 2, time 0.001500 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.23004, yplus min: 0.492777 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.21288 
+forces: 80.648231 0.010545 -10.209194 
+Drag coefficient: 599.646947 
+Lateral coefficient: 0.078405 
+Lift coefficient: -75.908816 
+torque (ref. CG): -0.002514 (roll) 6.593682 (pitch) -0.013048 (yaw) 
+----------------------------------------------------- 
+step 3, time 0.002250 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.92534, yplus min: 0.299567 
+position of yplus max: -2.3224 0.0309167 0.4694 
+yplus prom: 1.36404 
+forces: 22.605676 0.023297 -2.091323 
+Drag coefficient: 168.080867 
+Lateral coefficient: 0.173222 
+Lift coefficient: -15.549697 
+torque (ref. CG): -0.005554 (roll) 2.801390 (pitch) -0.028828 (yaw) 
+----------------------------------------------------- 
+step 4, time 0.003000 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.92564, yplus min: 0.239938 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.33823 
+forces: -0.515563 0.014229 0.095096 
+Drag coefficient: -3.833387 
+Lateral coefficient: 0.105798 
+Lift coefficient: 0.707069 
+torque (ref. CG): -0.003392 (roll) -0.005239 (pitch) -0.017607 (yaw) 
+----------------------------------------------------- 
+step 5, time 0.003750 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.92862, yplus min: 0.0895018 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.33465 
+forces: -0.757682 -0.000719 0.004906 
+Drag coefficient: -5.633621 
+Lateral coefficient: -0.005348 
+Lift coefficient: 0.036475 
+torque (ref. CG): 0.000171 (roll) -0.174561 (pitch) 0.000890 (yaw) 
+----------------------------------------------------- 
+step 6, time 0.004500 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.9398, yplus min: 0.139121 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.33632 
+forces: -0.033163 -0.001500 -0.034386 
+Drag coefficient: -0.246582 
+Lateral coefficient: -0.011155 
+Lift coefficient: -0.255669 
+torque (ref. CG): 0.000358 (roll) -0.050455 (pitch) 0.001856 (yaw) 
+----------------------------------------------------- 
+step 7, time 0.005250 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.95179, yplus min: 0.14977 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.33959 
+forces: 0.130755 -0.000165 -0.020421 
+Drag coefficient: 0.972205 
+Lateral coefficient: -0.001227 
+Lift coefficient: -0.151836 
+torque (ref. CG): 0.000039 (roll) 0.005903 (pitch) 0.000204 (yaw) 
+----------------------------------------------------- 
+step 8, time 0.006000 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.96354, yplus min: 0.136965 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.34265 
+forces: 0.127183 0.000520 -0.012661 
+Drag coefficient: 0.945652 
+Lateral coefficient: 0.003868 
+Lift coefficient: -0.094138 
+torque (ref. CG): -0.000124 (roll) 0.014654 (pitch) -0.000644 (yaw) 
+----------------------------------------------------- 
+step 9, time 0.006750 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.97513, yplus min: 0.161589 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.34573 
+forces: 0.113388 0.000410 -0.013513 
+Drag coefficient: 0.843077 
+Lateral coefficient: 0.003050 
+Lift coefficient: -0.100474 
+torque (ref. CG): -0.000098 (roll) 0.010311 (pitch) -0.000508 (yaw) 
+----------------------------------------------------- 
+step 10, time 0.007500 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.98664, yplus min: 0.162196 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.34886 
+forces: 0.108033 0.000230 -0.015087 
+Drag coefficient: 0.803265 
+Lateral coefficient: 0.001712 
+Lift coefficient: -0.112176 
+torque (ref. CG): -0.000055 (roll) 0.007087 (pitch) -0.000285 (yaw) 
+----------------------------------------------------- 
+step 11, time 0.008250 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 3.99809, yplus min: 0.0923166 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.35214 
+forces: 0.106847 0.000199 -0.015495 
+Drag coefficient: 0.794447 
+Lateral coefficient: 0.001479 
+Lift coefficient: -0.115208 
+torque (ref. CG): -0.000047 (roll) 0.006299 (pitch) -0.000246 (yaw) 
+----------------------------------------------------- 
+step 12, time 0.009000 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.00946, yplus min: 0.0769197 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.35564 
+forces: 0.107064 0.000226 -0.015467 
+Drag coefficient: 0.796054 
+Lateral coefficient: 0.001683 
+Lift coefficient: -0.115001 
+torque (ref. CG): -0.000054 (roll) 0.006385 (pitch) -0.000280 (yaw) 
+----------------------------------------------------- 
+step 13, time 0.009750 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.02077, yplus min: 0.120545 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.3593 
+forces: 0.107665 0.000237 -0.015504 
+Drag coefficient: 0.800526 
+Lateral coefficient: 0.001766 
+Lift coefficient: -0.115281 
+torque (ref. CG): -0.000057 (roll) 0.006482 (pitch) -0.000294 (yaw) 
+----------------------------------------------------- 
+step 14, time 0.010500 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.03201, yplus min: 0.169901 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.36302 
+forces: 0.108280 0.000222 -0.015651 
+Drag coefficient: 0.805102 
+Lateral coefficient: 0.001653 
+Lift coefficient: -0.116372 
+torque (ref. CG): -0.000053 (roll) 0.006447 (pitch) -0.000275 (yaw) 
+----------------------------------------------------- 
+step 15, time 0.011250 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.04318, yplus min: 0.168448 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.36677 
+forces: 0.108808 0.000192 -0.015812 
+Drag coefficient: 0.809027 
+Lateral coefficient: 0.001430 
+Lift coefficient: -0.117571 
+torque (ref. CG): -0.000046 (roll) 0.006374 (pitch) -0.000238 (yaw) 
+----------------------------------------------------- 
+step 16, time 0.012000 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.05427, yplus min: 0.207002 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.3705 
+forces: 0.109266 0.000160 -0.015943 
+Drag coefficient: 0.812427 
+Lateral coefficient: 0.001189 
+Lift coefficient: -0.118545 
+torque (ref. CG): -0.000038 (roll) 0.006321 (pitch) -0.000198 (yaw) 
+----------------------------------------------------- 
+step 17, time 0.012750 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.06529, yplus min: 0.238941 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.37419 
+forces: 0.109693 0.000130 -0.016033 
+Drag coefficient: 0.815608 
+Lateral coefficient: 0.000964 
+Lift coefficient: -0.119209 
+torque (ref. CG): -0.000031 (roll) 0.006312 (pitch) -0.000160 (yaw) 
+----------------------------------------------------- 
+step 18, time 0.013500 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.07621, yplus min: 0.0768902 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.37781 
+forces: 0.110123 0.000105 -0.016099 
+Drag coefficient: 0.818801 
+Lateral coefficient: 0.000779 
+Lift coefficient: -0.119699 
+torque (ref. CG): -0.000025 (roll) 0.006333 (pitch) -0.000130 (yaw) 
+----------------------------------------------------- 
+step 19, time 0.014250 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.08705, yplus min: 0.076348 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.38137 
+forces: 0.110566 0.000085 -0.016162 
+Drag coefficient: 0.822095 
+Lateral coefficient: 0.000633 
+Lift coefficient: -0.120168 
+torque (ref. CG): -0.000020 (roll) 0.006360 (pitch) -0.000105 (yaw) 
+----------------------------------------------------- 
+step 20, time 0.015000 
+bounding box of vehicle: xmin -2.47489 -0.161925 0.0630997, xmax 2.87843e-07 0.161925 0.5139m 
+gts area: 4.0446 m2 
+yplus max: 4.09779, yplus min: 0.125885 
+position of yplus max: -2.33499 0.0311846 0.463651 
+yplus prom: 1.38485 
+forces: 0.111025 0.000071 -0.016233 
+Drag coefficient: 0.825507 
+Lateral coefficient: 0.000525 
+Lift coefficient: -0.120695 
+torque (ref. CG): -0.000017 (roll) 0.006382 (pitch) -0.000087 (yaw) 
+----------------------------------------------------- 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** JOB 141688 ON compute-0-19 CANCELLED AT 2022-10-18T11:46:37 ***
+srun: forcing job termination
+make: *** [run2] Terminado
+slurmstepd: error: *** STEP 141688.0 ON compute-0-19 CANCELLED AT 2022-10-18T11:46:37 ***

@@ -1,0 +1,3 @@
+ iteration, total, mesh processing, checkpoint/restart, post-processing, linear solvers, gradients reconstruction
+       0,  2.9651769e+01,  2.6992810e+01,  0.0000000e+00,  1.0356380e+00,  0.0000000e+00,  0.0000000e+00
+       1,  4.4925989e+01,  0.0000000e+00,  0.0000000e+00,  2.4099300e-01,  2.6841715e+01,  7.4855460e+00

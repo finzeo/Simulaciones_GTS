@@ -1,0 +1,31 @@
+
+Local case configuration:
+
+  Date:                mar 23 ago 2022 18:40:08 ART
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              129083 MB
+  Directory:           /share/storage/finzeo/GTS_Tunay_2/RESU/20220823-1837
+  MPI ranks:           140
+  OpenMP threads:      1
+  Processors/node:     1
+  I/O read method:     collective MPI-IO (explicit offsets)
+  I/O write method:    collective MPI-IO (explicit offsets)
+  I/O rank step:        1
+
+--------------------------------------------------------------------------------
+
+Partitioning:
+
+  Morton (Z) curve:           38 s 
+  wall clock time:            38 s
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Interface creation:                        0.828 s
+  Halo creation:                             0.289 s
+
+  Total time for halo creation:              1.12 s
+
+--------------------------------------------------------------------------------

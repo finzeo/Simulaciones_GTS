@@ -1,0 +1,736 @@
+Start run at Mon Aug 8 13:08:01 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTS_Tunay_2/RESU/20220808-1308
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 80 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+step 1, time 0.000143, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497745
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 274.445, yplus min: 0 
+position of yplus max: -10.1103 1.3 3.06913 
+yplus prom: 58.6815 
+step 1, time 0.000143, forces 9131842.692235 -19667.960234 -350885.153384 
+----------------------------------------------------- 
+step 2, time 0.000286, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497757
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 306.984, yplus min: 8.14806 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7306 
+step 2, time 0.000286, forces 4193371.094690 -52.572471 -517218.209082 
+----------------------------------------------------- 
+step 3, time 0.000428, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497770
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 305.06, yplus min: 8.02656 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7186 
+step 3, time 0.000428, forces 102407.733788 -267.701216 -21790.339113 
+----------------------------------------------------- 
+step 4, time 0.000571, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497777
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 304.76, yplus min: 8.03021 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6746 
+step 4, time 0.000571, forces -6538.867679 157.374921 3804.047267 
+----------------------------------------------------- 
+step 5, time 0.000714, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497783
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 304.708, yplus min: 8.02277 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6603 
+step 5, time 0.000714, forces 3458.163278 39.864448 -242.874258 
+----------------------------------------------------- 
+step 6, time 0.000857, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497783
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 304.564, yplus min: 8.01577 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6468 
+step 6, time 0.000857, forces 4042.155466 -2.284890 -994.547422 
+----------------------------------------------------- 
+step 7, time 0.001000, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497780
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 304.385, yplus min: 8.00902 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6309 
+step 7, time 0.001000, forces 3716.081980 -1.310390 -968.043465 
+----------------------------------------------------- 
+step 8, time 0.001142, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497777
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 304.205, yplus min: 8.00224 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6127 
+step 8, time 0.001142, forces 3549.688108 0.921856 -941.535556 
+----------------------------------------------------- 
+step 9, time 0.001285, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497705
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 304.03, yplus min: 5.42656 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.5925 
+step 9, time 0.001285, forces 3461.745935 1.367206 -938.341825 
+----------------------------------------------------- 
+step 10, time 0.001428, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497645
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 303.858, yplus min: 7.98843 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.5814 
+step 10, time 0.001428, forces 3403.948127 1.329876 -939.276740 
+----------------------------------------------------- 
+step 11, time 0.001571, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497705
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 303.686, yplus min: 4.37812 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.5827 
+step 11, time 0.001571, forces 3361.560723 1.219865 -940.504264 
+----------------------------------------------------- 
+step 12, time 0.001714, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497739
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 303.513, yplus min: 7.97419 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.5906 
+step 12, time 0.001714, forces 3328.224489 1.123645 -941.834374 
+----------------------------------------------------- 
+step 13, time 0.001856, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497577
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 303.337, yplus min: 7.9669 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.5978 
+step 13, time 0.001856, forces 3300.985445 1.025031 -943.194534 
+----------------------------------------------------- 
+step 14, time 0.001999, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497495
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 303.156, yplus min: 7.9595 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6037 
+step 14, time 0.001999, forces 3277.949639 0.935838 -944.599857 
+----------------------------------------------------- 
+step 15, time 0.002142, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497607
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 302.97, yplus min: 7.95199 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6083 
+step 15, time 0.002142, forces 3258.499910 0.846758 -945.736244 
+----------------------------------------------------- 
+step 16, time 0.002285, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497617
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 302.778, yplus min: 7.94437 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6114 
+step 16, time 0.002285, forces 3242.328414 0.762691 -946.792058 
+----------------------------------------------------- 
+step 17, time 0.002428, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497591
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 302.58, yplus min: 7.93665 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6132 
+step 17, time 0.002428, forces 3228.519478 0.679992 -947.818033 
+----------------------------------------------------- 
+step 18, time 0.002570, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497559
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 302.376, yplus min: 7.92882 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6138 
+step 18, time 0.002570, forces 3216.606908 0.612040 -948.824500 
+----------------------------------------------------- 
+step 19, time 0.002713, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497590
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 302.166, yplus min: 7.92089 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6134 
+step 19, time 0.002713, forces 3206.158373 0.541431 -949.803325 
+----------------------------------------------------- 
+step 20, time 0.002856, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497527
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 301.951, yplus min: 7.66591 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6121 
+step 20, time 0.002856, forces 3197.005977 0.480157 -950.753720 
+----------------------------------------------------- 
+step 21, time 0.002999, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497521
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 301.731, yplus min: 1.74645 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6102 
+step 21, time 0.002999, forces 3189.001503 0.430155 -951.706718 
+----------------------------------------------------- 
+step 22, time 0.003142, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497537
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 301.506, yplus min: 6.05036 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6102 
+step 22, time 0.003142, forces 3181.992629 0.374347 -952.614897 
+----------------------------------------------------- 
+step 23, time 0.003284, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497529
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 301.277, yplus min: 4.89588 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6105 
+step 23, time 0.003284, forces 3175.877296 0.345333 -953.493956 
+----------------------------------------------------- 
+step 24, time 0.003427, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497461
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 301.044, yplus min: 2.99111 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6107 
+step 24, time 0.003427, forces 3171.051128 0.304412 -954.241887 
+----------------------------------------------------- 
+step 25, time 0.003570, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497435
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 300.808, yplus min: 6.00788 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.611 
+step 25, time 0.003570, forces 3167.343206 0.274385 -954.951380 
+----------------------------------------------------- 
+step 26, time 0.003713, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497520
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 300.569, yplus min: 7.86259 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6111 
+step 26, time 0.003713, forces 3164.518818 0.249535 -955.615406 
+----------------------------------------------------- 
+step 27, time 0.003856, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497571
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 300.327, yplus min: 7.85388 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.611 
+step 27, time 0.003856, forces 3162.369022 0.226314 -956.241175 
+----------------------------------------------------- 
+step 28, time 0.003998, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497613
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 300.083, yplus min: 7.84507 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6106 
+step 28, time 0.003998, forces 3160.711001 0.209772 -956.843929 
+----------------------------------------------------- 
+step 29, time 0.004141, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497541
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 299.836, yplus min: 7.46817 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.61 
+step 29, time 0.004141, forces 3159.418135 0.195891 -957.430400 
+----------------------------------------------------- 
+step 30, time 0.004284, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497503
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 299.588, yplus min: 4.23683 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6092 
+step 30, time 0.004284, forces 3158.378823 0.186286 -957.999046 
+----------------------------------------------------- 
+step 31, time 0.004427, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497489
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 299.339, yplus min: 4.98584 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6085 
+step 31, time 0.004427, forces 3157.518648 0.175090 -958.553127 
+----------------------------------------------------- 
+step 32, time 0.004570, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497519
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 299.088, yplus min: 7.45403 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6079 
+step 32, time 0.004570, forces 3156.868233 0.169123 -959.084029 
+----------------------------------------------------- 
+step 33, time 0.004712, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497528
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 298.837, yplus min: 4.2749 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6074 
+step 33, time 0.004712, forces 3156.359120 0.164016 -959.602392 
+----------------------------------------------------- 
+step 34, time 0.004855, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497487
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 298.585, yplus min: 2.383 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6077 
+step 34, time 0.004855, forces 3156.204374 0.161225 -960.067229 
+----------------------------------------------------- 
+step 35, time 0.004998, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497406
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 298.333, yplus min: 4.04227 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6095 
+step 35, time 0.004998, forces 3156.347889 0.159601 -960.479165 
+----------------------------------------------------- 
+step 36, time 0.005141, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497342
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 298.081, yplus min: 6.8221 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6118 
+step 36, time 0.005141, forces 3156.641787 0.159124 -960.850751 
+----------------------------------------------------- 
+step 37, time 0.005284, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497349
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 297.829, yplus min: 7.76179 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6143 
+step 37, time 0.005284, forces 3156.939082 0.159733 -961.196131 
+----------------------------------------------------- 
+step 38, time 0.005426, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497331
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 297.577, yplus min: 7.75211 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6169 
+step 38, time 0.005426, forces 3157.219226 0.160919 -961.520219 
+----------------------------------------------------- 
+step 39, time 0.005569, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497351
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 297.327, yplus min: 7.74235 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6197 
+step 39, time 0.005569, forces 3157.549674 0.162482 -961.825726 
+----------------------------------------------------- 
+step 40, time 0.005712, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497403
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 297.077, yplus min: 7.73252 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6225 
+step 40, time 0.005712, forces 3157.801548 0.166118 -962.106988 
+----------------------------------------------------- 
+step 41, time 0.005855, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497521
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 296.828, yplus min: 7.4738 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6255 
+step 41, time 0.005855, forces 3158.011859 0.159508 -962.394422 
+----------------------------------------------------- 
+step 42, time 0.005998, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497573
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 296.581, yplus min: 5.25422 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6285 
+step 42, time 0.005998, forces 3158.389435 0.169087 -962.625971 
+----------------------------------------------------- 
+step 43, time 0.006140, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497575
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 296.335, yplus min: 3.1329 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6317 
+step 43, time 0.006140, forces 3158.899485 0.173184 -962.824317 
+----------------------------------------------------- 
+step 44, time 0.006283, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497561
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 296.092, yplus min: 5.81769 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6352 
+step 44, time 0.006283, forces 3159.407098 0.176293 -962.993973 
+----------------------------------------------------- 
+step 45, time 0.006426, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497487
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 295.85, yplus min: 7.58632 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6388 
+step 45, time 0.006426, forces 3159.854431 0.183488 -963.151090 
+----------------------------------------------------- 
+step 46, time 0.006569, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497449
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 295.611, yplus min: 7.67195 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6425 
+step 46, time 0.006569, forces 3160.210251 0.182037 -963.311582 
+----------------------------------------------------- 
+step 47, time 0.006712, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497441
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 295.374, yplus min: 7.66161 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6463 
+step 47, time 0.006712, forces 3160.514350 0.179018 -963.468910 
+----------------------------------------------------- 
+step 48, time 0.006854, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497407
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 295.14, yplus min: 7.65119 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6503 
+step 48, time 0.006854, forces 3160.839235 0.189382 -963.605836 
+----------------------------------------------------- 
+step 49, time 0.006997, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497391
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 294.908, yplus min: 7.64071 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6543 
+step 49, time 0.006997, forces 3161.131904 0.188881 -963.740497 
+----------------------------------------------------- 
+step 50, time 0.007140, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497399
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 294.68, yplus min: 7.63016 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6585 
+step 50, time 0.007140, forces 3161.491308 0.189366 -963.861474 
+----------------------------------------------------- 
+step 51, time 0.007283, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497425
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 294.456, yplus min: 6.51977 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6629 
+step 51, time 0.007283, forces 3161.919388 0.188505 -963.941232 
+----------------------------------------------------- 
+step 52, time 0.007426, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497451
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 294.234, yplus min: 4.6219 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6674 
+step 52, time 0.007426, forces 3162.315699 0.194748 -963.999895 
+----------------------------------------------------- 
+step 53, time 0.007568, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497447
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 294.017, yplus min: 3.52704 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6722 
+step 53, time 0.007568, forces 3162.619537 0.193274 -964.039094 
+----------------------------------------------------- 
+step 54, time 0.007711, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497427
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 293.803, yplus min: 4.36324 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6774 
+step 54, time 0.007711, forces 3162.799993 0.195737 -964.066732 
+----------------------------------------------------- 
+step 55, time 0.007854, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497401
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 293.593, yplus min: 4.30805 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6835 
+step 55, time 0.007854, forces 3162.853275 0.195286 -964.088969 
+----------------------------------------------------- 
+step 56, time 0.007997, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497401
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 293.388, yplus min: 6.81298 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6906 
+step 56, time 0.007997, forces 3162.777011 0.195215 -964.104440 
+----------------------------------------------------- 
+step 57, time 0.008140, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497385
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 293.187, yplus min: 7.55452 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.6979 
+step 57, time 0.008140, forces 3162.584885 0.194686 -964.104634 
+----------------------------------------------------- 
+step 58, time 0.008282, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497391
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 292.99, yplus min: 7.54347 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7056 
+step 58, time 0.008282, forces 3162.427450 0.190491 -964.067718 
+----------------------------------------------------- 
+step 59, time 0.008425, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497411
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 292.798, yplus min: 7.21287 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7135 
+step 59, time 0.008425, forces 3162.362338 0.194874 -964.020077 
+----------------------------------------------------- 
+step 60, time 0.008568, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497427
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 292.611, yplus min: 5.64851 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7216 
+step 60, time 0.008568, forces 3162.429285 0.192805 -963.948979 
+----------------------------------------------------- 
+step 61, time 0.008711, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497385
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 292.429, yplus min: 3.73804 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7299 
+step 61, time 0.008711, forces 3162.567915 0.193167 -963.851672 
+----------------------------------------------------- 
+step 62, time 0.008854, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497377
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 292.251, yplus min: 3.93706 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7384 
+step 62, time 0.008854, forces 3162.692134 0.194475 -963.740482 
+----------------------------------------------------- 
+step 63, time 0.008996, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497383
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 292.079, yplus min: 5.82877 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7473 
+step 63, time 0.008996, forces 3162.761522 0.185615 -963.619592 
+----------------------------------------------------- 
+step 64, time 0.009139, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497377
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.912, yplus min: 7.36211 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7564 
+step 64, time 0.009139, forces 3162.744682 0.186418 -963.499323 
+----------------------------------------------------- 
+step 65, time 0.009282, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497381
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.751, yplus min: 7.4646 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7656 
+step 65, time 0.009282, forces 3162.626299 0.186950 -963.371159 
+----------------------------------------------------- 
+step 66, time 0.009425, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497399
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.594, yplus min: 7.45313 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7749 
+step 66, time 0.009425, forces 3162.408920 0.180626 -963.251771 
+----------------------------------------------------- 
+step 67, time 0.009568, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497457
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.444, yplus min: 7.44161 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7843 
+step 67, time 0.009568, forces 3162.091882 0.179173 -963.128530 
+----------------------------------------------------- 
+step 68, time 0.009710, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497451
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.298, yplus min: 7.43005 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.7939 
+step 68, time 0.009710, forces 3161.675404 0.173053 -962.995965 
+----------------------------------------------------- 
+step 69, time 0.009853, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497449
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.159, yplus min: 7.41844 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8035 
+step 69, time 0.009853, forces 3161.160365 0.167530 -962.864341 
+----------------------------------------------------- 
+step 70, time 0.009996, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497443
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 291.025, yplus min: 7.40679 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8133 
+step 70, time 0.009996, forces 3160.564944 0.161934 -962.730208 
+----------------------------------------------------- 
+step 71, time 0.010139, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497449
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 290.896, yplus min: 7.3951 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8231 
+step 71, time 0.010139, forces 3159.944502 0.156275 -962.583639 
+----------------------------------------------------- 
+step 72, time 0.010282, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497427
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 290.774, yplus min: 6.66381 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8331 
+step 72, time 0.010282, forces 3159.446349 0.147073 -962.403250 
+----------------------------------------------------- 
+step 73, time 0.010424, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497417
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 290.657, yplus min: 5.76986 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8432 
+step 73, time 0.010424, forces 3158.964795 0.143922 -962.209333 
+----------------------------------------------------- 
+step 74, time 0.010567, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497397
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 290.545, yplus min: 5.28521 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8533 
+step 74, time 0.010567, forces 3158.450846 0.134072 -962.016351 
+----------------------------------------------------- 
+step 75, time 0.010710, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497379
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 290.44, yplus min: 5.6084 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8637 
+step 75, time 0.010710, forces 3157.888279 0.125399 -961.823968 
+----------------------------------------------------- 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+step 76, time 0.010853, maxvel 2.000000, total vol 183256, vol(u>maxvel) 183256, cell count 4497365
+bounding box (containing cells with vel>maxvel): xmin -37.7456 -17.9463 -0.483139, xmax 116.945 17.9463 32.3328m 
+bounding box of vehicle: xmin -12.2 -1.30026 -1.92988e-17, xmax 9.54098e-18 1.30026 3.60025m 
+gts area: 163.362 
+yplus max: 290.34, yplus min: 6.45541 
+position of yplus max: -11.6111 1.3 2.33007 
+yplus prom: 60.8742 
+step 76, time 0.010853, forces 3157.262468 0.116177 -961.625953 
+----------------------------------------------------- 
+srun: got SIGCONT
+slurmstepd: error: *** STEP 138430.0 ON compute-0-15 CANCELLED AT 2022-08-08T13:11:29 ***
+slurmstepd: error: *** JOB 138430 ON compute-0-15 CANCELLED AT 2022-08-08T13:11:29 ***
+srun: forcing job termination
+make: *** [run] Terminated

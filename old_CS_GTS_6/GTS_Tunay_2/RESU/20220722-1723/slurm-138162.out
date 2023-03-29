@@ -1,0 +1,68 @@
+Start run at Fri Jul 22 17:21:26 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run -n 4 --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTS_Tunay_2/RESU/20220722-1721
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 4 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** JOB 138162 ON compute-0-0 CANCELLED AT 2022-07-22T17:22:34 ***
+slurmstepd: error: *** STEP 138162.0 ON compute-0-0 CANCELLED AT 2022-07-22T17:22:34 ***
+srun: forcing job termination
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 74173 RUNNING AT compute-0-23
+=   EXIT CODE: 15
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+[mpiexec@compute-0-0.local] HYDU_sock_write (utils/sock/sock.c:286): write error (Bad file descriptor)
+[mpiexec@compute-0-0.local] HYD_pmcd_pmiserv_send_signal (pm/pmiserv/pmiserv_cb.c:169): unable to write data to proxy
+[mpiexec@compute-0-0.local] ui_cmd_cb (pm/pmiserv/pmiserv_pmci.c:79): unable to send signal downstream
+[mpiexec@compute-0-0.local] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@compute-0-0.local] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:61): error waiting for event
+[mpiexec@compute-0-0.local] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@compute-0-0.local] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@compute-0-0.local] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion
+make: *** [run] Terminated

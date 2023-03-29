@@ -1,0 +1,505 @@
+
+Local case configuration:
+
+  Date:                Tue 26 Jul 2022 12:14:01 PM ART
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              129083 MB
+  Directory:           /share/storage/finzeo/GTS_Tunay_2/RESU/20220726-1213
+  MPI ranks:           80
+  OpenMP threads:      1
+  Processors/node:     1
+  I/O read method:     collective MPI-IO (explicit offsets)
+  I/O write method:    collective MPI-IO (explicit offsets)
+  I/O rank step:        1
+
+--------------------------------------------------------------------------------
+
+Partitioning:
+
+  Morton (Z) curve:           23.6 s 
+  wall clock time:            23.6 s
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Interface creation:                        0.0929 s
+  Halo creation:                             0.04 s
+
+  Total time for halo creation:              0.133 s
+
+--------------------------------------------------------------------------------
+
+Summary of gradient computations pour "Work array" (Iterative reconstruction):
+
+  Number of calls:            19208
+  Total elapsed time:      1621.783
+
+Summary of gradient computations pour "k" (Iterative reconstruction):
+
+  Number of calls:            15000
+  Total elapsed time:       808.629
+
+Summary of gradient computations pour "omega" (Iterative reconstruction):
+
+  Number of calls:            15000
+  Total elapsed time:       806.972
+
+Summary of gradient computations pour "pressure" (Iterative reconstruction):
+
+  Number of calls:            20000
+  Total elapsed time:      1933.556
+
+Summary of gradient computations pour "velocity" (Iterative reconstruction):
+
+  Number of calls:            19999
+  Total elapsed time:      2619.022
+
+Summary of gradient computations pour "wall_distance" (Iterative reconstruction):
+
+  Number of calls:                4
+  Total elapsed time:         0.166
+
+--------------------------------------------------------------------------------
+
+Linear solver performance for fields
+------------------------------------
+
+Summary of resolutions for "Velocity" (field id 0)
+
+  Solver type:                   Symmetric Gauss-Seidel
+  Number of setups:                      5000
+  Number of calls:                       5000
+  Minimum number of iterations:             2
+  Maximum number of iterations:           243
+  Mean number of iterations:                2
+  Total setup time:                    15.913
+  Total solution time:                119.981
+
+Summary of resolutions for "Pressure" (field id 1)
+
+  Solver type:                   Conjugate Gradient
+  Preconditioning:               Multigrid
+  Number of setups:                      3955
+  Number of calls:                       4208
+  Minimum number of iterations:             1
+  Maximum number of iterations:            26
+  Mean number of iterations:                3
+  Total setup time:                   291.213
+  Total solution time:                303.184
+
+  Multigrid:
+    V-cycle
+    Coarsening: default
+    Smoother: Symmetric Gauss-Seidel
+    Coarsest level solver:       Conjugate Gradient
+
+                                               mean      minimum      maximum
+  Number of levels:                              11           11           11
+  Number of cycles:                               1            1            2
+
+                                                           calls         time
+  Construction:                                             3955      571.130
+  Resolution:                                              18327      256.379
+
+                                               mean      minimum      maximum
+  Grid level 0:
+    Number of rows:                         5205599      5205599      5205599
+    Number of active ranks:                      80           80           80
+    Mean local rows:                          65069        65069        65069
+    Mean local columns + ghosts:              69764        69764        69764
+    Mean local entries:                      457149       457149       457149
+    Rows imbalance:                           0.000        0.000        0.000
+    Columns + ghosts imbalance:               0.054        0.054        0.054
+    entries imbalance                         0.008        0.008        0.008
+    Descent smoother iterations:                  1            1            1
+  Grid level 1:
+    Number of rows:                         1722933      1722933      1722933
+    Number of active ranks:                      80           80           80
+    Mean local rows:                          21423        21423        21423
+    Mean local columns + ghosts:              23759        23759        23759
+    Mean local entries:                      211069       211069       211069
+    Rows imbalance:                           0.052        0.052        0.052
+    Columns + ghosts imbalance:               0.076        0.076        0.076
+    entries imbalance                         0.065        0.065        0.065
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 2:
+    Number of rows:                          555938       555938       555938
+    Number of active ranks:                      80           80           80
+    Mean local rows:                           6931         6931         6931
+    Mean local columns + ghosts:               7973         7973         7973
+    Mean local entries:                       86174        86174        86174
+    Rows imbalance:                           0.072        0.072        0.072
+    Columns + ghosts imbalance:               0.119        0.119        0.119
+    entries imbalance                         0.115        0.115        0.115
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 3:
+    Number of rows:                          179785       179785       179785
+    Number of active ranks:                      80           80           80
+    Mean local rows:                           2247         2247         2247
+    Mean local columns + ghosts:               2764         2764         2764
+    Mean local entries:                       31106        31106        31106
+    Rows imbalance:                           0.060        0.060        0.060
+    Columns + ghosts imbalance:               0.164        0.164        0.164
+    entries imbalance                         0.121        0.121        0.121
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 4:
+    Number of rows:                           57912        57912        57912
+    Number of active ranks:                      80           80           80
+    Mean local rows:                            717          717          717
+    Mean local columns + ghosts:                989          989          989
+    Mean local entries:                        9998         9998         9998
+    Rows imbalance:                           0.065        0.065        0.065
+    Columns + ghosts imbalance:               0.201        0.201        0.201
+    entries imbalance                         0.137        0.137        0.137
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 5:
+    Number of rows:                           19110        19110        19110
+    Number of active ranks:                      80           80           80
+    Mean local rows:                            241          241          241
+    Mean local columns + ghosts:                384          384          384
+    Mean local entries:                        3242         3242         3242
+    Rows imbalance:                           0.088        0.088        0.088
+    Columns + ghosts imbalance:               0.276        0.276        0.276
+    entries imbalance                         0.180        0.180        0.180
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 6:
+    Number of rows:                            6428         6428         6428
+    Number of active ranks:                      80           80           80
+    Mean local rows:                             83           83           83
+    Mean local columns + ghosts:                152          152          152
+    Mean local entries:                        1056         1056         1056
+    Rows imbalance:                           0.195        0.195        0.195
+    Columns + ghosts imbalance:               0.265        0.265        0.265
+    entries imbalance                         0.214        0.214        0.214
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 7:
+    Number of rows:                            2220         2220         2220
+    Number of active ranks:                      80           80           80
+    Mean local rows:                             26           26           26
+    Mean local columns + ghosts:                 58           58           58
+    Mean local entries:                         288          288          288
+    Rows imbalance:                           0.514        0.514        0.514
+    Columns + ghosts imbalance:               0.319        0.319        0.319
+    entries imbalance                         0.231        0.231        0.231
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 8:
+    Number of rows:                             828          828          828
+    Number of active ranks:                      80           80           80
+    Mean local rows:                              9            9            9
+    Mean local columns + ghosts:                 27           27           27
+    Mean local entries:                          86           86           86
+    Rows imbalance:                           1.415        1.415        1.415
+    Columns + ghosts imbalance:               0.528        0.528        0.528
+    entries imbalance                         0.601        0.601        0.601
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 9:
+    Number of rows:                             382          382          382
+    Number of active ranks:                      80           80           80
+    Mean local rows:                              4            4            4
+    Mean local columns + ghosts:                 15           15           15
+    Mean local entries:                          35           35           35
+    Rows imbalance:                           2.979        2.979        2.979
+    Columns + ghosts imbalance:               0.776        0.776        0.776
+    entries imbalance                         1.874        1.874        1.874
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 10:
+    Number of rows:                             247          247          247
+    Number of active ranks:                      80           80           80
+    Mean local rows:                              1            1            1
+    Mean local columns + ghosts:                  7            7            7
+    Mean local entries:                           7            7            7
+    Rows imbalance:                           4.182        4.182        4.182
+    Columns + ghosts imbalance:               0.985        0.985        0.985
+    entries imbalance                         2.993        2.993        2.993
+    Iterations for solving:                      15            0          500
+                                                           calls         time
+  Grid level 0:
+    build:                                                  3955       15.923
+    descent smoothe:                                       30876      159.755
+    restrict:                                              12549        1.847
+    prolong:                                               12549        3.229
+  Grid level 1:
+    build:                                                  3955      147.456
+    descent smoothe:                                       12549       20.334
+    ascent smoothe:                                        12549       13.552
+    restrict:                                              12549        0.651
+    prolong:                                               12549        0.938
+  Grid level 2:
+    build:                                                  3955       70.386
+    descent smoothe:                                       12549       10.290
+    ascent smoothe:                                        12549        4.737
+    restrict:                                              12549        0.159
+    prolong:                                               12549        0.206
+  Grid level 3:
+    build:                                                  3955       29.240
+    descent smoothe:                                       12549        4.668
+    ascent smoothe:                                        12549        2.088
+    restrict:                                              12549        0.071
+    prolong:                                               12549        0.058
+  Grid level 4:
+    build:                                                  3955       11.175
+    descent smoothe:                                       12549        2.338
+    ascent smoothe:                                        12549        1.405
+    restrict:                                              12549        0.031
+    prolong:                                               12549        0.024
+  Grid level 5:
+    build:                                                  3955        4.880
+    descent smoothe:                                       12549        1.758
+    ascent smoothe:                                        12549        1.144
+    restrict:                                              12549        0.023
+    prolong:                                               12549        0.016
+  Grid level 6:
+    build:                                                  3955        2.559
+    descent smoothe:                                       12549        1.734
+    ascent smoothe:                                        12549        1.117
+    restrict:                                              12549        0.018
+    prolong:                                               12549        0.012
+  Grid level 7:
+    build:                                                  3955        1.930
+    descent smoothe:                                       12549        1.707
+    ascent smoothe:                                        12549        1.087
+    restrict:                                              12549        0.016
+    prolong:                                               12549        0.011
+  Grid level 8:
+    build:                                                  3955        1.757
+    descent smoothe:                                       12549        1.654
+    ascent smoothe:                                        12549        0.963
+    restrict:                                              12549        0.015
+    prolong:                                               12549        0.010
+  Grid level 9:
+    build:                                                  3955        1.712
+    descent smoothe:                                       12549        1.589
+    ascent smoothe:                                        12549        0.869
+    restrict:                                              12549        0.014
+    prolong:                                               12549        0.020
+  Grid level 10:
+    build:                                                  3955        3.267
+    solve:                                                 12549       15.819
+
+Summary of resolutions for "k" (field id 2)
+
+  Solver type:                   Symmetric Gauss-Seidel
+  Number of setups:                      5000
+  Number of calls:                       5000
+  Minimum number of iterations:             2
+  Maximum number of iterations:            62
+  Mean number of iterations:                2
+  Total setup time:                     2.883
+  Total solution time:                 30.837
+
+Summary of resolutions for "omega" (field id 3)
+
+  Solver type:                   Symmetric Gauss-Seidel
+  Number of setups:                      5000
+  Number of calls:                       5000
+  Minimum number of iterations:             2
+  Maximum number of iterations:            98
+  Mean number of iterations:                2
+  Total setup time:                     2.896
+  Total solution time:                 30.916
+
+Summary of resolutions for "Wall distance" (field id 14)
+
+  Solver type:                   Conjugate Gradient
+  Preconditioning:               Multigrid
+  Number of setups:                         1
+  Number of calls:                          2
+  Minimum number of iterations:            16
+  Maximum number of iterations:            19
+  Mean number of iterations:               17
+  Total setup time:                     0.085
+  Total solution time:                  1.558
+
+  Multigrid:
+    V-cycle
+    Coarsening: default
+    Smoother: Symmetric Gauss-Seidel
+    Coarsest level solver:       Conjugate Gradient
+
+                                               mean      minimum      maximum
+  Number of levels:                               6            6            6
+  Number of cycles:                               1            1            2
+
+                                                           calls         time
+  Construction:                                                1        0.167
+  Resolution:                                                 37        1.456
+
+                                               mean      minimum      maximum
+  Grid level 0:
+    Number of rows:                         5205599      5205599      5205599
+    Number of active ranks:                      80           80           80
+    Mean local rows:                          65069        65069        65069
+    Mean local columns + ghosts:              69764        69764        69764
+    Mean local entries:                      457149       457149       457149
+    Rows imbalance:                           0.000        0.000        0.000
+    Columns + ghosts imbalance:               0.054        0.054        0.054
+    entries imbalance                         0.008        0.008        0.008
+    Descent smoother iterations:                  1            1            1
+  Grid level 1:
+    Number of rows:                         1695187      1695187      1695187
+    Number of active ranks:                      80           80           80
+    Mean local rows:                          20176        20176        20176
+    Mean local columns + ghosts:              22462        22462        22462
+    Mean local entries:                      206193       206193       206193
+    Rows imbalance:                           0.058        0.058        0.058
+    Columns + ghosts imbalance:               0.091        0.091        0.091
+    entries imbalance                         0.069        0.069        0.069
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 2:
+    Number of rows:                          545539       545539       545539
+    Number of active ranks:                      80           80           80
+    Mean local rows:                           6403         6403         6403
+    Mean local columns + ghosts:               7401         7401         7401
+    Mean local entries:                       80228        80228        80228
+    Rows imbalance:                           0.068        0.068        0.068
+    Columns + ghosts imbalance:               0.135        0.135        0.135
+    entries imbalance                         0.130        0.130        0.130
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 3:
+    Number of rows:                          202607       202607       202607
+    Number of active ranks:                      80           80           80
+    Mean local rows:                           2125         2125         2125
+    Mean local columns + ghosts:               2613         2613         2613
+    Mean local entries:                       28309        28309        28309
+    Rows imbalance:                           0.600        0.600        0.600
+    Columns + ghosts imbalance:               0.452        0.452        0.452
+    entries imbalance                         0.137        0.137        0.137
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 4:
+    Number of rows:                           92087        92087        92087
+    Number of active ranks:                      80           80           80
+    Mean local rows:                            756          756          756
+    Mean local columns + ghosts:               1001         1001         1001
+    Mean local entries:                        9227         9227         9227
+    Rows imbalance:                           1.823        1.823        1.823
+    Columns + ghosts imbalance:               1.313        1.313        1.313
+    entries imbalance                         0.932        0.932        0.932
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 5:
+    Number of rows:                           57132        57132        57132
+    Number of active ranks:                      80           80           80
+    Mean local rows:                            360          360          360
+    Mean local columns + ghosts:                499          499          499
+    Mean local entries:                        3468         3468         3468
+    Rows imbalance:                           3.187        3.187        3.187
+    Columns + ghosts imbalance:               2.415        2.415        2.415
+    entries imbalance                         2.216        2.216        2.216
+    Iterations for solving:                     254           21          500
+                                                           calls         time
+  Grid level 0:
+    build:                                                     1        0.002
+    descent smoothe:                                          69        0.375
+    restrict:                                                 32        0.005
+    prolong:                                                  32        0.008
+  Grid level 1:
+    build:                                                     1        0.040
+    descent smoothe:                                          32        0.050
+    ascent smoothe:                                           32        0.038
+    restrict:                                                 32        0.002
+    prolong:                                                  32        0.002
+  Grid level 2:
+    build:                                                     1        0.019
+    descent smoothe:                                          32        0.027
+    ascent smoothe:                                           32        0.014
+    restrict:                                                 32        0.000
+    prolong:                                                  32        0.001
+  Grid level 3:
+    build:                                                     1        0.008
+    descent smoothe:                                          32        0.012
+    ascent smoothe:                                           32        0.006
+    restrict:                                                 32        0.000
+    prolong:                                                  32        0.000
+  Grid level 4:
+    build:                                                     1        0.004
+    descent smoothe:                                          32        0.006
+    ascent smoothe:                                           32        0.003
+    restrict:                                                 32        0.000
+    prolong:                                                  32        0.000
+  Grid level 5:
+    build:                                                     1        0.006
+    solve:                                                    32        0.905
+
+--------------------------------------------------------------------------------
+
+Mesh entity selections by criteria statistics:
+
+  entity type     evaluations          time
+  -----------------------------------------
+  cells                     0       0.00000
+  interior faces            0       0.00000
+  boundary faces            7       0.00007
+
+--------------------------------------------------------------------------------
+
+Writing of "results" (EnSight Gold) summary:
+
+  CPU time for meshes:                     0.247
+  CPU time for variables:                  5.679
+  CPU time forcing output:                 0.000
+
+  Elapsed time for meshes:                 0.369
+  Elapsed time for variables:             13.333
+  Elapsed time forcing output:             0.000
+
+--------------------------------------------------------------------------------
+
+Instrumented all-to-all operations (using MPI_Alltoall and MPI_Alltoallv):
+
+  Total:                  7.12561 s, 1006 calls
+  Metadata exchange:      1.93152 s, 428 calls
+  Data exchange:          2.36193 s, 578 calls
+
+--------------------------------------------------------------------------------
+
+Code_Saturne IO files read:
+
+  mesh_input
+    global:      0.12632 s,        2.002 KiB
+    local:       0.67822 s,      934.822 MiB
+    open:        0.85823 s, 2 open(s)
+
+Code_Saturne IO files written:
+
+  checkpoint/auxiliary
+    global:      0.64602 s,       21.250 KiB
+    local:       1.25210 s,        1.573 GiB
+    open:        2.50839 s, 4 open(s)
+  checkpoint/main
+    global:      0.46344 s,       13.898 KiB
+    local:       0.85732 s,        1.086 GiB
+    open:        1.83647 s, 4 open(s)
+
+--------------------------------------------------------------------------------
+
+Calculation time summary:
+
+  User CPU time:           9929.536 s
+  System CPU time:           96.602 s
+  Total CPU time:        803435.498 s
+
+  Elapsed time:           10055.681 s
+  CPU / elapsed time          0.997
+
+--------------------------------------------------------------------------------
+
+Memory use summary:
+
+  Total memory used:                              49.958 GiB
+                             local minimum:      606.586 MiB  (rank 7)
+                             local maximum:        1.069 GiB  (rank 64)
+
+--------------------------------------------------------------------------------

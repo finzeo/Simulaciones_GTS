@@ -1,0 +1,15 @@
+
+
+../../../Code_Saturne_7_2_git/code_saturne/src/base/cs_runaway_check.c:244: Fatal error.
+
+Runaway computation:
+  At least one field exceeded allowed bounds (see log).
+
+
+Call stack:
+   1: 0x7f6ddf717b93 <main+0x4b3>                     (libcs_solver-7.2.so)
+   2: 0x323621ed1d <__libc_start_main+0xfd>         (libc.so.6)
+   3: 0x401281     <>                               (cs_solver)
+End of stack
+
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

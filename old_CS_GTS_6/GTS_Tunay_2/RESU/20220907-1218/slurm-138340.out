@@ -1,0 +1,388 @@
+Start run at Tue Aug 2 03:00:59 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTS_Tunay_2/RESU/20220802-0301
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 40 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+step 1, time 0.001000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.4504, yplus min: 0 
+position of yplus max: -7.40311 0.775062 3.6 
+yplus prom: 12.437 
+step 2, time 0.002000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.2121, yplus min: 1.79631 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.55738 
+step 3, time 0.003000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.2869, yplus min: 1.74043 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.65254 
+step 4, time 0.004000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.8582, yplus min: 1.41203 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.6505 
+step 5, time 0.005000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.6572, yplus min: 1.33917 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.65606 
+step 6, time 0.006000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.543, yplus min: 1.24475 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.66279 
+step 7, time 0.007000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.4606, yplus min: 0.867177 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.66962 
+step 8, time 0.008000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3987, yplus min: 0.740272 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.67649 
+step 9, time 0.009000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3538, yplus min: 0.811956 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.6834 
+step 10, time 0.010000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.323, yplus min: 0.629453 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.69025 
+step 11, time 0.011000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.304, yplus min: 0.452307 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.69702 
+step 12, time 0.012000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.2948, yplus min: 0.514343 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.70384 
+step 13, time 0.013000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.2935, yplus min: 0.424895 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.71072 
+step 14, time 0.014000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.2985, yplus min: 0.664799 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.71752 
+step 15, time 0.015000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3087, yplus min: 0.355267 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.72434 
+step 16, time 0.016000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3229, yplus min: 0.68698 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.7327 
+step 17, time 0.017000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3405, yplus min: 1.18185 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.74191 
+step 18, time 0.018000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3605, yplus min: 1.27288 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.7509 
+step 19, time 0.019000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.3827, yplus min: 1.35667 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.75969 
+step 20, time 0.020000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.4063, yplus min: 1.43455 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.76829 
+step 21, time 0.021000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.4312, yplus min: 1.50749 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.77673 
+step 22, time 0.022000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.4569, yplus min: 1.57624 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.78502 
+step 23, time 0.023000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.4833, yplus min: 1.48599 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.79317 
+step 24, time 0.024000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.5101, yplus min: 1.36462 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.80119 
+step 25, time 0.025000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.5371, yplus min: 1.23288 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.80907 
+step 26, time 0.026000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.5643, yplus min: 1.08712 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.81684 
+step 27, time 0.027000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.5915, yplus min: 0.921128 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.8245 
+step 28, time 0.028000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.6185, yplus min: 0.723249 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.83204 
+step 29, time 0.029000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.6455, yplus min: 0.47716 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.8395 
+step 30, time 0.030000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.6722, yplus min: 0.377853 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.84689 
+step 31, time 0.031000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.6987, yplus min: 0.2432 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.85432 
+step 32, time 0.032000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.7248, yplus min: 0.497541 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.86178 
+step 33, time 0.033000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.7507, yplus min: 0.728925 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.86917 
+step 34, time 0.034000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.7761, yplus min: 0.902734 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.87646 
+step 35, time 0.035000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.8012, yplus min: 1.04786 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.88364 
+step 36, time 0.036000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.8259, yplus min: 1.15755 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.89071 
+step 37, time 0.037000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.8502, yplus min: 1.02915 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.89768 
+step 38, time 0.038000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.8741, yplus min: 0.924199 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.90454 
+step 39, time 0.039000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.8976, yplus min: 0.879943 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.91129 
+step 40, time 0.040000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.9206, yplus min: 0.919292 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.91793 
+step 41, time 0.041000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.9432, yplus min: 1.01403 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.92447 
+step 42, time 0.042000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.9654, yplus min: 0.999148 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.9309 
+step 43, time 0.043000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 47.9872, yplus min: 0.904543 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.9372 
+step 44, time 0.044000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.0085, yplus min: 0.798551 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.94338 
+step 45, time 0.045000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.0295, yplus min: 0.677825 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.94943 
+step 46, time 0.046000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.05, yplus min: 0.541053 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.95536 
+step 47, time 0.047000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.0701, yplus min: 0.427201 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.96118 
+step 48, time 0.048000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.0898, yplus min: 0.48793 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.96688 
+step 49, time 0.049000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.1091, yplus min: 0.63096 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.97246 
+step 50, time 0.050000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.128, yplus min: 0.764355 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.97793 
+step 51, time 0.051000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.1465, yplus min: 0.882931 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.98329 
+step 52, time 0.052000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.1647, yplus min: 0.989872 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.98854 
+step 53, time 0.053000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.1824, yplus min: 1.08792 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.99367 
+step 54, time 0.054000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.1998, yplus min: 1.17899 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 8.9987 
+step 55, time 0.055000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.2169, yplus min: 1.26446 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 9.00363 
+step 56, time 0.056000, maxvel 2.000000, total vol 181461, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+bounding box of vehicle: xmin -12.2 -1.30003 -2.05998e-17, xmax 9.54098e-18 1.30033 3.6m 
+yplus max: 48.2335, yplus min: 1.28289 
+position of yplus max: -12.1108 -0.922731 2.25661 
+yplus prom: 9.00845 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 138340.0 ON compute-0-21 CANCELLED AT 2022-08-02T03:05:32 ***
+slurmstepd: error: *** JOB 138340 ON compute-0-21 CANCELLED AT 2022-08-02T03:05:32 ***
+srun: forcing job termination
+make: *** [run] Terminated

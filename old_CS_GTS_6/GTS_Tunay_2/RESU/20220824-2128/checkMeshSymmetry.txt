@@ -1,0 +1,3 @@
+Número total de celdas: 43056318
+Celdas sobre semiespacio izquierdo: 21528252
+Celdas sobre semiespacio derecho: 21528066

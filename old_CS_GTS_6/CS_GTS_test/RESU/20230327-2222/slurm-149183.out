@@ -1,0 +1,6 @@
+Start run at lun mar 27 22:27:50 ART 2023
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml --compute
+Usage: code_saturne run [options]
+
+code_saturne: error: --compute-build option requires an argument
+make: *** [run] Error 2

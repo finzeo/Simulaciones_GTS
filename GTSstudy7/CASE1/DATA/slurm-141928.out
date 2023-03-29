@@ -1,0 +1,39 @@
+Start run at Sun Oct 23 14:37:56 ART 2022
+LD_LIBRARY_PATH=/usr/lib64/mpich/lib/:/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/lib:/share/apps/python/3.6.1/lib:/share/apps/gcc/4.9.4/lib64:/share/apps/gcc/4.9.4/lib:/share/apps/binutils/2.27/lib:/share/apps/gdb/7.8.2/lib:/share/apps/llvm/6.0.0/lib:/share/apps/octave/4.4.0/lib:/share/apps/sparsersb/1.2.0/lib:/share/apps/hdf5/1.8.18/lib:/share/apps/fftw/3.3.6-single/lib:/share/apps/suitesparse/5.2.0/lib:/share/apps/suitesparse/5.2.0/lib64:/share/apps/openblas/0.2.20-single/lib:/share/apps/paraview/5.6.0/lib:/share/apps/mesa/18.0.1/lib:/share/apps/python/2.7.13/lib:/share/apps/mpich/3.2/lib:/share/apps/openmpi/2.1.2/lib PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/finzeo/saturne-vof/bin/code_saturne run --param setup2.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      code_saturne
+                      ============
+
+Version:   7.2.0-patch
+Path:      /share/storage/pub/finzeo/saturne-vof
+
+Result directory:
+  /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221023-1438
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Post-calculation operations
+---------------------------
+
+Warning:
+  Both setup2.xml and setup.xml exist in
+    /share/storage/finzeo/GTSstudy7/CASE1/DATA.
+  setup2.xml will be used for the computation.
+  Be aware that to follow best practices only one of the two should be present.
+
+
+Run failed in compile or link stage.
+
+make: *** [run2] Error 1

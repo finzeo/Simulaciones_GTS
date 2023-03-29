@@ -1,0 +1,117 @@
+========================================================
+Start time       : Tuesday March 28 12:57:23 CEST 2023
+========================================================
+  Command        : /share/storage/pub/mstorti/saturne-vof/bin/code_saturne run --initialize --param setup.xml
+========================================================
+  Package path   : /share/storage/pub/mstorti/saturne-vof
+  ----------------------------------------------------
+  MPI path       : 
+  MPI type       : MPICH
+  ----------------------------------------------------
+  User           : finzeo
+  ----------------------------------------------------
+  Machine        : Linux cluster62 2.6.32-642.11.1.el6.x86_64 #1 SMP Fri Nov 18 19:25:05 UTC 2016 x86_64 x86_64 
+  N Procs        : 1
+  ----------------------------------------------------
+  Environment variables
+    BASH_ENV=/usr/share/lmod/lmod/init/bash
+    BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+    BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+    CFLAGS=-march=native
+    COLORTERM=gnome-terminal
+    CXXFLAGS=-march=native
+    DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-AmIQVLFmw4,guid=7c0184f6fde8cab6abd4de1100080639
+    DISPLAY=:5874.0
+    FFLAGS=-march=native
+    GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+    GNOME_KEYRING_SOCKET=/tmp/keyring-wYIMpe/socket
+    GTK_IM_MODULE=gtk-im-context-simple
+    GTK_RC_FILES=/etc/gtk/gtkrc:/home/finzeo/.gtkrc-1.2-gnome2
+    G_BROKEN_FILENAMES=1
+    HDF5_ROOT=/share/apps/hdf5/1.8.18
+    HOME=/home/finzeo
+    HOSTNAME=cluster62
+    IMSETTINGS_INTEGRATE_DESKTOP=yes
+    IMSETTINGS_MODULE=none
+    KDEDIRS=/usr
+    KDE_IS_PRELINKED=1
+    LANG=es_AR.UTF-8
+    LD_LIBRARY_PATH=/share/apps/gcc/4.9.4/lib64:/share/apps/gcc/4.9.4/lib:/share/apps/binutils/2.27/lib:/share/apps/gdb/7.8.2/lib:/share/apps/python/2.7.13/lib:/share/apps/python/3.6.1/lib:/share/apps/perl/5.24.1/lib:/share/apps/qt/5.6.3/5.6.3/gcc_64/lib:/share/apps/llvm/6.0.0/lib:/share/apps/jsoncpp/1.8.4/lib64:/share/apps/octave/4.4.0/lib:/share/apps/sparsersb/1.2.0/lib:/share/apps/hdf5/1.8.18/lib:/share/apps/fftw/3.3.6-single/lib:/share/apps/suitesparse/5.2.0/lib:/share/apps/suitesparse/5.2.0/lib64:/share/apps/openblas/0.2.20-single/lib:/share/apps/ffmpeg/3.3.6/lib:/share/apps/paraview/5.6.0/lib:/share/apps/mesa/18.0.1/lib:/share/apps/mvapich/2.2/lib
+    LD_RUN_PATH=/share/apps/octave/4.4.0/lib:/share/apps/sparsersb/1.2.0/lib:/share/apps/hdf5/1.8.18/lib:/share/apps/fftw/3.3.6-single/lib:/share/apps/suitesparse/5.2.0/lib:/share/apps/openblas/0.2.20-single/lib
+    LESSOPEN=||/usr/bin/lesspipe.sh %s
+    LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+    LMOD_COLORIZE=yes
+    LMOD_DEFAULT_MODULEPATH=/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/share/apps/modules
+    LMOD_DIR=/usr/share/lmod/lmod/libexec
+    LMOD_FULL_SETTARG_SUPPORT=no
+    LMOD_PKG=/usr/share/lmod/lmod
+    LMOD_PREPEND_BLOCK=normal
+    LMOD_SETTARG_CMD=:
+    LMOD_VERSION=6.5.1
+    LMOD_arch=x86_64
+    LMOD_sys=Linux
+    LOADEDMODULES=mvapich/2.2:mesa/18.0.1:paraview/5.6.0:ffmpeg/3.3.6:openblas/0.2.20-single:suitesparse/5.2.0:fftw/3.3.6-single:hdf5/1.8.18:gnuplot/5.2.0:sparsersb/1.2.0:octave/4.4.0:jsoncpp/1.8.4:salome/8.5:llvm/6.0.0:qt/5.6.3:git/2.16.2:perl/5.24.1:cmake/3.11.1:python3/3.6.1:python/2.7:gcc/4.9.4
+    LOGNAME=finzeo
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+    MAIL=/var/mail/finzeo
+    MAKEFLAGS=
+    MAKELEVEL=1
+    MANPATH=/share/apps/gcc/4.9.4/share/man:/share/apps/binutils/2.27/share/man:/share/apps/gdb/7.8.2/share/man:/share/apps/python/3.6.1/share/man:/share/apps/perl/5.24.1/man:/share/apps/git/2.16.2/share/man:/usr/share/lmod/lmod/share/man::/share/apps/slurm/17.02/share/man:/share/apps/slurm/17.02/share/man:/share/apps/mvapich/2.2/share/man:/share/apps/ffmpeg/3.3.6/share/man:/share/apps/python/2.7.13/share/man
+    MFLAGS=
+    MODULEPATH=/etc/modulefiles:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/share/apps/modules
+    MODULEPATH_ROOT=/usr/share/modulefiles
+    MODULESHOME=/usr/share/lmod/lmod
+    MPI_HOME=/share/apps/mvapich/2.2
+    ORBIT_SOCKETDIR=/tmp/orbit-finzeo
+    PATH=/share/apps/gcc/4.9.4/bin:/share/apps/binutils/2.27/bin:/share/apps/gdb/7.8.2/bin:/share/apps/python/2.7.13/bin:/share/apps/python/3.6.1/bin:/share/apps/cmake/3.11.1/bin:/share/apps/perl/5.24.1/bin:/share/apps/git/2.16.2/bin:/share/apps/qt/5.6.3/5.6.3/gcc_64/bin:/share/apps/llvm/6.0.0/bin:/share/apps/octave/4.4.0/bin:/share/apps/sparsersb/1.2.0/bin:/share/apps/gnuplot/5.2.0/bin:/share/apps/hdf5/1.8.18/bin:/share/apps/fftw/3.3.6-single/bin:/share/apps/ffmpeg/3.3.6/bin:/share/apps/paraview/5.6.0/bin:/share/apps/mvapich/2.2/bin:/usr/lib64/mpich/lib:/usr/lib64/mpich/bin:/usr/lib64/mpich/lib:/usr/lib64/mpich/bin:/usr/local/bin:/bin:/usr/bin:/share/apps/slurm/17.02/bin:/opt/rocks/bin:/opt/rocks/sbin:/share/storage/pub/mstorti/bin:/share/storage/pub/mstorti/CGNS-341/bin:/usr/lib64/openmpi/bin:/share/apps/slurm/17.02/bin:/share/storage/pub/mstorti/bin:/share/storage/pub/mstorti/CGNS-341/bin:/usr/lib64/openmpi/bin:/share/apps/salome/8.5.0
+    PKG_CONFIG_PATH=/share/apps/fftw/3.3.6-single/lib/pkgconfig:/share/apps/mesa/18.0.1/lib/pkgconfig
+    PWD=/home/finzeo/storage/Simulaciones/GTSstudy/2-GTS_bothRaoTunay/DATA
+    PYTHONPATH=/share/apps/python/2.7.13
+    PYTHON_CS_XFLAGS= -O0 -g3 -ggdb3 -I/usr/include/jsoncpp 
+    PYTHON_INCLUDE_DIR=/share/apps/python/2.7.13/include/python2.7
+    PYTHON_LIBRARY=/share/apps/python/2.7.13/lib/libpython2.7.so
+    QT_IM_MODULE=xim
+    ROCKSROOT=/opt/rocks/share/devel
+    ROCKS_ROOT=/opt/rocks
+    ROLLSROOT=/opt/rocks/share/devel/src/roll
+    SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/153543,unix/unix:/tmp/.ICE-unix/153543
+    SHELL=/bin/bash
+    SHLVL=5
+    SSH_AGENT_PID=153568
+    SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+    SSH_AUTH_SOCK=/tmp/keyring-wYIMpe/socket.ssh
+    SSH_CLIENT=172.16.254.78 35193 22
+    SSH_CONNECTION=172.16.254.78 35193 172.16.254.100 22
+    TERM=xterm
+    TMPDIR=/tmp
+    TZ=:/etc/localtime
+    USER=finzeo
+    VGL_COMPRESS=0
+    VNCDESKTOP=TurboVNC: cluster62:5874 (finzeo)
+    WINDOWID=34362983
+    XDG_SESSION_COOKIE=3cb908d50a39ad69cb2f480d0000002c-1674591286.662468-482885796
+    XMODIFIERS=@im=none
+    _=/share/storage/pub/mstorti/saturne-vof/bin/code_saturne
+    _LMFILES_=/share/apps/modules/mvapich/2.2:/share/apps/modules/mesa/18.0.1:/share/apps/modules/paraview/5.6.0:/share/apps/modules/ffmpeg/3.3.6:/share/apps/modules/openblas/0.2.20-single:/share/apps/modules/suitesparse/5.2.0:/share/apps/modules/fftw/3.3.6-single:/share/apps/modules/hdf5/1.8.18:/share/apps/modules/gnuplot/5.2.0:/share/apps/modules/sparsersb/1.2.0:/share/apps/modules/octave/4.4.0:/share/apps/modules/jsoncpp/1.8.4:/share/apps/modules/salome/8.5:/share/apps/modules/llvm/6.0.0:/share/apps/modules/qt/5.6.3:/share/apps/modules/git/2.16.2:/share/apps/modules/perl/5.24.1:/share/apps/modules/cmake/3.11.1:/share/apps/modules/python3/3.6.1:/share/apps/modules/python/2.7:/share/apps/modules/gcc/4.9.4
+    _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MjEsYmFzZU1wYXRoQT17Ii9ldGMvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLCIvc2hhcmUvYXBwcy9tb2R1bGVzIix9LFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxmYW1pbHk9e30saW5hY3RpdmU9e30sbVQ9e2NtYWtlPXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvY21ha2UvMy4xMS4xIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iY21ha2UvMy4xMS4xIixbImxvYWRP
+    _ModuleTable002_=cmRlciJdPTE4LHByb3BUPXt9LFsic2hvcnQiXT0iY21ha2UiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxmZm1wZWc9e1siRk4iXT0iL3NoYXJlL2FwcHMvbW9kdWxlcy9mZm1wZWcvMy4zLjYiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJmZm1wZWcvMy4zLjYiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInNob3J0Il09ImZmbXBlZyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGZmdHc9e1siRk4iXT0iL3NoYXJlL2FwcHMvbW9kdWxlcy9mZnR3LzMuMy42LXNpbmdsZSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09ImZmdHcvMy4zLjYtc2luZ2xlIixbImxvYWRPcmRlciJdPTcscHJvcFQ9e30sWyJzaG9ydCJdPSJmZnR3IixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2Nj
+    _ModuleTable003_=PXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvZ2NjLzQuOS40IixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iZ2NjLzQuOS40IixbImxvYWRPcmRlciJdPTIxLHByb3BUPXt9LFsic2hvcnQiXT0iZ2NjIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2l0PXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvZ2l0LzIuMTYuMiIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09ImdpdC8yLjE2LjIiLFsibG9hZE9yZGVyIl09MTYscHJvcFQ9e30sWyJzaG9ydCJdPSJnaXQiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxnbnVwbG90PXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvZ251cGxvdC81LjIuMCIsWyJkZWZhdWx0Il09MSxbImZ1bGxOYW1lIl09ImdudXBsb3QvNS4y
+    _ModuleTable004_=LjAiLFsibG9hZE9yZGVyIl09OSxwcm9wVD17fSxbInNob3J0Il09ImdudXBsb3QiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxoZGY1PXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvaGRmNS8xLjguMTgiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJoZGY1LzEuOC4xOCIsWyJsb2FkT3JkZXIiXT04LHByb3BUPXt9LFsic2hvcnQiXT0iaGRmNSIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGpzb25jcHA9e1siRk4iXT0iL3NoYXJlL2FwcHMvbW9kdWxlcy9qc29uY3BwLzEuOC40IixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0ianNvbmNwcC8xLjguNCIsWyJsb2FkT3JkZXIiXT0xMixwcm9wVD17fSxbInNob3J0Il09Impzb25jcHAiLFsic3RhdHVzIl09ImFjdGl2ZSIs
+    _ModuleTable005_=fSxsbHZtPXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvbGx2bS82LjAuMCIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09Imxsdm0vNi4wLjAiLFsibG9hZE9yZGVyIl09MTQscHJvcFQ9e30sWyJzaG9ydCJdPSJsbHZtIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sbWVzYT17WyJGTiJdPSIvc2hhcmUvYXBwcy9tb2R1bGVzL21lc2EvMTguMC4xIixbImRlZmF1bHQiXT0xLFsiZnVsbE5hbWUiXT0ibWVzYS8xOC4wLjEiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInNob3J0Il09Im1lc2EiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxtdmFwaWNoPXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvbXZhcGljaC8yLjIiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJt
+    _ModuleTable006_=dmFwaWNoLzIuMiIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic2hvcnQiXT0ibXZhcGljaCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LG9jdGF2ZT17WyJGTiJdPSIvc2hhcmUvYXBwcy9tb2R1bGVzL29jdGF2ZS80LjQuMCIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09Im9jdGF2ZS80LjQuMCIsWyJsb2FkT3JkZXIiXT0xMSxwcm9wVD17fSxbInNob3J0Il09Im9jdGF2ZSIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LG9wZW5ibGFzPXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvb3BlbmJsYXMvMC4yLjIwLXNpbmdsZSIsWyJkZWZhdWx0Il09MSxbImZ1bGxOYW1lIl09Im9wZW5ibGFzLzAuMi4yMC1zaW5nbGUiLFsibG9hZE9yZGVyIl09NSxwcm9wVD17fSxbInNob3J0
+    _ModuleTable007_=Il09Im9wZW5ibGFzIixbInN0YXR1cyJdPSJhY3RpdmUiLH0scGFyYXZpZXc9e1siRk4iXT0iL3NoYXJlL2FwcHMvbW9kdWxlcy9wYXJhdmlldy81LjYuMCIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InBhcmF2aWV3LzUuNi4wIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzaG9ydCJdPSJwYXJhdmlldyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LHBlcmw9e1siRk4iXT0iL3NoYXJlL2FwcHMvbW9kdWxlcy9wZXJsLzUuMjQuMSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InBlcmwvNS4yNC4xIixbImxvYWRPcmRlciJdPTE3LHByb3BUPXt9LFsic2hvcnQiXT0icGVybCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LHB5dGhvbj17WyJGTiJdPSIvc2hhcmUvYXBwcy9t
+    _ModuleTable008_=b2R1bGVzL3B5dGhvbi8yLjciLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJweXRob24vMi43IixbImxvYWRPcmRlciJdPTIwLHByb3BUPXt9LFsic2hvcnQiXT0icHl0aG9uIixbInN0YXR1cyJdPSJhY3RpdmUiLH0scHl0aG9uMz17WyJGTiJdPSIvc2hhcmUvYXBwcy9tb2R1bGVzL3B5dGhvbjMvMy42LjEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJweXRob24zLzMuNi4xIixbImxvYWRPcmRlciJdPTE5LHByb3BUPXt9LFsic2hvcnQiXT0icHl0aG9uMyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LHF0PXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvcXQvNS42LjMiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJxdC81LjYuMyIsWyJsb2FkT3JkZXIiXT0x
+    _ModuleTable009_=NSxwcm9wVD17fSxbInNob3J0Il09InF0IixbInN0YXR1cyJdPSJhY3RpdmUiLH0sc2Fsb21lPXtbIkZOIl09Ii9zaGFyZS9hcHBzL21vZHVsZXMvc2Fsb21lLzguNSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09InNhbG9tZS84LjUiLFsibG9hZE9yZGVyIl09MTMscHJvcFQ9e30sWyJzaG9ydCJdPSJzYWxvbWUiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxzcGFyc2Vyc2I9e1siRk4iXT0iL3NoYXJlL2FwcHMvbW9kdWxlcy9zcGFyc2Vyc2IvMS4yLjAiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJzcGFyc2Vyc2IvMS4yLjAiLFsibG9hZE9yZGVyIl09MTAscHJvcFQ9e30sWyJzaG9ydCJdPSJzcGFyc2Vyc2IiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxzdWl0ZXNwYXJz
+    _ModuleTable010_=ZT17WyJGTiJdPSIvc2hhcmUvYXBwcy9tb2R1bGVzL3N1aXRlc3BhcnNlLzUuMi4wIixbImRlZmF1bHQiXT0xLFsiZnVsbE5hbWUiXT0ic3VpdGVzcGFyc2UvNS4yLjAiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInNob3J0Il09InN1aXRlc3BhcnNlIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxtcGF0aEE9eyIvZXRjL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIiwiL3NoYXJlL2FwcHMvbW9kdWxlcyIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL21vZHVsZWZpbGVz
+    _ModuleTable011_=Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZTovc2hhcmUvYXBwcy9tb2R1bGVzIixbInZlcnNpb24iXT0yLH0=
+    _ModuleTable_Sz_=11
+  ----------------------------------------------------
+  Case           : 2-GTS_bothRaoTunay
+    directory    : /share/storage/finzeo/Simulaciones/GTSstudy/2-GTS_bothRaoTunay
+    results dir. : /share/storage/finzeo/Simulaciones/GTSstudy/2-GTS_bothRaoTunay/RESU/20230328-1257
+    preprocessor : /share/storage/pub/mstorti/saturne-vof/libexec/code_saturne/cs_preprocess
+    solver       : ./cs_solver
+  ----------------------------------------------------

@@ -1,0 +1,193 @@
+/share/apps/code_saturne/5.3.4/libexec/code_saturne/cs_preprocess --log --out 
+mesh_input /share/storage/finzeo/GTS_Tunay/DATA/Mesh_1.unv 
+
+  .------------------------------.
+  |                              |
+  |   Code_Saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 5.3.4   (built Fri 06 Mar 2020 04:29:10 PM ART)
+
+  MED 3.2.0 (HDF5 1.8.14) file format support
+  Reading of compressed files ('.gz') with Zlib 1.2.3
+
+
+
+Case configuration
+------------------
+
+  Date                : Tue 31 May 2022 11:42:14 AM ART
+  System              : Linux 2.6.32-642.11.1.el6.x86_64
+  Machine             : cluster62
+  Processor           : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory              : 132039828
+  User                : finzeo ()
+  Directory           : /share/storage/finzeo/GTS_Tunay/RESU/20220531-1142
+
+  Case name           : preprocess
+  Mesh file           : /share/storage/finzeo/GTS_Tunay/DATA/Mesh_1.unv
+
+
+
+Reading mesh from file in I-deas universal format
+----------------------
+  Mesh file: /share/storage/finzeo/GTS_Tunay/DATA/Mesh_1.unv
+
+
+  Number of vertices                          :   135610
+  Number of faces                             :    52508
+                                    Color 7   :    52508
+  Number of cells                             :   480620
+                                    Color 7   :   480620
+  Group 1 "inlet"
+    Number of faces    :      766
+  Group 2 "outlet"
+    Number of faces    :      766
+  Group 3 "lateral"
+    Number of faces    :     6750
+  Group 4 "top"
+    Number of faces    :     3206
+  Group 5 "bottomNoSlip"
+    Number of faces    :     1222
+  Group 6 "bottomSlip"
+    Number of faces    :     2676
+  Group 7 "vehicleSurface"
+    Number of faces    :    37122
+
+  Wall-clock time: 1.025597 s; CPU time: 1.023844 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:                26.287 Mb
+  Theoretical current memory:           29.391 Mb
+  Theoretical peak memory:              50.527 Mb
+  Total memory used:                   179.238 Mb
+
+  Domain coordinate extents:
+
+  [-3.78000e+01, -1.80000e+01, -5.04000e-01]
+  [ 1.17000e+02,  1.80000e+01,  3.20960e+01]
+  Number of elements                    tria3 :    51938
+  Number of elements                    quad4 :      570
+  Number of elements                   tetra4 :   357560
+  Number of elements                   penta6 :   123060
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:                58.533 Mb
+  Theoretical current memory:           61.637 Mb
+  Theoretical peak memory:             140.314 Mb
+  Total memory used:                   270.352 Mb
+
+
+Main mesh properties
+--------------------
+
+  Number of cells:                                480620
+  Number of internal faces:                       996516
+  Number of boundary faces:                        52508
+  Number of vertices:                             135610
+
+
+Definition of face and cell families
+------------------------------------
+
+  Family 1
+         Group "7"
+  Number of cells          :   480620
+  Family 2
+         Group "7"
+         Group "bottomNoSlip"
+  Number of boundary faces :     1222
+  Family 3
+         Group "7"
+         Group "bottomSlip"
+  Number of boundary faces :     2676
+  Family 4
+         Group "7"
+         Group "inlet"
+  Number of boundary faces :      766
+  Family 5
+         Group "7"
+         Group "lateral"
+  Number of boundary faces :     6750
+  Family 6
+         Group "7"
+         Group "outlet"
+  Number of boundary faces :      766
+  Family 7
+         Group "7"
+         Group "top"
+  Number of boundary faces :     3206
+  Family 8
+         Group "7"
+         Group "vehicleSurface"
+  Number of boundary faces :    37122
+  Family 8
+         Default family
+         (no group)
+  Number of internal faces :   996516
+
+
+Write output for Kernel
+-----------------------
+
+  Opening file: mesh_input
+
+  Wrote: "start_block:dimensions"
+  Wrote: "n_cells"                         ; Type: "u8"; Size: 1
+  Wrote: "n_faces"                         ; Type: "u8"; Size: 1
+  Wrote: "n_vertices"                      ; Type: "u8"; Size: 1
+  Wrote: "face_vertices_size"              ; Type: "u8"; Size: 1
+  Wrote: "n_group_classes"                 ; Type: "i8"; Size: 1
+  Wrote: "n_group_class_props_max"         ; Type: "i8"; Size: 1
+  Wrote: "n_groups"                        ; Type: "u8"; Size: 1
+  Wrote: "group_name_index"                ; Type: "i8"; Size: 9
+  Wrote: "group_name"                      ; Type: "c "; Size: 66
+  Wrote: "group_class_properties"          ; Type: "i8"; Size: 18
+  Wrote: "end_block:dimensions"
+  Wrote: "start_block:data"
+  Wrote: "face_cells"                      ; Type: "i8"; Size: 2098048
+  Wrote: "cell_group_class_id"             ; Type: "i8"; Size: 480620
+  Wrote: "face_group_class_id"             ; Type: "i8"; Size: 1049024
+  Wrote: "face_vertices_index"             ; Type: "u8"; Size: 1049025
+  Wrote: "face_vertices"                   ; Type: "i8"; Size: 3331947
+  Wrote: "vertex_coords"                   ; Type: "r8"; Size: 406830
+  Wrote: "end_block:data"
+  Wrote: "EOF"
+
+  Closing file: mesh_input
+
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :        2.37
+  System CPU time                     (sec)   :        0.19
+  Total time                          (sec)   :        2.59
+  Total CPU time / Total time                 :        0.99
+
+Memory use summary:
+
+  Total memory used:                                 270.352 Mb
+  Theoretical instrumented dynamic memory:           140.314 Mb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

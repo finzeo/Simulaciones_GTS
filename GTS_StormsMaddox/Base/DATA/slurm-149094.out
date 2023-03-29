@@ -1,0 +1,810 @@
+Start run at jue mar 23 17:39:45 ART 2023
+echo $LD_LIBRARY_PATH
+/share/apps/python/3.6.1/lib:/share/apps/gcc/4.9.4/lib64:/share/apps/gcc/4.9.4/lib:/share/apps/binutils/2.27/lib:/share/apps/gdb/7.8.2/lib:/share/apps/llvm/6.0.0/lib:/share/apps/octave/4.4.0/lib:/share/apps/sparsersb/1.2.0/lib:/share/apps/hdf5/1.8.18/lib:/share/apps/fftw/3.3.6-single/lib:/share/apps/suitesparse/5.2.0/lib:/share/apps/suitesparse/5.2.0/lib64:/share/apps/openblas/0.2.20-single/lib:/share/apps/paraview/5.6.0/lib:/share/apps/mesa/18.0.1/lib:/share/apps/python/2.7.13/lib:/share/apps/mpich/3.2/lib:/share/apps/openmpi/2.1.2/lib
+LD_LIBRARY_PATH=/usr/lib64/mpich/lib/:/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/lib:/share/apps/python/3.6.1/lib:/share/apps/gcc/4.9.4/lib64:/share/apps/gcc/4.9.4/lib:/share/apps/binutils/2.27/lib:/share/apps/gdb/7.8.2/lib:/share/apps/llvm/6.0.0/lib:/share/apps/octave/4.4.0/lib:/share/apps/sparsersb/1.2.0/lib:/share/apps/hdf5/1.8.18/lib:/share/apps/fftw/3.3.6-single/lib:/share/apps/suitesparse/5.2.0/lib:/share/apps/suitesparse/5.2.0/lib64:/share/apps/openblas/0.2.20-single/lib:/share/apps/paraview/5.6.0/lib:/share/apps/mesa/18.0.1/lib:/share/apps/python/2.7.13/lib:/share/apps/mpich/3.2/lib:/share/apps/openmpi/2.1.2/lib PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/finzeo/saturne-vof/bin/code_saturne run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      code_saturne
+                      ============
+
+Version:   7.2.0-patch
+Path:      /share/storage/pub/finzeo/saturne-vof
+
+Result directory:
+  /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230323-1739
+
+Copying base setup data
+-----------------------
+
+Compiling and linking user-defined functions
+--------------------------------------------
+
+Preparing calculation data
+--------------------------
+
+ Parallel code_saturne on 80 processes.
+
+Preprocessing calculation
+-------------------------
+
+Starting calculation
+--------------------
+
+step 1, time 0.000100, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 1, time 0.000100 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 167.713, yplus min: 1.77149 
+position of yplus max: -2.46789 0.153258 0.239322 
+yplus prom: 13.2245 
+forces: 419988.332187 868.006892 -57733.928617 
+Drag coefficient: 487.278354 
+Lateral coefficient: 1.007078 
+Lift coefficient: -66.983989 
+torque (ref. CG): -206.932843 (roll) 28685.255122 (pitch) -1074.071728 (yaw) 
+----------------------------------------------------- 
+step 2, time 0.000200, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 2, time 0.000200 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 625.031, yplus min: 9.0678 
+position of yplus max: -2.46789 0.153258 0.239322 
+yplus prom: 28.735 
+forces: 33302.067715 -0.244930 -3973.169346 
+Drag coefficient: 38.637685 
+Lateral coefficient: -0.000284 
+Lift coefficient: -4.609746 
+torque (ref. CG): 0.058391 (roll) 3022.813194 (pitch) 0.303076 (yaw) 
+----------------------------------------------------- 
+step 3, time 0.000300, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 3, time 0.000300 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 275.071, yplus min: 7.96854 
+position of yplus max: -2.46262 0.157503 0.239916 
+yplus prom: 15.4019 
+forces: 2427.652455 -0.502059 -368.119503 
+Drag coefficient: 2.816608 
+Lateral coefficient: -0.000582 
+Lift coefficient: -0.427099 
+torque (ref. CG): 0.119691 (roll) 123.241272 (pitch) 0.621248 (yaw) 
+----------------------------------------------------- 
+step 4, time 0.000400, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 4, time 0.000400 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 149.459, yplus min: 5.72319 
+position of yplus max: -2.46262 0.157503 0.239916 
+yplus prom: 14.2781 
+forces: 644.453182 0.237014 -114.134482 
+Drag coefficient: 0.747707 
+Lateral coefficient: 0.000275 
+Lift coefficient: -0.132421 
+torque (ref. CG): -0.056504 (roll) 12.407631 (pitch) -0.293282 (yaw) 
+----------------------------------------------------- 
+step 5, time 0.000500, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 5, time 0.000500 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 125.54, yplus min: 2.62864 
+position of yplus max: -0.173216 -0.131593 0 
+yplus prom: 16.2654 
+forces: 598.937765 -0.559142 -125.983146 
+Drag coefficient: 0.694899 
+Lateral coefficient: -0.000649 
+Lift coefficient: -0.146168 
+torque (ref. CG): 0.133300 (roll) -13.104781 (pitch) 0.691883 (yaw) 
+----------------------------------------------------- 
+step 6, time 0.000600, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 6, time 0.000600 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 148.267, yplus min: 1.52196 
+position of yplus max: -0.176859 -0.121866 -4.06833e-20 
+yplus prom: 18.1628 
+forces: 634.380432 -0.292364 -140.170223 
+Drag coefficient: 0.736020 
+Lateral coefficient: -0.000339 
+Lift coefficient: -0.162628 
+torque (ref. CG): 0.069700 (roll) -22.210339 (pitch) 0.361771 (yaw) 
+----------------------------------------------------- 
+step 7, time 0.000700, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 7, time 0.000700 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 179.978, yplus min: 0.947186 
+position of yplus max: -0.173218 0.1268 -2.71074e-19 
+yplus prom: 18.739 
+forces: 668.405506 -0.050489 -147.577121 
+Drag coefficient: 0.775497 
+Lateral coefficient: -0.000059 
+Lift coefficient: -0.171222 
+torque (ref. CG): 0.012037 (roll) -23.264057 (pitch) 0.062475 (yaw) 
+----------------------------------------------------- 
+step 8, time 0.000800, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 8, time 0.000800 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 204.981, yplus min: 0.686067 
+position of yplus max: -0.173218 0.1268 -2.71074e-19 
+yplus prom: 17.8932 
+forces: 690.332835 0.078110 -152.245723 
+Drag coefficient: 0.800937 
+Lateral coefficient: 0.000091 
+Lift coefficient: -0.176638 
+torque (ref. CG): -0.018621 (roll) -23.813510 (pitch) -0.096653 (yaw) 
+----------------------------------------------------- 
+step 9, time 0.000900, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 9, time 0.000900 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 223.809, yplus min: 0.481505 
+position of yplus max: -0.173218 0.1268 -2.71074e-19 
+yplus prom: 17.1211 
+forces: 699.157547 0.075245 -155.903853 
+Drag coefficient: 0.811176 
+Lateral coefficient: 0.000087 
+Lift coefficient: -0.180883 
+torque (ref. CG): -0.017938 (roll) -26.236269 (pitch) -0.093108 (yaw) 
+----------------------------------------------------- 
+step 10, time 0.001000, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 10, time 0.001000 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 233.967, yplus min: 0.443146 
+position of yplus max: -0.173218 0.1268 -2.71074e-19 
+yplus prom: 16.9757 
+forces: 698.914180 -0.019940 -159.215413 
+Drag coefficient: 0.810893 
+Lateral coefficient: -0.000023 
+Lift coefficient: -0.184725 
+torque (ref. CG): 0.004754 (roll) -30.392011 (pitch) 0.024673 (yaw) 
+----------------------------------------------------- 
+step 11, time 0.001100, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 11, time 0.001100 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 240.185, yplus min: 0.421443 
+position of yplus max: -0.173218 -0.1268 0 
+yplus prom: 17.0996 
+forces: 691.498822 -0.169747 -162.328246 
+Drag coefficient: 0.802290 
+Lateral coefficient: -0.000197 
+Lift coefficient: -0.188336 
+torque (ref. CG): 0.040468 (roll) -36.011652 (pitch) 0.210044 (yaw) 
+----------------------------------------------------- 
+step 12, time 0.001200, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 12, time 0.001200 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 244.698, yplus min: 0.46097 
+position of yplus max: -0.173218 -0.1268 0 
+yplus prom: 17.1577 
+forces: 678.985823 -0.347972 -165.316042 
+Drag coefficient: 0.787772 
+Lateral coefficient: -0.000404 
+Lift coefficient: -0.191803 
+torque (ref. CG): 0.082957 (roll) -42.691850 (pitch) 0.430581 (yaw) 
+----------------------------------------------------- 
+step 13, time 0.001300, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 13, time 0.001300 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 248.178, yplus min: 0.445553 
+position of yplus max: -0.173218 -0.1268 0 
+yplus prom: 17.1295 
+forces: 664.158648 -0.530629 -168.132146 
+Drag coefficient: 0.770569 
+Lateral coefficient: -0.000616 
+Lift coefficient: -0.195070 
+torque (ref. CG): 0.126502 (roll) -49.711295 (pitch) 0.656600 (yaw) 
+----------------------------------------------------- 
+step 14, time 0.001400, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 14, time 0.001400 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 255.047, yplus min: 0.522596 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.1127 
+forces: 649.105881 -0.709047 -170.737498 
+Drag coefficient: 0.753105 
+Lateral coefficient: -0.000823 
+Lift coefficient: -0.198093 
+torque (ref. CG): 0.169037 (roll) -56.523738 (pitch) 0.877374 (yaw) 
+----------------------------------------------------- 
+step 15, time 0.001500, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 15, time 0.001500 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 268.618, yplus min: 0.606232 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.1474 
+forces: 635.047625 -0.861191 -173.095135 
+Drag coefficient: 0.736794 
+Lateral coefficient: -0.000999 
+Lift coefficient: -0.200828 
+torque (ref. CG): 0.205308 (roll) -62.792566 (pitch) 1.065637 (yaw) 
+----------------------------------------------------- 
+step 16, time 0.001600, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 16, time 0.001600 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 278.545, yplus min: 0.646936 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.2072 
+forces: 622.285994 -0.967708 -175.292314 
+Drag coefficient: 0.721988 
+Lateral coefficient: -0.001123 
+Lift coefficient: -0.203377 
+torque (ref. CG): 0.230702 (roll) -68.553729 (pitch) 1.197442 (yaw) 
+----------------------------------------------------- 
+step 17, time 0.001700, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 17, time 0.001700 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 283.647, yplus min: 0.692962 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.2631 
+forces: 610.748095 -1.021308 -177.336242 
+Drag coefficient: 0.708601 
+Lateral coefficient: -0.001185 
+Lift coefficient: -0.205749 
+torque (ref. CG): 0.243480 (roll) -73.833520 (pitch) 1.263766 (yaw) 
+----------------------------------------------------- 
+step 18, time 0.001800, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 18, time 0.001800 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 286.046, yplus min: 0.672997 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.3112 
+forces: 600.580964 -0.999791 -179.218169 
+Drag coefficient: 0.696805 
+Lateral coefficient: -0.001160 
+Lift coefficient: -0.207932 
+torque (ref. CG): 0.238350 (roll) -78.586061 (pitch) 1.237141 (yaw) 
+----------------------------------------------------- 
+step 19, time 0.001900, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 19, time 0.001900 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 290.544, yplus min: 0.648406 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.3591 
+forces: 591.580106 -0.895195 -180.938695 
+Drag coefficient: 0.686362 
+Lateral coefficient: -0.001039 
+Lift coefficient: -0.209928 
+torque (ref. CG): 0.213414 (roll) -82.860844 (pitch) 1.107714 (yaw) 
+----------------------------------------------------- 
+step 20, time 0.002000, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 20, time 0.002000 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 300.398, yplus min: 0.62234 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.4042 
+forces: 583.444423 -0.706446 -182.514705 
+Drag coefficient: 0.676923 
+Lateral coefficient: -0.000820 
+Lift coefficient: -0.211757 
+torque (ref. CG): 0.168417 (roll) -86.750546 (pitch) 0.874157 (yaw) 
+----------------------------------------------------- 
+step 21, time 0.002100, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 21, time 0.002100 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 309.861, yplus min: 0.594465 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.4418 
+forces: 576.126018 -0.425779 -183.987523 
+Drag coefficient: 0.668432 
+Lateral coefficient: -0.000494 
+Lift coefficient: -0.213466 
+torque (ref. CG): 0.101506 (roll) -90.317718 (pitch) 0.526858 (yaw) 
+----------------------------------------------------- 
+step 22, time 0.002200, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 22, time 0.002200 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 318.88, yplus min: 0.564434 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.472 
+forces: 569.531785 -0.062016 -185.414662 
+Drag coefficient: 0.660781 
+Lateral coefficient: -0.000072 
+Lift coefficient: -0.215122 
+torque (ref. CG): 0.014785 (roll) -93.655725 (pitch) 0.076738 (yaw) 
+----------------------------------------------------- 
+step 23, time 0.002300, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 23, time 0.002300 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 327.414, yplus min: 0.531856 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.4977 
+forces: 563.554161 0.382426 -186.824866 
+Drag coefficient: 0.653846 
+Lateral coefficient: 0.000444 
+Lift coefficient: -0.216758 
+torque (ref. CG): -0.091170 (roll) -96.825777 (pitch) -0.473214 (yaw) 
+----------------------------------------------------- 
+step 24, time 0.002400, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 24, time 0.002400 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 338.69, yplus min: 0.496295 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5191 
+forces: 558.079299 0.887456 -188.258471 
+Drag coefficient: 0.647494 
+Lateral coefficient: 0.001030 
+Lift coefficient: -0.218421 
+torque (ref. CG): -0.211570 (roll) -99.904928 (pitch) -1.098138 (yaw) 
+----------------------------------------------------- 
+step 25, time 0.002500, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 25, time 0.002500 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 355.313, yplus min: 0.457269 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.535 
+forces: 553.066567 1.432985 -189.743344 
+Drag coefficient: 0.641678 
+Lateral coefficient: 0.001663 
+Lift coefficient: -0.220144 
+torque (ref. CG): -0.341624 (roll) -102.937344 (pitch) -1.773176 (yaw) 
+----------------------------------------------------- 
+step 26, time 0.002600, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 26, time 0.002600 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 373.422, yplus min: 0.414311 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5449 
+forces: 548.343353 1.996111 -191.286255 
+Drag coefficient: 0.636198 
+Lateral coefficient: 0.002316 
+Lift coefficient: -0.221934 
+torque (ref. CG): -0.475873 (roll) -105.972557 (pitch) -2.469988 (yaw) 
+----------------------------------------------------- 
+step 27, time 0.002700, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 27, time 0.002700 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 393.459, yplus min: 0.367305 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5505 
+forces: 543.863606 2.550029 -192.894328 
+Drag coefficient: 0.631001 
+Lateral coefficient: 0.002959 
+Lift coefficient: -0.223800 
+torque (ref. CG): -0.607927 (roll) -109.030357 (pitch) -3.155406 (yaw) 
+----------------------------------------------------- 
+step 28, time 0.002800, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 28, time 0.002800 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 413.952, yplus min: 0.318015 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5537 
+forces: 539.577024 3.062523 -194.550167 
+Drag coefficient: 0.626027 
+Lateral coefficient: 0.003553 
+Lift coefficient: -0.225721 
+torque (ref. CG): -0.730105 (roll) -112.101214 (pitch) -3.789566 (yaw) 
+----------------------------------------------------- 
+step 29, time 0.002900, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 29, time 0.002900 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 429.029, yplus min: 0.276329 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5543 
+forces: 535.450492 3.510369 -196.234758 
+Drag coefficient: 0.621240 
+Lateral coefficient: 0.004073 
+Lift coefficient: -0.227675 
+torque (ref. CG): -0.836872 (roll) -115.169492 (pitch) -4.343731 (yaw) 
+----------------------------------------------------- 
+step 30, time 0.003000, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 30, time 0.003000 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 435.783, yplus min: 0.26952 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5519 
+forces: 531.456355 3.866986 -197.939661 
+Drag coefficient: 0.616606 
+Lateral coefficient: 0.004487 
+Lift coefficient: -0.229653 
+torque (ref. CG): -0.921889 (roll) -118.231341 (pitch) -4.785008 (yaw) 
+----------------------------------------------------- 
+step 31, time 0.003100, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 31, time 0.003100 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 434.402, yplus min: 0.296328 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5461 
+forces: 527.567987 4.114825 -199.643403 
+Drag coefficient: 0.612094 
+Lateral coefficient: 0.004774 
+Lift coefficient: -0.231630 
+torque (ref. CG): -0.980974 (roll) -121.266538 (pitch) -5.091684 (yaw) 
+----------------------------------------------------- 
+step 32, time 0.003200, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 32, time 0.003200 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 425.907, yplus min: 0.328299 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5377 
+forces: 523.779592 4.240894 -201.319266 
+Drag coefficient: 0.607699 
+Lateral coefficient: 0.004920 
+Lift coefficient: -0.233574 
+torque (ref. CG): -1.011029 (roll) -124.243404 (pitch) -5.247682 (yaw) 
+----------------------------------------------------- 
+step 33, time 0.003300, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 33, time 0.003300 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 411.689, yplus min: 0.373024 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5277 
+forces: 520.090745 4.236835 -202.931300 
+Drag coefficient: 0.603419 
+Lateral coefficient: 0.004916 
+Lift coefficient: -0.235445 
+torque (ref. CG): -1.010061 (roll) -127.117558 (pitch) -5.242660 (yaw) 
+----------------------------------------------------- 
+step 34, time 0.003400, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 0, cell count 0
+bounding box (containing cells with vel>maxvel): xmin inf inf inf, xmax -inf -inf -infm 
+step 34, time 0.003400 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 393.958, yplus min: 0.419963 
+position of yplus max: -0.158917 -0.0839265 -1.62751e-19 
+yplus prom: 17.5168 
+forces: 516.502747 4.100177 -204.443540 
+Drag coefficient: 0.599256 
+Lateral coefficient: 0.004757 
+Lift coefficient: -0.237199 
+torque (ref. CG): -0.977482 (roll) -129.844181 (pitch) -5.073559 (yaw) 
+----------------------------------------------------- 
+step 35, time 0.003500, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 4.12505e-10, cell count 1
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161404 0.445813, xmax -1.90439 -0.161404 0.445813m 
+step 35, time 0.003500 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 392.196, yplus min: 0.465594 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.5047 
+forces: 513.011846 3.837207 -205.818908 
+Drag coefficient: 0.595206 
+Lateral coefficient: 0.004452 
+Lift coefficient: -0.238795 
+torque (ref. CG): -0.914790 (roll) -132.378292 (pitch) -4.748160 (yaw) 
+----------------------------------------------------- 
+step 36, time 0.003600, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 4.12505e-10, cell count 1
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161404 0.445813, xmax -1.90439 -0.161404 0.445813m 
+step 36, time 0.003600 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 394.575, yplus min: 0.509042 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.4914 
+forces: 509.607140 3.469664 -207.022273 
+Drag coefficient: 0.591256 
+Lateral coefficient: 0.004026 
+Lift coefficient: -0.240191 
+torque (ref. CG): -0.827168 (roll) -134.679018 (pitch) -4.293362 (yaw) 
+----------------------------------------------------- 
+step 37, time 0.003700, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 8.23528e-10, cell count 2
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161404 0.445812, xmax -1.90439 0.161403 0.445813m 
+step 37, time 0.003700 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 396.615, yplus min: 0.550234 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.4769 
+forces: 506.272318 3.018310 -208.012715 
+Drag coefficient: 0.587387 
+Lateral coefficient: 0.003502 
+Lift coefficient: -0.241340 
+torque (ref. CG): -0.719565 (roll) -136.699613 (pitch) -3.734856 (yaw) 
+----------------------------------------------------- 
+step 38, time 0.003800, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.24476e-09, cell count 3
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161403 0.445831m 
+step 38, time 0.003800 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 398.348, yplus min: 0.589319 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.4613 
+forces: 502.997577 2.518797 -208.763557 
+Drag coefficient: 0.583587 
+Lateral coefficient: 0.002922 
+Lift coefficient: -0.242211 
+torque (ref. CG): -0.600481 (roll) -138.409403 (pitch) -3.116760 (yaw) 
+----------------------------------------------------- 
+step 39, time 0.003900, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.24476e-09, cell count 3
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161403 0.445831m 
+step 39, time 0.003900 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 399.804, yplus min: 0.626488 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.445 
+forces: 499.762774 2.004841 -209.255630 
+Drag coefficient: 0.579834 
+Lateral coefficient: 0.002326 
+Lift coefficient: -0.242782 
+torque (ref. CG): -0.477954 (roll) -139.789471 (pitch) -2.480790 (yaw) 
+----------------------------------------------------- 
+step 40, time 0.004000, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 40, time 0.004000 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 400.968, yplus min: 0.661893 
+position of yplus max: -0.192191 0.121854 -0.000264562 
+yplus prom: 17.428 
+forces: 496.548499 1.517522 -209.481987 
+Drag coefficient: 0.576105 
+Lateral coefficient: 0.001761 
+Lift coefficient: -0.243045 
+torque (ref. CG): -0.361777 (roll) -140.835848 (pitch) -1.877782 (yaw) 
+----------------------------------------------------- 
+step 41, time 0.004100, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 41, time 0.004100 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 443.335, yplus min: 0.662221 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.4105 
+forces: 493.342484 1.077121 -209.452899 
+Drag coefficient: 0.572385 
+Lateral coefficient: 0.001250 
+Lift coefficient: -0.243011 
+torque (ref. CG): -0.256786 (roll) -141.564169 (pitch) -1.332830 (yaw) 
+----------------------------------------------------- 
+step 42, time 0.004200, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 42, time 0.004200 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 511.157, yplus min: 0.641691 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.3924 
+forces: 490.125776 0.696082 -209.207706 
+Drag coefficient: 0.568653 
+Lateral coefficient: 0.000808 
+Lift coefficient: -0.242727 
+torque (ref. CG): -0.165946 (roll) -142.027631 (pitch) -0.861332 (yaw) 
+----------------------------------------------------- 
+step 43, time 0.004300, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 43, time 0.004300 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 594.298, yplus min: 0.631091 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.3739 
+forces: 486.891579 0.396759 -208.791299 
+Drag coefficient: 0.564901 
+Lateral coefficient: 0.000460 
+Lift coefficient: -0.242244 
+torque (ref. CG): -0.094587 (roll) -142.283401 (pitch) -0.490949 (yaw) 
+----------------------------------------------------- 
+step 44, time 0.004400, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 44, time 0.004400 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 672.955, yplus min: 0.632412 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.3554 
+forces: 483.639492 0.183216 -208.253434 
+Drag coefficient: 0.561128 
+Lateral coefficient: 0.000213 
+Lift coefficient: -0.241620 
+torque (ref. CG): -0.043679 (roll) -142.393145 (pitch) -0.226712 (yaw) 
+----------------------------------------------------- 
+step 45, time 0.004500, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 45, time 0.004500 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 741.489, yplus min: 0.645724 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.3369 
+forces: 480.357069 0.055555 -207.680227 
+Drag coefficient: 0.557319 
+Lateral coefficient: 0.000064 
+Lift coefficient: -0.240955 
+torque (ref. CG): -0.013244 (roll) -142.466388 (pitch) -0.068744 (yaw) 
+----------------------------------------------------- 
+step 46, time 0.004600, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 46, time 0.004600 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 823.634, yplus min: 0.666165 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.3188 
+forces: 477.058549 0.018595 -207.139637 
+Drag coefficient: 0.553492 
+Lateral coefficient: 0.000022 
+Lift coefficient: -0.240327 
+torque (ref. CG): -0.004433 (roll) -142.583828 (pitch) -0.023009 (yaw) 
+----------------------------------------------------- 
+step 47, time 0.004700, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 47, time 0.004700 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 919.906, yplus min: 0.687963 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.301 
+forces: 473.769615 0.060212 -206.694421 
+Drag coefficient: 0.549676 
+Lateral coefficient: 0.000070 
+Lift coefficient: -0.239811 
+torque (ref. CG): -0.014354 (roll) -142.817001 (pitch) -0.074506 (yaw) 
+----------------------------------------------------- 
+step 48, time 0.004800, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 1.66451e-09, cell count 4
+bounding box (containing cells with vel>maxvel): xmin -1.90439 -0.161431 0.445812, xmax -1.9032 0.161431 0.445831m 
+step 48, time 0.004800 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 1041.2, yplus min: 0.716431 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.2833 
+forces: 470.511809 0.160949 -206.393245 
+Drag coefficient: 0.545897 
+Lateral coefficient: 0.000187 
+Lift coefficient: -0.239461 
+torque (ref. CG): -0.038370 (roll) -143.220986 (pitch) -0.199158 (yaw) 
+----------------------------------------------------- 
+step 49, time 0.004900, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 2.57213e-09, cell count 5
+bounding box (containing cells with vel>maxvel): xmin -1.90445 -0.161431 0.445812, xmax -1.9032 0.161431 0.446871m 
+step 49, time 0.004900 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 1140.03, yplus min: 0.749425 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.2655 
+forces: 467.308428 0.300811 -206.271975 
+Drag coefficient: 0.542180 
+Lateral coefficient: 0.000349 
+Lift coefficient: -0.239321 
+torque (ref. CG): -0.071713 (roll) -143.834613 (pitch) -0.372223 (yaw) 
+----------------------------------------------------- 
+step 50, time 0.005000, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 2.57213e-09, cell count 5
+bounding box (containing cells with vel>maxvel): xmin -1.90445 -0.161431 0.445812, xmax -1.9032 0.161431 0.446871m 
+step 50, time 0.005000 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 1243.04, yplus min: 0.780552 
+position of yplus max: -1.90083 -0.161503 0.445555 
+yplus prom: 17.2481 
+forces: 464.165338 0.462501 -206.360258 
+Drag coefficient: 0.538533 
+Lateral coefficient: 0.000537 
+Lift coefficient: -0.239423 
+torque (ref. CG): -0.110260 (roll) -144.693166 (pitch) -0.572298 (yaw) 
+----------------------------------------------------- 
+step 51, time 0.005100, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 3.47376e-09, cell count 6
+bounding box (containing cells with vel>maxvel): xmin -1.90445 -0.161431 0.445812, xmax -1.9032 0.161431 0.446871m 
+step 51, time 0.005100 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 1369.01, yplus min: 0.763873 
+position of yplus max: -1.90151 -0.161803 0.443952 
+yplus prom: 17.2312 
+forces: 461.104076 0.630676 -206.492042 
+Drag coefficient: 0.534982 
+Lateral coefficient: 0.000732 
+Lift coefficient: -0.239576 
+torque (ref. CG): -0.150353 (roll) -145.586041 (pitch) -0.780398 (yaw) 
+----------------------------------------------------- 
+step 52, time 0.005200, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 4.89049e-09, cell count 7
+bounding box (containing cells with vel>maxvel): xmin -1.90445 -0.161431 0.445812, xmax -1.90312 0.161431 0.447023m 
+step 52, time 0.005200 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 1579.92, yplus min: 0.753111 
+position of yplus max: -1.90151 -0.161803 0.443952 
+yplus prom: 17.2146 
+forces: 458.107503 0.808093 -206.597346 
+Drag coefficient: 0.531505 
+Lateral coefficient: 0.000938 
+Lift coefficient: -0.239698 
+torque (ref. CG): -0.192649 (roll) -146.430727 (pitch) -0.999934 (yaw) 
+----------------------------------------------------- 
+step 53, time 0.005300, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 4.89049e-09, cell count 7
+bounding box (containing cells with vel>maxvel): xmin -1.90445 -0.161431 0.445812, xmax -1.90312 0.161431 0.447023m 
+step 53, time 0.005300 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 1830.99, yplus min: 0.785173 
+position of yplus max: -1.90151 -0.161803 0.443952 
+yplus prom: 17.1985 
+forces: 455.172891 0.975741 -206.670232 
+Drag coefficient: 0.528100 
+Lateral coefficient: 0.001132 
+Lift coefficient: -0.239783 
+torque (ref. CG): -0.232617 (roll) -147.220528 (pitch) -1.207382 (yaw) 
+----------------------------------------------------- 
+step 54, time 0.005400, maxvel 1000.000000, total vol 75.7255, vol(u>maxvel) 6.29834e-09, cell count 8
+bounding box (containing cells with vel>maxvel): xmin -1.90445 -0.161431 0.445812, xmax -1.90312 0.161431 0.447023m 
+step 54, time 0.005400 
+bounding box of vehicle: xmin -2.47648 -0.161926 -0.0756991, xmax 1.6263e-18 0.161926 0.4508m 
+gts area: 4.05848 m2 
+yplus max: 2098.18, yplus min: 0.739137 
+position of yplus max: -1.90151 -0.161803 0.443952 
+yplus prom: 17.183 
+forces: 452.307617 1.118622 -206.673128 
+Drag coefficient: 0.524776 
+Lateral coefficient: 0.001298 
+Lift coefficient: -0.239786 
+torque (ref. CG): -0.266679 (roll) -147.907192 (pitch) -1.384183 (yaw) 
+----------------------------------------------------- 
+Post-calculation operations
+---------------------------
+
+ solver script exited with status 1.
+
+Error running the calculation.
+
+Check run_solver.log and error* files for details.
+
+Domain None (code_saturne):
+  run_solver.log, error*.
+
+Run failed in calculation stage.
+
+make: *** [run] Error 1

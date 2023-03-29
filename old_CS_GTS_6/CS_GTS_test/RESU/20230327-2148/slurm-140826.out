@@ -1,0 +1,6 @@
+echo cluster62
+cluster62
+echo "hostname: cluster62"
+hostname: cluster62
+echo OSTNAME
+OSTNAME

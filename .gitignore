@@ -1,0 +1,11 @@
+MESH
+postprocessing
+mesh_input
+mesh_input.csm
+checkpoint
+listing
+run_solver.log
+*.dat
+*.unv
+slurm-138820.out
+slurm-138478.out

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Export paths here if necessary or recommended.
+export LD_LIBRARY_PATH="/usr//lib":$LD_LIBRARY_PATH
+
+
+export OMP_NUM_THREADS=1
+
+cd "/home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/RESU/20220530-1353"
+
+# Run solver.
+/home/user/Code_Saturne/7.0.4/code_saturne-7.0.4/arch/Linux_x86_64/libexec/code_saturne/cs_solver "$@"
+export CS_RET=$?
+
+exit $CS_RET

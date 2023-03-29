@@ -1,0 +1,188 @@
+/share/storage/pub/mstorti/saturne-vof/libexec/code_saturne/cs_preprocess --log 
+--out mesh_input 
+/share/storage/finzeo/GTSstudy/1-GTS_Rao/../MESH/gts_soft_2.med 
+
+  .------------------------------.
+  |                              |
+  |   Code_Saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 6.1-alpha   (built mar 25 ago 2020 16:47:33 ART)
+
+  CGNS 3.4.0 file format support
+  MED 3.2.0 (HDF5 1.8.14) file format support
+  Reading of compressed files ('.gz') with Zlib 1.2.3
+
+
+
+Case configuration
+------------------
+
+  Date                : lun 17 oct 2022 18:16:33 ART
+  Processor           : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory              : 132181124
+  User                : finzeo ()
+  Directory           : /share/storage/finzeo/GTSstudy/1-GTS_Rao/RESU/20221017-1816
+
+  Case name           : preprocess
+  Mesh file           : /share/storage/finzeo/GTSstudy/1-GTS_Rao/../MESH/gts_soft_2.med
+
+
+
+Reading mesh from file in MED (EDF/CEA) format
+----------------------
+  Mesh file: /share/storage/finzeo/GTSstudy/1-GTS_Rao/../MESH/gts_soft_2.med
+
+
+  Mesh name: gts_soft_2
+
+  Number of vertices                          :  2164646
+  Number of faces                             :   101440
+                                   Family 1   :    22336
+                                   Family 2   :    15120
+                                   Family 3   :     8064
+                                   Family 4   :     6144
+                                   Family 5   :    15120
+                                   Family 6   :     8064
+                                   Family 7   :     3824
+                                   Family 8   :    17280
+                                   Family 9   :     3824
+                                   Family 10  :     1664
+  Number of cells                             :  2113600
+                                   Family 0   :  2113600
+
+  Wall-clock time: 0.741186 s; CPU time: 0.738888 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:               132.874 Mb
+  Theoretical current memory:          182.419 Mb
+  Theoretical peak memory:             408.562 Mb
+  Total memory used:                   578.000 Mb
+
+  Domain coordinate extents:
+
+  [-8.11440e+00, -2.25400e+00, -4.94066e-324]
+  [ 1.12700e+01,  2.25400e+00,  4.12030e+00]
+  Number of elements                    quad4 :   101440
+  Number of elements                    hexa8 :  2113600
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:               316.189 Mb
+  Theoretical current memory:          365.733 Mb
+  Theoretical peak memory:             943.415 Mb
+  Total memory used:                     1.092 Gb
+
+
+Main mesh properties
+--------------------
+
+  Number of cells:                               2113600
+  Number of internal faces:                      6290080
+  Number of boundary faces:                       101440
+  Number of vertices:                            2164646
+
+
+Definition of face and cell families
+------------------------------------
+
+  Family 1
+         Group "GTSleft"
+  Number of boundary faces :     3824
+  Family 2
+         Group "GTSr_f_r"
+  Number of boundary faces :     6144
+  Family 3
+         Group "GTSrear"
+  Number of boundary faces :     1664
+  Family 4
+         Group "GTSright"
+  Number of boundary faces :     3824
+  Family 5
+         Group "floor"
+  Number of boundary faces :    22336
+  Family 6
+         Group "inlet"
+  Number of boundary faces :     8064
+  Family 7
+         Group "leftSide"
+  Number of boundary faces :    15120
+  Family 8
+         Group "outlet"
+  Number of boundary faces :     8064
+  Family 9
+         Group "rightSide"
+  Number of boundary faces :    15120
+  Family 10
+         Group "roof"
+  Number of boundary faces :    17280
+  Family 10
+         Default family
+         (no group)
+  Number of cells          :  2113600
+  Number of internal faces :  6290080
+
+
+Write output for Kernel
+-----------------------
+
+  Opening file: mesh_input
+
+  Wrote: "start_block:dimensions"
+  Wrote: "n_cells"                         ; Type: "u8"; Size: 1
+  Wrote: "n_faces"                         ; Type: "u8"; Size: 1
+  Wrote: "n_vertices"                      ; Type: "u8"; Size: 1
+  Wrote: "face_vertices_size"              ; Type: "u8"; Size: 1
+  Wrote: "n_group_classes"                 ; Type: "i8"; Size: 1
+  Wrote: "n_group_class_props_max"         ; Type: "i8"; Size: 1
+  Wrote: "n_groups"                        ; Type: "u8"; Size: 1
+  Wrote: "group_name_index"                ; Type: "i8"; Size: 11
+  Wrote: "group_name"                      ; Type: "c "; Size: 77
+  Wrote: "group_class_properties"          ; Type: "i8"; Size: 11
+  Wrote: "end_block:dimensions"
+  Wrote: "start_block:data"
+  Wrote: "face_cells"                      ; Type: "i8"; Size: 12783040
+  Wrote: "cell_group_class_id"             ; Type: "i8"; Size: 2113600
+  Wrote: "face_group_class_id"             ; Type: "i8"; Size: 6391520
+  Wrote: "face_vertices_index"             ; Type: "u8"; Size: 6391521
+  Wrote: "face_vertices"                   ; Type: "i8"; Size: 25566080
+  Wrote: "vertex_coords"                   ; Type: "r8"; Size: 6493938
+  Wrote: "end_block:data"
+  Wrote: "EOF"
+
+  Closing file: mesh_input
+
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :        3.42
+  System CPU time                     (sec)   :        1.03
+  Total time                          (sec)   :        4.56
+  Total CPU time / Total time                 :        0.98
+
+Memory use summary:
+
+  Total memory used:                                   1.092 Gb
+  Theoretical instrumented dynamic memory:           943.415 Mb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

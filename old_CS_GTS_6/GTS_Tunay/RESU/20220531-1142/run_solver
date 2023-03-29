@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Export paths here if necessary or recommended.
+export PATH="/share/apps/openmpi/4.0.0/bin":$PATH
+export LD_LIBRARY_PATH="/share/apps/openmpi/4.0.0/lib":$LD_LIBRARY_PATH
+# Load environment if this script is run directly.
+if test "$CS_ENVIRONMENT_SET" != "true" ; then
+  module purge
+  module load openblas/0.2.20-single
+  module load suitesparse/5.2.0
+  module load fftw/3.3.6-single
+  module load hdf5/1.8.18
+  module load gnuplot/5.2.0
+  module load llvm/3.4.2
+  module load sparsersb/1.2.0
+  module load octave/4.4.0
+  module load gcc/4.9.4
+  module load openmpi/4.0.0
+fi
+
+
+export OMP_NUM_THREADS=1
+
+cd /share/storage/finzeo/GTS_Tunay/RESU/20220531-1142
+
+# Run solver.
+/share/apps/code_saturne/5.3.4/libexec/code_saturne/cs_solver --param hello.xml $@
+export CS_RET=$?
+
+exit $CS_RET

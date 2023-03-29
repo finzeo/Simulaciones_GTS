@@ -1,0 +1,25 @@
+SIGINT signal (Control+C or equivalent) received.
+--> computation interrupted by user.
+
+Call stack:
+   1: 0x7f6ba90b600c <+0x43700c>                      (libsaturne-5.3.so)
+   2: 0x7f6ba683d8af <GOMP_parallel+0x3f>             (libgomp.so.1)
+   3: 0x7f6ba90b6f64 <+0x437f64>                      (libsaturne-5.3.so)
+   4: 0x7f6ba90c9d2f <cs_sles_it_solve+0x1af>         (libsaturne-5.3.so)
+   5: 0x7f6ba90ab87d <cs_multigrid_solve+0xa4d>       (libsaturne-5.3.so)
+   6: 0x7f6ba90ac88e <+0x42d88e>                      (libsaturne-5.3.so)
+   7: 0x7f6ba90c3a4a <+0x444a4a>                      (libsaturne-5.3.so)
+   8: 0x7f6ba90c9d2f <cs_sles_it_solve+0x1af>         (libsaturne-5.3.so)
+   9: 0x7f6ba90b2131 <cs_sles_solve+0x241>            (libsaturne-5.3.so)
+  10: 0x7f6ba90b4025 <cs_sles_solve_native+0x385>     (libsaturne-5.3.so)
+  11: 0x7f6ba954f16b <__cs_c_bindings_MOD_sles_solve_native+0x171> (libsaturne-5.3.so)
+  12: 0x7f6ba8ed2ac2 <resopv_+0xb054>                 (libsaturne-5.3.so)
+  13: 0x7f6ba8eb19e2 <navstv_+0x4a68>                 (libsaturne-5.3.so)
+  14: 0x7f6ba8ede714 <tridim_+0x3ee5>                 (libsaturne-5.3.so)
+  15: 0x7f6ba8d4117c <caltri_+0x1caf>                 (libsaturne-5.3.so)
+  16: 0x7f6baa5ac89f <cs_run+0x55f>                   (libcs_solver-5.3.so)
+  17: 0x7f6baa5ac1d5 <main+0x125>                     (libcs_solver-5.3.so)
+  18: 0x3d8a01ed20 <__libc_start_main+0x100>        (libc.so.6)
+  19: 0x400999     <>                               (cs_solver)
+End of stack
+

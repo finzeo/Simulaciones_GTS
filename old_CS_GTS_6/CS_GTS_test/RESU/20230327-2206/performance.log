@@ -1,0 +1,21 @@
+
+Local case configuration:
+
+  Date:                lun 27 mar 2023 22:07:16 ART
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              129083 MB
+  Directory:           /share/storage/finzeo/Simulaciones/CS_GTS_test/RESU/20230327-2206
+  OpenMP threads:      1
+  Processors/node:     1
+  I/O read method:     standard input and output, serial access
+  I/O write method:    standard input and output, serial access
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Halo creation:                             0 s
+
+  Total time for halo creation:              0 s
+
+--------------------------------------------------------------------------------

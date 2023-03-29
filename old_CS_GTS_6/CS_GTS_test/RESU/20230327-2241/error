@@ -1,0 +1,14 @@
+SIGINT signal (Control+C or equivalent) received.
+--> computation interrupted by user.
+
+Call stack:
+   1: 0x7fae2c8fb69f <resopv_+0x155f>                 (libsaturne.so.6)
+   2: 0x7fae2c8d302a <navstv_+0x85aa>                 (libsaturne.so.6)
+   3: 0x7fae2c91fec0 <tridim_+0x2ea0>                 (libsaturne.so.6)
+   4: 0x7fae2c74ae32 <caltri_+0x17c2>                 (libsaturne.so.6)
+   5: 0x7fae3192cbff <cs_run+0x5bf>                   (libcs_solver.so.6)
+   6: 0x7fae3192c4d7 <main+0x167>                     (libcs_solver.so.6)
+   7: 0x3d8a01ed20 <__libc_start_main+0x100>        (libc.so.6)
+   8: 0x4049f9     <>                               (cs_solver)
+End of stack
+

@@ -1,0 +1,185 @@
+/share/storage/pub/mstorti/saturne-vof/libexec/code_saturne/cs_preprocess --log 
+--out mesh_input 
+/share/storage/finzeo/GTSstudy/2-GTS_bothRaoTunay/../MESH/gtsconverted29.med 
+
+  .------------------------------.
+  |                              |
+  |   Code_Saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 6.1-alpha   (built mar 25 ago 2020 16:47:33 ART)
+
+  CGNS 3.4.0 file format support
+  MED 3.2.0 (HDF5 1.8.14) file format support
+  Reading of compressed files ('.gz') with Zlib 1.2.3
+
+
+
+Case configuration
+------------------
+
+  Date                : jue 06 oct 2022 14:30:00 ART
+  Processor           : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory              : 132181124
+  User                : finzeo ()
+  Directory           : /share/storage/finzeo/GTSstudy/2-GTS_bothRaoTunay/RESU/20221006-1429
+
+  Case name           : preprocess
+  Mesh file           : /share/storage/finzeo/GTSstudy/2-GTS_bothRaoTunay/../MESH/gtsconverted29.med
+
+
+
+Reading mesh from file in MED (EDF/CEA) format
+----------------------
+  Mesh file: /share/storage/finzeo/GTSstudy/2-GTS_bothRaoTunay/../MESH/gtsconverted29.med
+
+
+  Mesh name: gtsconverted29
+
+  Number of vertices                          : 48263768
+  Number of faces                             :  2520725
+                                   Family 1   :    30444
+                                   Family 2   :     3540
+                                   Family 3   :     3540
+                                   Family 4   :    62640
+                                   Family 5   :    15480
+                                   Family 6   :  2405081
+  Number of cells                             : 45230531
+                                   Family 0   : 45230531
+
+  Wall-clock time: 17.333614 s; CPU time: 16.760451 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:                 3.590 Gb
+  Theoretical current memory:            4.669 Gb
+  Theoretical peak memory:               8.303 Gb
+  Total memory used:                     8.470 Gb
+
+  Domain coordinate extents:
+
+  [-3.78000e+01, -1.80000e+01, -5.04000e-01]
+  [ 1.17000e+02,  1.80000e+01,  3.24000e+01]
+  Number of elements                    quad4 :  2470525
+  Number of elements                  polygon :    50200
+  Number of elements                   penta6 :   205666
+  Number of elements                    hexa8 : 43388068
+  Number of elements               polyhedron :  1636797
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+Warning
+=======
+22 elements of type hexa8 are mis-oriented or highly warped
+
+
+EnSight output of mesh: Orientation Error
+-----------------------
+  Creating file: preprocess.ensight/MESH.case
+  Creating file: preprocess.ensight/mesh.geo
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:                 8.088 Gb
+  Theoretical current memory:            9.166 Gb
+  Theoretical peak memory:              20.405 Gb
+  Total memory used:                    20.700 Gb
+
+
+Main mesh properties
+--------------------
+
+  Number of cells:                              45230531
+  Number of internal faces:                    136174310
+  Number of boundary faces:                      2520725
+  Number of vertices:                           48263768
+
+
+Definition of face and cell families
+------------------------------------
+
+  Family 1
+         Group "frontAndBack"
+  Number of boundary faces :    30444
+  Family 2
+         Group "gtsModel"
+  Number of boundary faces :  2405081
+  Family 3
+         Group "inlet"
+  Number of boundary faces :     3540
+  Family 4
+         Group "lowerWall"
+  Number of boundary faces :    62640
+  Family 5
+         Group "outlet"
+  Number of boundary faces :     3540
+  Family 6
+         Group "upperWall"
+  Number of boundary faces :    15480
+  Family 6
+         Default family
+         (no group)
+  Number of cells          : 45230531
+  Number of internal faces : 136174310
+
+
+Write output for Kernel
+-----------------------
+
+  Opening file: mesh_input
+
+  Wrote: "start_block:dimensions"
+  Wrote: "n_cells"                         ; Type: "u8"; Size: 1
+  Wrote: "n_faces"                         ; Type: "u8"; Size: 1
+  Wrote: "n_vertices"                      ; Type: "u8"; Size: 1
+  Wrote: "face_vertices_size"              ; Type: "u8"; Size: 1
+  Wrote: "n_group_classes"                 ; Type: "i8"; Size: 1
+  Wrote: "n_group_class_props_max"         ; Type: "i8"; Size: 1
+  Wrote: "n_groups"                        ; Type: "u8"; Size: 1
+  Wrote: "group_name_index"                ; Type: "i8"; Size: 7
+  Wrote: "group_name"                      ; Type: "c "; Size: 55
+  Wrote: "group_class_properties"          ; Type: "i8"; Size: 7
+  Wrote: "end_block:dimensions"
+  Wrote: "start_block:data"
+  Wrote: "face_cells"                      ; Type: "i8"; Size: 277390070
+  Wrote: "cell_group_class_id"             ; Type: "i8"; Size: 45230531
+  Wrote: "face_group_class_id"             ; Type: "i8"; Size: 138695035
+  Wrote: "face_vertices_index"             ; Type: "u8"; Size: 138695036
+  Wrote: "face_vertices"                   ; Type: "i8"; Size: 557357663
+  Wrote: "vertex_coords"                   ; Type: "r8"; Size: 144791304
+  Wrote: "end_block:data"
+  Wrote: "EOF"
+
+  Closing file: mesh_input
+
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :       98.85
+  System CPU time                     (sec)   :       20.60
+  Total time                          (sec)   :      123.03
+  Total CPU time / Total time                 :        0.97
+
+Memory use summary:
+
+  Total memory used:                                  20.700 Gb
+  Theoretical instrumented dynamic memory:            20.405 Gb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

@@ -1,0 +1,192 @@
+/share/storage/pub/finzeo/saturne-vof/libexec/code_saturne/cs_preprocess --out 
+mesh_input.csm --log 
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/MESH/GTS_ofcomfinal.med 
+
+  .------------------------------.
+  |                              |
+  |   code_saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 7.2.0-patch   (built Thu Oct 20 18:47:52 2022)
+
+  CGNS 3.3.1 file format support
+  MED 3.3.1 (HDF5 1.8.14) file format support
+  Reading of compressed files ('.gz') with Zlib 1.2.3
+
+
+
+Case configuration
+------------------
+
+  Date                : Thu Mar 23 17:39:53 2023
+  System              : Linux 2.6.32-504.16.2.el6.x86_64
+  Machine             : compute-0-23.local
+  Processor           : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory              : 132181124
+  User                : finzeo ()
+  Directory           : /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230323-1739
+
+  Case name           : preprocess
+  Mesh file           : /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/MESH/GTS_ofcomfinal.med
+
+
+
+Reading mesh from file in MED (EDF/CEA) format
+----------------------
+  Mesh file: /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/MESH/GTS_ofcomfinal.med
+
+
+  Mesh name: GTS_ofcomfinal
+
+  Number of vertices                          : 26845544
+  Number of faces                             :  1017838
+                                   Family 1   :     1120
+                                   Family 2   :     6904
+                                   Family 3   :   901792
+                                   Family 4   :     4308
+                                   Family 5   :     4308
+                                   Family 6   :     6160
+                                   Family 7   :    93246
+  Number of cells                             : 25500068
+                                   Family 0   : 25500068
+
+  Wall-clock time: 6.503439 s; CPU time: 5.353187 s
+
+
+Done reading mesh
+-----------------
+  Theoretical mesh size:                 1.951 Gb
+  Theoretical current memory:            2.551 Gb
+  Theoretical peak memory:               4.703 Gb
+  Total memory used:                     4.759 Gb
+
+  Domain coordinate extents:
+
+  [-7.33423e+00, -1.55305e+00, -7.62000e-02]
+  [ 4.37198e+00,  1.55305e+00,  2.05740e+00]
+  Number of elements                    tria3 :      146
+  Number of elements                    quad4 :  1002969
+  Number of elements                  polygon :    14723
+  Number of elements                   penta6 :    22628
+  Number of elements                    hexa8 : 24775716
+  Number of elements               polyhedron :   701724
+
+
+
+Defining families
+-----------------
+
+
+  Element orientation check.
+
+
+Warning
+=======
+49 elements of type hexa8 are mis-oriented or highly warped.
+
+
+EnSight output of mesh: Orientation Error
+-----------------------
+  Creating file: preprocess.ensight/MESH.case
+  Creating file: preprocess.ensight/mesh.geo
+
+End of conversion to descending connectivity
+--------------------------------------------
+  Theoretical mesh size:                 4.541 Gb
+  Theoretical current memory:            5.141 Gb
+  Theoretical peak memory:              11.443 Gb
+  Total memory used:                    11.554 Gb
+
+
+Main mesh properties
+--------------------
+
+  Number of cells:                              25500068
+  Number of internal faces:                     76820221
+  Number of boundary faces:                      1017838
+  Number of vertices:                           26845544
+
+
+Definition of face and cell families
+------------------------------------
+
+  Family 1
+         Group "floor"
+  Number of boundary faces :    93246
+  Family 2
+         Group "gtsModel"
+  Number of boundary faces :   901792
+  Family 3
+         Group "inlet"
+  Number of boundary faces :     1120
+  Family 4
+         Group "left"
+  Number of boundary faces :     4308
+  Family 5
+         Group "outlet"
+  Number of boundary faces :     6904
+  Family 6
+         Group "right"
+  Number of boundary faces :     4308
+  Family 7
+         Group "top"
+  Number of boundary faces :     6160
+  Family 7
+         Default family
+         (no group)
+  Number of cells          : 25500068
+  Number of internal faces : 76820221
+
+
+Write output for Kernel
+-----------------------
+
+  Opening file: mesh_input.csm
+
+  Wrote: "start_block:dimensions"
+  Wrote: "n_cells"                         ; Type: "u8"; Size: 1
+  Wrote: "n_faces"                         ; Type: "u8"; Size: 1
+  Wrote: "n_vertices"                      ; Type: "u8"; Size: 1
+  Wrote: "face_vertices_size"              ; Type: "u8"; Size: 1
+  Wrote: "n_group_classes"                 ; Type: "i8"; Size: 1
+  Wrote: "n_group_class_props_max"         ; Type: "i8"; Size: 1
+  Wrote: "n_groups"                        ; Type: "u8"; Size: 1
+  Wrote: "group_name_index"                ; Type: "i8"; Size: 8
+  Wrote: "group_name"                      ; Type: "c "; Size: 43
+  Wrote: "group_class_properties"          ; Type: "i8"; Size: 8
+  Wrote: "end_block:dimensions"
+  Wrote: "start_block:data"
+  Wrote: "face_cells"                      ; Type: "i8"; Size: 155676118
+  Wrote: "cell_group_class_id"             ; Type: "i8"; Size: 25500068
+  Wrote: "face_group_class_id"             ; Type: "i8"; Size: 77838059
+  Wrote: "face_vertices_index"             ; Type: "u8"; Size: 77838060
+  Wrote: "face_vertices"                   ; Type: "i8"; Size: 312547443
+  Wrote: "vertex_coords"                   ; Type: "r8"; Size: 80536632
+  Wrote: "end_block:data"
+  Wrote: "EOF"
+
+  Closing file: mesh_input.csm
+
+
+Time and memory summary
+-----------------------
+
+  User CPU time                       (sec)   :       64.29
+  System CPU time                     (sec)   :       10.75
+  Total time                          (sec)   :       77.79
+  Total CPU time / Total time                 :        0.96
+
+Memory use summary:
+
+  Total memory used:                                  11.554 Gb
+  Theoretical instrumented dynamic memory:            11.443 Gb
+
+
+  .-----------------------.
+  |                       |
+  |  Preprocessor finish  |
+  |                       |
+  `-----------------------'
+
+

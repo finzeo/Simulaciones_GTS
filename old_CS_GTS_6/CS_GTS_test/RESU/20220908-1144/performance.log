@@ -1,0 +1,53 @@
+
+Local case configuration:
+
+  Date:                jue 08 sep 2022 11:44:34 ART
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              129083 MB
+  Directory:           /share/storage/finzeo/CS_GTS_test/RESU/20220908-1144
+  MPI ranks:           20
+  OpenMP threads:      1
+  Processors/node:     1
+  I/O read method:     collective MPI-IO (explicit offsets)
+  I/O write method:    collective MPI-IO (explicit offsets)
+  I/O rank step:        1
+
+--------------------------------------------------------------------------------
+
+Partitioning:
+
+  Morton (Z) curve:           9.05 s 
+  wall clock time:            9.05 s
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Interface creation:                        0.184 s
+  Halo creation:                             0.0597 s
+
+  Total time for halo creation:              0.244 s
+
+--------------------------------------------------------------------------------
+
+Writing of "results" (EnSight Gold) summary:
+
+  CPU time for meshes:                     0.261
+  CPU time for variables:                  0.547
+  CPU time forcing output:                 0.000
+
+  Elapsed time for meshes:                 0.302
+  Elapsed time for variables:              0.850
+  Elapsed time forcing output:             0.000
+
+Writing of "error" (EnSight Gold) summary:
+
+  CPU time for meshes:                     0.269
+  CPU time for variables:                  0.420
+  CPU time forcing output:                 0.000
+
+  Elapsed time for meshes:                 0.313
+  Elapsed time for variables:              0.509
+  Elapsed time forcing output:             0.000
+
+--------------------------------------------------------------------------------

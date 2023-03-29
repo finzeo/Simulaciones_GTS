@@ -1,0 +1,29 @@
+SIGTERM signal (termination) received.
+--> computation interrupted by environment.
+
+Call stack:
+   1: 0x7f7348544b34 <MPID_nem_tcp_connpoll+0x194>    (libmpi.so.12)
+   2: 0x7f734852feed <MPIDI_CH3I_Progress+0xc1d>      (libmpi.so.12)
+   3: 0x7f73484c4695 <MPIC_Wait+0x45>                 (libmpi.so.12)
+   4: 0x7f73484c4957 <MPIC_Recv+0x67>                 (libmpi.so.12)
+   5: 0x7f734842915f <MPIR_Reduce_intra+0xecf>        (libmpi.so.12)
+   6: 0x7f7348428201 <MPIR_Reduce_impl+0x51>          (libmpi.so.12)
+   7: 0x7f734841e91b <MPIR_Allreduce_intra+0x3bb>     (libmpi.so.12)
+   8: 0x7f734841fd8c <MPIR_Allreduce_impl+0x4c>       (libmpi.so.12)
+   9: 0x7f734842054e <MPI_Allreduce+0x72e>            (libmpi.so.12)
+  10: 0x7f734a09d688 <+0x601688>                      (libsaturne-7.2.so)
+  11: 0x7f734a0b55c4 <+0x6195c4>                      (libsaturne-7.2.so)
+  12: 0x7f734a0bddd4 <+0x621dd4>                      (libsaturne-7.2.so)
+  13: 0x7f734a0c0098 <cs_gradient_vector+0x108>       (libsaturne-7.2.so)
+  14: 0x7f734a092a30 <cs_mass_flux+0x520>             (libsaturne-7.2.so)
+  15: 0x7f7349c8bd2b <+0x1efd2b>                      (libsaturne-7.2.so)
+  16: 0x7f7349c9df61 <cs_pressure_correction+0x15c1>  (libsaturne-7.2.so)
+  17: 0x7f7349d6c75f <navstv_+0x550f>                 (libsaturne-7.2.so)
+  18: 0x7f7349dbd037 <tridim_+0x35c7>                 (libsaturne-7.2.so)
+  19: 0x7f7349b631d9 <caltri_+0x15e9>                 (libsaturne-7.2.so)
+  20: 0x7f734b394e11 <main+0x731>                     (libcs_solver-7.2.so)
+  21: 0x3a3301ed1d <__libc_start_main+0xfd>         (libc.so.6)
+  22: 0x4013b1     <>                               (cs_solver)
+End of stack
+
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

@@ -1,0 +1,24 @@
+
+
+../../../saturne2-git/src/base/cs_boundary_conditions.c:363: Fatal error.
+
+
+Some boundary condition definitions are incomplete or incorrect.
+
+  For details, read the end of the calculation log,
+  or visualize the error postprocessing output.
+
+
+Call stack:
+   1: 0x7fe5f9ecc4d2 <cs_boundary_conditions_error+0x102> (libsaturne.so.6)
+   2: 0x7fe5fa0417d3 <typecl_+0x6353>                 (libsaturne.so.6)
+   3: 0x7fe5f9e9ccf5 <condli_ini_+0x875>              (libsaturne.so.6)
+   4: 0x7fe5f9e61676 <caltri_+0x1006>                 (libsaturne.so.6)
+   5: 0x7fe5fb712bff <cs_run+0x5bf>                   (libcs_solver.so.6)
+   6: 0x7fe5fb7124d7 <main+0x167>                     (libcs_solver.so.6)
+   7: 0x300de1ed1d <__libc_start_main+0xfd>         (libc.so.6)
+   8: 0x401bd1     <>                               (cs_solver)
+End of stack
+
+[cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

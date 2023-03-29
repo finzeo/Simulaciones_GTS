@@ -1,0 +1,50 @@
+
+/home/user/Code_Saturne/7.0.4/code_saturne-7.0.4/arch/Linux_x86_64/libexec/code_saturne/cs_preprocess 
+--out mesh_input.csm --log 
+/home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/DATA/GTS_Tunay.med 
+
+  .------------------------------.
+  |                              |
+  |   Code_Saturne Preprocessor  |
+  |                              |
+  `------------------------------'
+
+  code_saturne version 7.0.4   (built Tue Mar 22 15:58:27 2022)
+
+  Reading of compressed files ('.gz') with Zlib 1.2.11
+
+
+Error in preprocessor execution
+===============================
+
+/home/user/Programas/Code-Saturne/preprocessor/pre-post/ecs_pre.c:486: Fatal error.
+
+File format "MED" support not available in this
+installation (file "/home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/DATA/GTS_Tunay.med"). 
+
+
+Call stack 
+   1: 0x558f9640fcee <ecs_pre__type_format+0x2bb>     (cs_preprocess)
+   2: 0x558f9640ba64 <ecs_cmd__lit_arg+0x124b>        (cs_preprocess)
+   3: 0x558f9640c36d <main+0x4d>                      (cs_preprocess)
+   4: 0x7f33089a1c87 <__libc_start_main+0xe7>         (libc.so.6)
+   5: 0x558f9640906a <_start+0x2a>                    (cs_preprocess)
+End of stack
+
+cs_preprocess: /home/user/Programas/Code-Saturne/preprocessor/util/ecs_def.c:316: ecs_error: Assertion `0' failed.
+SIGABRT signal (abort) intercepted !
+
+Call stack 
+   1: 0x7f33089bee87 <gsignal+0xc7>                   (libc.so.6)
+   2: 0x7f33089c07f1 <abort+0x141>                    (libc.so.6)
+   3: 0x7f33089b03fa <+0x303fa>                       (libc.so.6)
+   4: 0x7f33089b0472 <+0x30472>                       (libc.so.6)
+   5: 0x558f9643b0ec <ecs_print_padded_str+0>         (cs_preprocess)
+   6: 0x558f9640fcee <ecs_pre__type_format+0x2bb>     (cs_preprocess)
+   7: 0x558f9640ba64 <ecs_cmd__lit_arg+0x124b>        (cs_preprocess)
+   8: 0x558f9640c36d <main+0x4d>                      (cs_preprocess)
+   9: 0x7f33089a1c87 <__libc_start_main+0xe7>         (libc.so.6)
+  10: 0x558f9640906a <_start+0x2a>                    (cs_preprocess)
+End of stack
+
+cs_preprocess: /home/user/Programas/Code-Saturne/preprocessor/util/ecs_def.c:168: ecs_loc_def__sig_fatal: Assertion `0' failed.

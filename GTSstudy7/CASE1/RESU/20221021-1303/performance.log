@@ -1,0 +1,44 @@
+
+Local case configuration:
+
+  Date:                Fri 21 Oct 2022 01:03:46 PM ART
+  System:              Linux 2.6.32-504.16.2.el6.x86_64 (CentOS release 6.6 (Final))
+  Machine:             compute-0-11.local
+  Processor:           model name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+  Memory:              129083 MB
+  Directory:           /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1303
+  MPI ranks:           40
+  MPI ranks per node:  20
+  OpenMP threads:      1
+  Processors/node:     20
+
+  Compilers used for build:
+    C compiler:        gcc (GCC) 4.9.4
+    C++ compiler:      g++ (GCC) 4.9.4
+    Fortran compiler:  GNU Fortran (GCC) 4.9.4
+
+  MPI version: 3.1 (MPICH 3.2)
+  OpenMP version: 4.0
+
+  I/O read method:     collective MPI-IO (explicit offsets)
+  I/O write method:    collective MPI-IO (explicit offsets)
+  I/O rank step:        1
+
+--------------------------------------------------------------------------------
+
+Partitioning:
+
+  precompute cell centers:    1.12 s
+  Morton (Z) curve:           0.794 s
+  wall clock time:            1.92 s
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Interface creation:                        0.413 s
+  Halo creation:                             0.126 s
+
+  Total time for halo creation:              0.539 s
+
+--------------------------------------------------------------------------------

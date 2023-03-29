@@ -1,0 +1,23 @@
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_meg_initialization.c: En la función ‘cs_meg_initialization’:
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_meg_initialization.c:48:17: aviso: variable ‘c_id’ sin usar [-Wunused-variable]
+       cs_lnum_t c_id = zone->elt_ids[e_id];
+                 ^
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp: En la función ‘void cs_user_extra_operations(cs_domain_t*)’:
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp:145:12: aviso: secuencia de escape desconocida: '\m'
+     printf("bounding box (containing cells with vel>maxvel): xmin %g %g %g, xmax %g %g %g\m \n",
+            ^
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp:196:17: aviso: la declaración de ‘j’ oscurece a una declaración local previa [-Wshadow]
+         for(int j=0;j<ndim;j++) yplusmax_cog[j]=BFCOG(fid,j);
+                 ^
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp:184:18: nota: aquí está la declaración oscurecida
+   for (cs_lnum_t j = 0; j<nfcext; j++) {
+                  ^
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp:211:13: aviso: secuencia de escape desconocida: '\m'
+      printf("bounding box of vehicle: xmin %g %g %g, xmax %g %g %g\m \n",
+             ^
+/share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp:172:39: aviso: variable ‘xc2’ sin usar [-Wunused-variable]
+   cs_real_t xmin2[ndim], xmax2[ndim], xc2[ndim];
+                                       ^
+mpicc -DHAVE_CONFIG_H -I/share/storage/pub/finzeo/saturne-vof/include -I/share/storage/pub/finzeo/saturne-vof/include/code_saturne -I/share/apps/salome/8.5.0/BINARIES-CO6/cgns/include -I/share/apps/salome/8.5.0/BINARIES-CO6/med/include -I/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/include -I/usr/include/mpich-x86_64 -DMPICH_SKIP_MPICXX -D_POSIX_C_SOURCE=200809L -DDEBUG -funsigned-char -W -Wall -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wunused -Wfloat-equal -Werror=implicit-function-declaration -std=c11 -fdiagnostics-color=auto -Werror=format-security -O2 -funroll-loops -fopenmp -g -c /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_meg_initialization.c
+mpicxx -I /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src -DHAVE_CONFIG_H -I/share/storage/pub/finzeo/saturne-vof/include -I/share/storage/pub/finzeo/saturne-vof/include/code_saturne -I/share/apps/salome/8.5.0/BINARIES-CO6/cgns/include -I/share/apps/salome/8.5.0/BINARIES-CO6/med/include -I/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/include -I/usr/include/mpich-x86_64 -DMPICH_SKIP_MPICXX -D_POSIX_C_SOURCE=200809L -DDEBUG -W -Wall -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wwrite-strings -Wunused -Wfloat-equal -std=c++11 -fdiagnostics-color=auto -O2 -funroll-loops -std=c++11 -fopenmp -g -c /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/src/cs_user_extra_operations.cpp
+mpicc -o /share/storage/finzeo/Simulaciones/GTS_StormsMaddox/Base/RESU/20230328-1001/cs_solver cs_meg_initialization.o cs_user_extra_operations.o -lcs_solver -L/share/storage/pub/finzeo/saturne-vof/lib -L/share/apps/salome/8.5.0/BINARIES-CO6/cgns/lib -L/share/apps/salome/8.5.0/BINARIES-CO6/med/lib -L/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/lib -L/usr/lib64/mpich/lib -g -Wl,-export-dynamic -fopenmp -lsaturne -lple -lcgns -lmedC -lhdf5 -lz -lz -lstdc++ -ldl -L/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4 -L/share/apps/gcc/4.9.4/lib64 -L/lib64 -L/usr/lib64 -L/share/apps/gcc/4.9.4/lib -lz -lstdc++ -lgfortran -lquadmath -lm -Wl,-rpath -Wl,/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4/../../../../lib64/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4/../../../../lib64:/share/storage/pub/finzeo/saturne-vof/lib:/share/apps/salome/8.5.0/BINARIES-CO6/cgns/lib:/share/apps/salome/8.5.0/BINARIES-CO6/med/lib:/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/lib:/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4:/share/apps/gcc/4.9.4/lib64:/share/apps/gcc/4.9.4/lib

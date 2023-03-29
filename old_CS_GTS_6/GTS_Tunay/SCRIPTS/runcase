@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Ensure the correct command is found:
+export PATH=/share/apps/code_saturne/5.3.4/bin:$PATH
+
+# Run command:
+code_saturne run --param hello.xml

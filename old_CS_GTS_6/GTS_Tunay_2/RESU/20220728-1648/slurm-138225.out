@@ -1,0 +1,1198 @@
+Start run at Tue Jul 26 14:15:24 ART 2022
+PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp ' /share/storage/pub/mstorti/saturne-vof/bin/code_saturne  run --param setup.xml
+
+The following have been reloaded with a version change:
+  1) llvm/6.0.0 => llvm/3.4.2
+
+
+The following have been reloaded with a version change:
+  1) llvm/3.4.2 => llvm/6.0.0
+
+
+                      Code_Saturne
+                      ************
+
+ Version:   6.1-alpha
+ Path:      /share/storage/pub/mstorti/saturne-vof
+
+ Result directory:
+   /share/storage/finzeo/GTS_Tunay_2/RESU/20220726-1415
+
+
+ ****************************************
+  Compiling user subroutines and linking
+ ****************************************
+
+
+ ****************************
+  Preparing calculation data
+ ****************************
+
+ Parallel Code_Saturne on 80 processes.
+
+
+ ***************************
+  Preprocessing calculation
+ ***************************
+
+
+ **********************
+  Starting calculation
+ **********************
+
+Warning: Process to core binding is enabled and OMP_NUM_THREADS is set to non-zero (1) value
+If your program has OpenMP sections, this can cause over-subscription of cores and consequently poor performance
+To avoid this, please re-run your application after setting MV2_ENABLE_AFFINITY=0
+Use MV2_USE_THREAD_WARNING=0 to suppress this message
+step 1, time 0.001000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 2, time 0.002000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 3, time 0.003000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 4, time 0.004000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 5, time 0.005000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 6, time 0.006000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 7, time 0.007000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 8, time 0.008000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 9, time 0.009000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 10, time 0.010000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 11, time 0.011000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 12, time 0.012000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 13, time 0.013000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 14, time 0.014000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 15, time 0.015000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 16, time 0.016000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 17, time 0.017000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 18, time 0.018000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 19, time 0.019000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 20, time 0.020000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 21, time 0.021000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 22, time 0.022000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 23, time 0.023000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 24, time 0.024000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 25, time 0.025000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 26, time 0.026000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 27, time 0.027000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 28, time 0.028000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 29, time 0.029000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 30, time 0.030000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 31, time 0.031000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 32, time 0.032000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 33, time 0.033000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 34, time 0.034000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 35, time 0.035000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 36, time 0.036000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 37, time 0.037000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 38, time 0.038000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 39, time 0.039000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 40, time 0.040000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 41, time 0.041000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 42, time 0.042000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 43, time 0.043000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 44, time 0.044000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 45, time 0.045000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 46, time 0.046000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 47, time 0.047000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 48, time 0.048000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 49, time 0.049000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 50, time 0.050000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 51, time 0.051000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 52, time 0.052000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 53, time 0.053000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 54, time 0.054000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 55, time 0.055000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 56, time 0.056000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 57, time 0.057000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 58, time 0.058000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 59, time 0.059000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 60, time 0.060000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 61, time 0.061000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 62, time 0.062000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 63, time 0.063000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 64, time 0.064000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 65, time 0.065000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 66, time 0.066000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 67, time 0.067000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 68, time 0.068000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 69, time 0.069000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 70, time 0.070000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 71, time 0.071000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 72, time 0.072000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 73, time 0.073000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 74, time 0.074000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 75, time 0.075000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 76, time 0.076000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 77, time 0.077000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 78, time 0.078000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 79, time 0.079000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 80, time 0.080000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 81, time 0.081000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 82, time 0.082000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 83, time 0.083000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 84, time 0.084000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 85, time 0.085000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 86, time 0.086000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 87, time 0.087000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 88, time 0.088000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 89, time 0.089000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 90, time 0.090000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 91, time 0.091000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 92, time 0.092000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 93, time 0.093000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 94, time 0.094000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 95, time 0.095000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 96, time 0.096000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 97, time 0.097000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 98, time 0.098000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 99, time 0.099000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 100, time 0.100000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 101, time 0.101000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 102, time 0.102000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 103, time 0.103000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 104, time 0.104000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 105, time 0.105000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 106, time 0.106000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 107, time 0.107000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 108, time 0.108000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 109, time 0.109000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 110, time 0.110000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 111, time 0.111000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 112, time 0.112000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 113, time 0.113000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 114, time 0.114000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 115, time 0.115000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 116, time 0.116000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 117, time 0.117000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 118, time 0.118000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 119, time 0.119000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 120, time 0.120000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 121, time 0.121000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 122, time 0.122000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 123, time 0.123000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 124, time 0.124000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 125, time 0.125000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 126, time 0.126000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 127, time 0.127000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 128, time 0.128000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 129, time 0.129000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 130, time 0.130000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 131, time 0.131000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 132, time 0.132000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 133, time 0.133000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 134, time 0.134000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 135, time 0.135000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 136, time 0.136000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 137, time 0.137000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 138, time 0.138000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 139, time 0.139000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 140, time 0.140000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 141, time 0.141000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 142, time 0.142000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 143, time 0.143000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 144, time 0.144000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 145, time 0.145000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 146, time 0.146000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 147, time 0.147000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 148, time 0.148000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 149, time 0.149000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 150, time 0.150000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 151, time 0.151000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 152, time 0.152000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 153, time 0.153000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 154, time 0.154000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 155, time 0.155000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 156, time 0.156000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 157, time 0.157000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 158, time 0.158000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 159, time 0.159000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 160, time 0.160000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 161, time 0.161000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 162, time 0.162000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 163, time 0.163000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 164, time 0.164000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 165, time 0.165000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 166, time 0.166000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 167, time 0.167000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 168, time 0.168000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 169, time 0.169000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 170, time 0.170000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 171, time 0.171000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 172, time 0.172000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 173, time 0.173000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 174, time 0.174000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 175, time 0.175000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 176, time 0.176000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 177, time 0.177000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 178, time 0.178000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 179, time 0.179000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 180, time 0.180000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 181, time 0.181000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 182, time 0.182000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 183, time 0.183000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 184, time 0.184000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 185, time 0.185000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 186, time 0.186000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 187, time 0.187000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 188, time 0.188000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 189, time 0.189000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 190, time 0.190000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 191, time 0.191000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 192, time 0.192000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 193, time 0.193000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 194, time 0.194000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 195, time 0.195000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 196, time 0.196000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 197, time 0.197000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 198, time 0.198000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 199, time 0.199000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 200, time 0.200000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 201, time 0.201000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 202, time 0.202000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 203, time 0.203000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 204, time 0.204000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 205, time 0.205000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 206, time 0.206000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 207, time 0.207000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 208, time 0.208000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 209, time 0.209000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 210, time 0.210000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 211, time 0.211000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 212, time 0.212000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 213, time 0.213000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 214, time 0.214000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 215, time 0.215000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 216, time 0.216000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 217, time 0.217000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 218, time 0.218000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 219, time 0.219000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 220, time 0.220000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 221, time 0.221000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 222, time 0.222000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 223, time 0.223000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 224, time 0.224000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 225, time 0.225000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 226, time 0.226000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 227, time 0.227000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 228, time 0.228000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 229, time 0.229000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 230, time 0.230000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 231, time 0.231000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 232, time 0.232000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 233, time 0.233000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 234, time 0.234000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 235, time 0.235000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 236, time 0.236000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 237, time 0.237000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 238, time 0.238000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 239, time 0.239000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 240, time 0.240000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 241, time 0.241000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 242, time 0.242000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 243, time 0.243000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 244, time 0.244000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 245, time 0.245000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 246, time 0.246000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 247, time 0.247000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 248, time 0.248000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 249, time 0.249000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 250, time 0.250000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0, cell count 0
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 251, time 0.251000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 6.20023e-06, cell count 1
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 252, time 0.252000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 1.24171e-05, cell count 2
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 253, time 0.253000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 1.24171e-05, cell count 2
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 254, time 0.254000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 3.31222e-05, cell count 5
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 255, time 0.255000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 4.68785e-05, cell count 7
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 256, time 0.256000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 6.01625e-05, cell count 9
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 257, time 0.257000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 8.10089e-05, cell count 12
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 258, time 0.258000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000157492, cell count 23
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 259, time 0.259000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000181201, cell count 27
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 260, time 0.260000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00020363, cell count 30
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 261, time 0.261000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000246218, cell count 36
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 262, time 0.262000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000257503, cell count 38
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 263, time 0.263000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000272621, cell count 40
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 264, time 0.264000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000302168, cell count 44
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 265, time 0.265000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000336285, cell count 49
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 266, time 0.266000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000403544, cell count 57
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 267, time 0.267000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000432943, cell count 60
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 268, time 0.268000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000461413, cell count 63
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 269, time 0.269000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000476331, cell count 65
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 270, time 0.270000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000506631, cell count 69
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 271, time 0.271000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000595433, cell count 80
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 272, time 0.272000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000657985, cell count 87
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 273, time 0.273000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000769844, cell count 98
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 274, time 0.274000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000869536, cell count 110
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 275, time 0.275000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000947873, cell count 119
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 276, time 0.276000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.000992539, cell count 124
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 277, time 0.277000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00107266, cell count 133
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 278, time 0.278000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00111437, cell count 138
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 279, time 0.279000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00113617, cell count 141
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 280, time 0.280000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00116805, cell count 144
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 281, time 0.281000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00126712, cell count 156
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 282, time 0.282000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00131701, cell count 162
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 283, time 0.283000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00141733, cell count 173
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 284, time 0.284000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0014643, cell count 178
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 285, time 0.285000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00158626, cell count 189
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 286, time 0.286000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00163839, cell count 195
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 287, time 0.287000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00168532, cell count 200
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 288, time 0.288000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00175234, cell count 208
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 289, time 0.289000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00179056, cell count 212
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 290, time 0.290000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00182828, cell count 216
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 291, time 0.291000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00192223, cell count 223
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 292, time 0.292000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00193402, cell count 225
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 293, time 0.293000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00197266, cell count 229
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 294, time 0.294000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00202635, cell count 236
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 295, time 0.295000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00208741, cell count 242
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 296, time 0.296000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00213772, cell count 248
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 297, time 0.297000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00219473, cell count 252
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 298, time 0.298000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00225747, cell count 260
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 299, time 0.299000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00226979, cell count 262
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 300, time 0.300000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00233939, cell count 268
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 301, time 0.301000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00237797, cell count 272
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 302, time 0.302000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00241887, cell count 277
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 303, time 0.303000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00251572, cell count 285
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 304, time 0.304000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00257269, cell count 290
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 305, time 0.305000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00261881, cell count 295
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 306, time 0.306000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00265608, cell count 299
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 307, time 0.307000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00267108, cell count 301
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 308, time 0.308000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00273636, cell count 307
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 309, time 0.309000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00275414, cell count 308
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 310, time 0.310000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00283622, cell count 317
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 311, time 0.311000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00286369, cell count 319
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 312, time 0.312000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00290082, cell count 322
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 313, time 0.313000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00297135, cell count 327
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 314, time 0.314000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00298949, cell count 329
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 315, time 0.315000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0030472, cell count 335
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 316, time 0.316000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00306121, cell count 337
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 317, time 0.317000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0031262, cell count 343
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 318, time 0.318000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00313234, cell count 344
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 319, time 0.319000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00315989, cell count 347
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 320, time 0.320000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00319189, cell count 351
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 321, time 0.321000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00326735, cell count 357
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 322, time 0.322000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00329574, cell count 359
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 323, time 0.323000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00332443, cell count 362
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 324, time 0.324000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00336317, cell count 367
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 325, time 0.325000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00342733, cell count 375
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 326, time 0.326000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00346656, cell count 379
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 327, time 0.327000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00350697, cell count 384
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 328, time 0.328000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00355781, cell count 389
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 329, time 0.329000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00359129, cell count 393
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 330, time 0.330000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0036403, cell count 398
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 331, time 0.331000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00368783, cell count 404
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 332, time 0.332000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00371907, cell count 408
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 333, time 0.333000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00373161, cell count 410
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 334, time 0.334000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00377016, cell count 415
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 335, time 0.335000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00380735, cell count 420
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 336, time 0.336000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00385742, cell count 425
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 337, time 0.337000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00392964, cell count 434
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 338, time 0.338000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00395755, cell count 437
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 339, time 0.339000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00399888, cell count 442
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 340, time 0.340000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00403877, cell count 445
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 341, time 0.341000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00408508, cell count 450
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 342, time 0.342000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00412085, cell count 455
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 343, time 0.343000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00418572, cell count 462
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 344, time 0.344000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00422593, cell count 467
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 345, time 0.345000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00426055, cell count 470
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 346, time 0.346000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00430895, cell count 475
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 347, time 0.347000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00435698, cell count 480
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 348, time 0.348000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00438991, cell count 483
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 349, time 0.349000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0044205, cell count 488
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 350, time 0.350000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00443929, cell count 490
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 351, time 0.351000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00445061, cell count 491
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 352, time 0.352000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00455513, cell count 500
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 353, time 0.353000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00458131, cell count 504
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 354, time 0.354000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00462826, cell count 509
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 355, time 0.355000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00465875, cell count 513
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 356, time 0.356000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00468602, cell count 516
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 357, time 0.357000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00470832, cell count 519
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 358, time 0.358000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00474781, cell count 522
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 359, time 0.359000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00478639, cell count 526
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 360, time 0.360000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00485559, cell count 531
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 361, time 0.361000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00487416, cell count 534
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 362, time 0.362000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00488391, cell count 536
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 363, time 0.363000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00489505, cell count 537
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 364, time 0.364000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0049318, cell count 542
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 365, time 0.365000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0049735, cell count 547
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 366, time 0.366000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0049803, cell count 548
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 367, time 0.367000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0049803, cell count 548
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 368, time 0.368000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00499072, cell count 550
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 369, time 0.369000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00500851, cell count 553
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 370, time 0.370000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00507024, cell count 559
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 371, time 0.371000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00513994, cell count 568
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 372, time 0.372000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00517274, cell count 572
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 373, time 0.373000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00519578, cell count 575
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 374, time 0.374000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00520656, cell count 576
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 375, time 0.375000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00523671, cell count 579
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 376, time 0.376000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00528505, cell count 586
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 377, time 0.377000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00534189, cell count 591
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 378, time 0.378000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00537348, cell count 596
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 379, time 0.379000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00540352, cell count 601
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 380, time 0.380000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00542865, cell count 604
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 381, time 0.381000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00546557, cell count 609
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 382, time 0.382000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00548399, cell count 612
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 383, time 0.383000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00549944, cell count 614
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 384, time 0.384000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00554684, cell count 619
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 385, time 0.385000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00555799, cell count 621
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 386, time 0.386000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00558124, cell count 624
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 387, time 0.387000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0055888, cell count 625
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 388, time 0.388000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00560138, cell count 628
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 389, time 0.389000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00561905, cell count 631
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 390, time 0.390000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00566821, cell count 637
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 391, time 0.391000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00567406, cell count 638
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 392, time 0.392000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0056977, cell count 641
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 393, time 0.393000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00572253, cell count 645
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 394, time 0.394000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00574132, cell count 647
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 395, time 0.395000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00577639, cell count 651
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 396, time 0.396000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00579716, cell count 652
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 397, time 0.397000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00583372, cell count 657
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 398, time 0.398000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00587025, cell count 660
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 399, time 0.399000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00587025, cell count 660
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 400, time 0.400000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00593837, cell count 666
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 401, time 0.401000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00595144, cell count 668
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 402, time 0.402000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00596966, cell count 671
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 403, time 0.403000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00598619, cell count 673
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 404, time 0.404000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0059923, cell count 674
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 405, time 0.405000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00599793, cell count 675
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 406, time 0.406000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00600298, cell count 676
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 407, time 0.407000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00602591, cell count 680
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 408, time 0.408000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00604662, cell count 681
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 409, time 0.409000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00604662, cell count 681
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 410, time 0.410000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00605723, cell count 682
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 411, time 0.411000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00606575, cell count 683
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 412, time 0.412000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0060754, cell count 685
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 413, time 0.413000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0060754, cell count 685
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 414, time 0.414000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00609885, cell count 688
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 415, time 0.415000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00610735, cell count 689
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 416, time 0.416000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00613127, cell count 691
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 417, time 0.417000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00615082, cell count 694
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 418, time 0.418000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00615082, cell count 694
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 419, time 0.419000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00615082, cell count 694
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 420, time 0.420000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00616064, cell count 695
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 421, time 0.421000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0061931, cell count 697
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 422, time 0.422000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00620602, cell count 698
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 423, time 0.423000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00620602, cell count 698
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 424, time 0.424000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00624246, cell count 702
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 425, time 0.425000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00626054, cell count 706
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 426, time 0.426000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00626054, cell count 706
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 427, time 0.427000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00628294, cell count 709
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 428, time 0.428000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00629925, cell count 711
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 429, time 0.429000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00633465, cell count 714
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 430, time 0.430000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00635749, cell count 717
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 431, time 0.431000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00635749, cell count 717
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 432, time 0.432000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00638025, cell count 719
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 433, time 0.433000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00638838, cell count 720
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 434, time 0.434000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0064136, cell count 722
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 435, time 0.435000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00641977, cell count 723
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 436, time 0.436000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00642917, cell count 724
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 437, time 0.437000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00643812, cell count 725
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 438, time 0.438000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00645334, cell count 728
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 439, time 0.439000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00646091, cell count 729
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 440, time 0.440000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00652437, cell count 730
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 441, time 0.441000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00652437, cell count 730
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 442, time 0.442000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00653707, cell count 732
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 443, time 0.443000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00654082, cell count 733
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 444, time 0.444000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00654082, cell count 733
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 445, time 0.445000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00655217, cell count 735
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 446, time 0.446000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00657143, cell count 737
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 447, time 0.447000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00657519, cell count 738
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 448, time 0.448000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00658757, cell count 740
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 449, time 0.449000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00658757, cell count 740
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 450, time 0.450000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00663493, cell count 743
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 451, time 0.451000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00663948, cell count 744
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 452, time 0.452000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0066824, cell count 747
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 453, time 0.453000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0066824, cell count 747
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 454, time 0.454000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0066824, cell count 747
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 455, time 0.455000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00671339, cell count 750
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 456, time 0.456000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00672743, cell count 751
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 457, time 0.457000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00675087, cell count 754
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 458, time 0.458000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00675087, cell count 754
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 459, time 0.459000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00676963, cell count 756
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 460, time 0.460000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00678825, cell count 759
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 461, time 0.461000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00678825, cell count 759
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 462, time 0.462000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00678825, cell count 759
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 463, time 0.463000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00680726, cell count 761
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 464, time 0.464000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00680726, cell count 761
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 465, time 0.465000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00681102, cell count 762
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 466, time 0.466000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00682016, cell count 764
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 467, time 0.467000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00683031, cell count 766
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 468, time 0.468000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00684599, cell count 768
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 469, time 0.469000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00685281, cell count 769
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 470, time 0.470000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00685281, cell count 769
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 471, time 0.471000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0068692, cell count 770
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 472, time 0.472000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0068692, cell count 770
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 473, time 0.473000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0068692, cell count 770
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 474, time 0.474000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0068692, cell count 770
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 475, time 0.475000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00689981, cell count 773
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 476, time 0.476000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00689981, cell count 773
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 477, time 0.477000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00689981, cell count 773
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 478, time 0.478000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00690825, cell count 774
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 479, time 0.479000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00690825, cell count 774
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 480, time 0.480000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00691675, cell count 775
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 481, time 0.481000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00691675, cell count 775
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 482, time 0.482000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00691675, cell count 775
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 483, time 0.483000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00691675, cell count 775
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 484, time 0.484000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00692515, cell count 776
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 485, time 0.485000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00692515, cell count 776
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 486, time 0.486000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00692515, cell count 776
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 487, time 0.487000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00692515, cell count 776
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 488, time 0.488000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00693684, cell count 777
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 489, time 0.489000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00693684, cell count 777
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 490, time 0.490000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00694528, cell count 778
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 491, time 0.491000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00694982, cell count 779
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 492, time 0.492000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0069583, cell count 780
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 493, time 0.493000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0069583, cell count 780
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 494, time 0.494000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0069583, cell count 780
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 495, time 0.495000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0069583, cell count 780
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 496, time 0.496000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00696522, cell count 781
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 497, time 0.497000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00698069, cell count 783
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 498, time 0.498000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00698911, cell count 784
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 499, time 0.499000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00700766, cell count 786
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 500, time 0.500000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00700766, cell count 786
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 501, time 0.501000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00702677, cell count 787
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 502, time 0.502000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 503, time 0.503000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 504, time 0.504000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 505, time 0.505000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 506, time 0.506000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 507, time 0.507000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 508, time 0.508000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 509, time 0.509000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00703104, cell count 788
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 510, time 0.510000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00704783, cell count 789
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 511, time 0.511000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00707023, cell count 790
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 512, time 0.512000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00707547, cell count 791
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 513, time 0.513000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00707547, cell count 791
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 514, time 0.514000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00708069, cell count 792
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 515, time 0.515000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00710664, cell count 794
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 516, time 0.516000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00710664, cell count 794
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 517, time 0.517000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00710664, cell count 794
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 518, time 0.518000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00711505, cell count 795
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 519, time 0.519000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00713051, cell count 796
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 520, time 0.520000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00713051, cell count 796
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 521, time 0.521000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00714755, cell count 797
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 522, time 0.522000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00717526, cell count 798
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 523, time 0.523000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00719219, cell count 799
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 524, time 0.524000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0072039, cell count 800
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 525, time 0.525000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0072039, cell count 800
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 526, time 0.526000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0072039, cell count 800
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 527, time 0.527000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00721363, cell count 801
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 528, time 0.528000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00722045, cell count 802
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 529, time 0.529000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.0072275, cell count 803
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 530, time 0.530000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00723259, cell count 804
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 531, time 0.531000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00723772, cell count 805
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 532, time 0.532000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00723772, cell count 805
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 533, time 0.533000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00723772, cell count 805
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 534, time 0.534000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00723772, cell count 805
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 535, time 0.535000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00723772, cell count 805
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 536, time 0.536000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00724737, cell count 806
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 537, time 0.537000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00725526, cell count 807
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 538, time 0.538000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00725526, cell count 807
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 539, time 0.539000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00725526, cell count 807
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 540, time 0.540000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 541, time 0.541000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 542, time 0.542000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 543, time 0.543000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 544, time 0.544000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 545, time 0.545000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 546, time 0.546000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00727829, cell count 808
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 547, time 0.547000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00729925, cell count 809
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 548, time 0.548000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730301, cell count 810
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 549, time 0.549000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730301, cell count 810
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 550, time 0.550000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730301, cell count 810
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 551, time 0.551000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730301, cell count 810
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 552, time 0.552000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730301, cell count 810
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 553, time 0.553000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730931, cell count 811
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 554, time 0.554000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00730931, cell count 811
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 555, time 0.555000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00731352, cell count 812
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 556, time 0.556000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00732692, cell count 813
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 557, time 0.557000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00732692, cell count 813
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 558, time 0.558000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00732692, cell count 813
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 559, time 0.559000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00734352, cell count 814
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 560, time 0.560000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00734352, cell count 814
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 561, time 0.561000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00735451, cell count 815
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 562, time 0.562000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00736552, cell count 816
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 563, time 0.563000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00736552, cell count 816
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 564, time 0.564000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737178, cell count 817
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 565, time 0.565000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737178, cell count 817
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 566, time 0.566000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737178, cell count 817
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 567, time 0.567000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737178, cell count 817
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 568, time 0.568000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737178, cell count 817
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 569, time 0.569000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737934, cell count 818
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 570, time 0.570000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737934, cell count 818
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 571, time 0.571000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737934, cell count 818
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 572, time 0.572000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737934, cell count 818
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+step 573, time 0.573000, maxvel 2.000000, total vol 181389, vol(u>maxvel) 0.00737934, cell count 818
+bounding box: xmin inf inf inf, xmax -inf -inf -infm 
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: got SIGCONT
+slurmstepd: error: *** STEP 138225.0 ON compute-0-24 CANCELLED AT 2022-07-26T14:37:40 ***
+slurmstepd: error: *** JOB 138225 ON compute-0-24 CANCELLED AT 2022-07-26T14:37:40 ***
+srun: forcing job termination
+make: *** [run] Terminated

@@ -1,0 +1,30 @@
+SIGTERM signal (termination) received.
+--> computation interrupted by environment.
+
+Call stack:
+   1: 0x7fcce9a20dab <MPIDI_CH3I_SMP_pull_header+0xab> (libmpi.so.12)
+   2: 0x7fcce9a21a0d <MPIDI_CH3I_SMP_read_progress+0x92d> (libmpi.so.12)
+   3: 0x7fcce9a1803a <MPIDI_CH3I_Progress_test+0xaa>  (libmpi.so.12)
+   4: 0x7fcce97e9475 <MPIDI_CH3I_SHMEM_COLL_GetShmemBuf+0x65> (libmpi.so.12)
+   5: 0x7fcce97c97bd <MPIR_Allreduce_reduce_shmem_MV2+0x27d> (libmpi.so.12)
+   6: 0x7fcce97cbbb0 <MPIR_Allreduce_two_level_MV2+0x160> (libmpi.so.12)
+   7: 0x7fcce97cce83 <MPIR_Allreduce_index_tuned_intra_MV2+0x2f3> (libmpi.so.12)
+   8: 0x7fcce977c116 <MPIR_Allreduce_impl+0x26>       (libmpi.so.12)
+   9: 0x7fcce977c7ab <MPI_Allreduce+0x5db>            (libmpi.so.12)
+  10: 0x7fccec7e9cd8 <+0x3d8cd8>                      (libsaturne.so.6)
+  11: 0x7fccec7ff19d <+0x3ee19d>                      (libsaturne.so.6)
+  12: 0x7fccec803150 <+0x3f2150>                      (libsaturne.so.6)
+  13: 0x7fccec806eaf <cs_gradient_scalar+0x20f>       (libsaturne.so.6)
+  14: 0x7fccec56ef51 <cs_field_gradient_potential+0x181> (libsaturne.so.6)
+  15: 0x7fccec6aee2c <typecl_+0x29ac>                 (libsaturne.so.6)
+  16: 0x7fccec4f9f6f <condli_+0x195f>                 (libsaturne.so.6)
+  17: 0x7fccec6a72eb <tridim_+0x22cb>                 (libsaturne.so.6)
+  18: 0x7fccec4d2e32 <caltri_+0x17c2>                 (libsaturne.so.6)
+  19: 0x7fccedd83bff <cs_run+0x5bf>                   (libcs_solver.so.6)
+  20: 0x7fccedd834d7 <main+0x167>                     (libcs_solver.so.6)
+  21: 0x393281ed1d <__libc_start_main+0xfd>         (libc.so.6)
+  22: 0x4013a1     <>                               (cs_solver)
+End of stack
+
+[cli_0]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

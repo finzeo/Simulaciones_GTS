@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Export paths here if necessary or recommended.
+export LD_LIBRARY_PATH="/share/apps/mvapich/2.2/lib":$LD_LIBRARY_PATH
+# Load environment if this script is run directly.
+if test "$CS_ENVIRONMENT_SET" != "true" ; then
+  module purge
+  module load mvapich/2.2
+  module load mesa/18.0.1
+  module load paraview/5.6.0
+  module load ffmpeg/3.3.6
+  module load openblas/0.2.20-single
+  module load suitesparse/5.2.0
+  module load fftw/3.3.6-single
+  module load gnuplot/5.2.0
+  module load sparsersb/1.2.0
+  module load octave/4.4.0
+  module load jsoncpp/1.8.4
+  module load salome/8.5
+  module load llvm/6.0.0
+  module load qt/5.6.3
+  module load git/2.16.2
+  module load perl/5.24.1
+  module load cmake/3.11.1
+  module load python3/3.6.1
+  module load python/2.7
+  module load gcc/4.9.4
+fi
+
+
+export OMP_NUM_THREADS=1
+
+cd /share/storage/finzeo/Simulaciones/CS_GTS_test/RESU/20230327-2241
+
+# Run solver.
+./cs_solver $@
+export CS_RET=$?
+
+exit $CS_RET

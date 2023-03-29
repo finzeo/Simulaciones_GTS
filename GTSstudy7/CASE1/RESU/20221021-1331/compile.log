@@ -1,0 +1,33 @@
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_meg_initialization.c: In function 'cs_meg_initialization':
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_meg_initialization.c:48:17: warning: unused variable 'c_id' [-Wunused-variable]
+       cs_lnum_t c_id = zone->elt_ids[e_id];
+                 ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp: In function 'void cs_user_extra_operations(cs_domain_t*)':
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:200:17: warning: declaration of 'j' shadows a previous local [-Wshadow]
+         for(int j=0;j<ndim;j++) yplusmax_cog[j]=BFCOG(fid,j);
+                 ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:188:18: note: shadowed declaration is here
+   for (cs_lnum_t j = 0; j<nfcext; j++) {
+                  ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:215:13: warning: unknown escape sequence: '\m'
+      printf("bounding box of vehicle: xmin %g %g %g, xmax %g %g %g\m \n",
+             ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:104:14: warning: unused variable 'uvals' [-Wunused-variable]
+   cs_real_t *uvals = cs_field_by_name("velocity")->val;
+              ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:109:13: warning: unused variable 'ncells' [-Wunused-variable]
+   cs_lnum_t ncells = cs_glob_mesh->n_cells;
+             ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:110:14: warning: unused variable 'xcell' [-Wunused-variable]
+   cs_real_t *xcell = cs_glob_mesh_quantities->cell_cen;
+              ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:113:20: warning: unused variable 'cell_vol' [-Wunused-variable]
+   const cs_real_t *cell_vol = fvq->cell_vol;
+                    ^
+/share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp:176:39: warning: unused variable 'xc2' [-Wunused-variable]
+   cs_real_t xmin2[ndim], xmax2[ndim], xc2[ndim];
+                                       ^
+mpicc -DHAVE_CONFIG_H -I/share/storage/pub/finzeo/saturne-vof/include -I/share/storage/pub/finzeo/saturne-vof/include/code_saturne -I/share/apps/salome/8.5.0/BINARIES-CO6/cgns/include -I/share/apps/salome/8.5.0/BINARIES-CO6/med/include -I/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/include -I/usr/include/mpich-x86_64 -DMPICH_SKIP_MPICXX -D_POSIX_C_SOURCE=200809L -DDEBUG -funsigned-char -W -Wall -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wunused -Wfloat-equal -Werror=implicit-function-declaration -std=c11 -fdiagnostics-color=auto -Werror=format-security -O2 -funroll-loops -fopenmp -g -c /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_parameters.c
+mpicc -DHAVE_CONFIG_H -I/share/storage/pub/finzeo/saturne-vof/include -I/share/storage/pub/finzeo/saturne-vof/include/code_saturne -I/share/apps/salome/8.5.0/BINARIES-CO6/cgns/include -I/share/apps/salome/8.5.0/BINARIES-CO6/med/include -I/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/include -I/usr/include/mpich-x86_64 -DMPICH_SKIP_MPICXX -D_POSIX_C_SOURCE=200809L -DDEBUG -funsigned-char -W -Wall -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wunused -Wfloat-equal -Werror=implicit-function-declaration -std=c11 -fdiagnostics-color=auto -Werror=format-security -O2 -funroll-loops -fopenmp -g -c /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_meg_initialization.c
+mpicxx -I /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src -DHAVE_CONFIG_H -I/share/storage/pub/finzeo/saturne-vof/include -I/share/storage/pub/finzeo/saturne-vof/include/code_saturne -I/share/apps/salome/8.5.0/BINARIES-CO6/cgns/include -I/share/apps/salome/8.5.0/BINARIES-CO6/med/include -I/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/include -I/usr/include/mpich-x86_64 -DMPICH_SKIP_MPICXX -D_POSIX_C_SOURCE=200809L -DDEBUG -W -Wall -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wwrite-strings -Wunused -Wfloat-equal -std=c++11 -fdiagnostics-color=auto -O2 -funroll-loops -std=c++11 -fopenmp -g -c /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/src/cs_user_extra_operations.cpp
+mpicc -o /share/storage/finzeo/GTSstudy7/CASE1/RESU/20221021-1331/cs_solver cs_user_parameters.o cs_meg_initialization.o cs_user_extra_operations.o -lcs_solver -lstdc++ -L/share/storage/pub/finzeo/saturne-vof/lib -L/share/apps/salome/8.5.0/BINARIES-CO6/cgns/lib -L/share/apps/salome/8.5.0/BINARIES-CO6/med/lib -L/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/lib -L/usr/lib64/mpich/lib -g -Wl,-export-dynamic -fopenmp -lsaturne -lple -lcgns -lmedC -lhdf5 -lz -lz -lstdc++ -ldl -L/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4 -L/share/apps/gcc/4.9.4/lib64 -L/lib64 -L/usr/lib64 -L/share/apps/gcc/4.9.4/lib -lz -lstdc++ -lgfortran -lquadmath -lm -Wl,-rpath -Wl,/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4/../../../../lib64/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4/../../../../lib64:/share/storage/pub/finzeo/saturne-vof/lib:/share/apps/salome/8.5.0/BINARIES-CO6/cgns/lib:/share/apps/salome/8.5.0/BINARIES-CO6/med/lib:/share/apps/salome/8.5.0/BINARIES-CO6/hdf5/lib:/share/apps/gcc/4.9.4/lib/gcc/x86_64-unknown-linux-gnu/4.9.4:/share/apps/gcc/4.9.4/lib64:/share/apps/gcc/4.9.4/lib

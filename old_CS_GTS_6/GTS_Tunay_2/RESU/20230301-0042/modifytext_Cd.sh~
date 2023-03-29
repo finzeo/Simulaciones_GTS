@@ -1,0 +1,22 @@
+#!/bin/bash
+# define variables
+filename=Cd_slip.txt
+outputfile_plain=Cd_slip_plain.txt
+outputfile_t=Cd_slip_novel_t.txt
+dt=0.00075
+
+dtnum=$(echo "scale=5; ${dt}" | bc -l )
+((it=1))
+
+# backup
+cp ${filename} "${filename}.bk"
+
+while read aux1 aux2 Cd; do
+	echo "$Cd"
+done < $filename >>$outputfile_plain
+
+while read aux1 aux2 Cd; do
+	p=$(echo "scale=5; ${dtnum}*${it}" | bc -l )
+	echo "time ${p}: ${Cd}"
+	((it=it+1))
+done < $filename >>$outputfile_t

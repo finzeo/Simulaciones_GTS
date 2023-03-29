@@ -1,0 +1,20 @@
+#!/bin/bash
+# define variables
+# arg1: slurm-name="slurm-140926.out"
+# arg2: keyword_name="blank"
+# arg3: dt=0.00075
+
+cat ${slurm-name} | grep force > forces_${keyword_name}.txt
+cat ${slurm-name} | grep torque > torques_${keyword_name}.txt
+cat ${slurm-name} | grep Drag > Cd_${keyword_name}.txt
+cat ${slurm-name} | grep "Lateral Coef" > Clat_${keyword_name}.txt
+cat ${slurm-name} | grep Lift > Cz_${keyword_name}.txt
+
+./modifytext_force $1 $2 $3
+./modifytext_torque $1 $2 $3
+./modifytext_Cd $1 $2 $3
+./modifytext_Clat $1 $2 $3
+./modifytext_Cz $1 $2 $3
+
+
+

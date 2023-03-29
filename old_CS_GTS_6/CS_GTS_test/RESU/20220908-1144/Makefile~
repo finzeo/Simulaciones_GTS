@@ -1,0 +1,152 @@
+default: run
+LD := 
+PUB := /share/storage/pub/mstorti
+## If we run in PIRAYU (not through SLURM) we have HOSTNAME=cluster62,
+## When we run through SLURM we may have HOSTNAME=cluster62 (in test partition)
+## or either compute-0-XXX or phihost-XXXX. But SLURM_CLUSTER_NAME is set to pirayu.
+## So that we make this variable INPIRAYU that is non empty in all those cases
+INPIRAYU := $(or $(findstring cluster62,$(HOSTNAME)),$(findstring pirayu,$(SLURM_CLUSTER_NAME)))
+
+ifeq ($(HOSTNAME),wilbur)
+CS := /home/mstorti/code-saturne/bin/code_saturne
+NP := -n 1
+else ifeq ($(HOSTNAME),galileo)
+CS := /home/scratch/mstorti/TO-BACKUP/DATA-CD/saturne-vof/bin/code_saturne
+LD := LD_LIBRARY_PATH=/usr/lib64/mpich/lib/:/home/mstorti/SOFT/hdf5-1814/lib:$(LD_LIBRARY_PATH)
+NP := -n 1
+else ifneq ($(INPIRAYU),)
+PUB := /share/storage/pub/mstorti
+CS := $(PUB)/saturne-vof/bin/code_saturne 
+NP := -n 4
+else ifeq ($(HOSTNAME),urubu)
+## For marcela@urubu
+LD := LD_LIBRARY_PATH=/usr/lib64/mpich/lib/:/share/storage/pub/mstorti/hdf5-1814/lib:$(LD_LIBRARY_PATH)
+CS := $(PUB)/saturne-vof/bin/code_saturne
+## Urubu has 16 cores, I use normally 14
+NP := -n 12
+##NP := -n 1
+else ifeq ($(HOSTNAME),coyote)
+CS := /u/mstorti/PETSC/code-saturne/bin/code_saturne 
+endif
+
+USFDIR := ../../userfuns
+#w make the 'userfuns' library
+userf:
+	$(MAKE) -C $(USFDIR) doit
+
+OCT := octave-cli -qH --no-gui
+PYCSX := PYTHON_CS_XFLAGS=' -O0 -g3 -ggdb3 -I/usr/include/jsoncpp '
+## DBFLAGS := $(shell ./guessflags.sh /home/finzeo/storage/Programas/petscfem-cases/code-saturne/userfunsopt)
+
+## Normal run target
+run:
+	@echo "Start run at "`date`
+#	$(MAKE) -C ../../../userfuns prog
+#	$(MAKE) -C /home/finzeo/storage/Programas/petscfem-cases/code-saturne/userfuns prog
+#	rm -f data.json
+#	$(OCT) mkdata.m
+#	cp data.json `resu.pl`
+#	rm -f setup.xml ; ./mksetup.py
+#	hdf2adf -a gts_converted2.cgns
+#	$(LD) $(PYCSX) $(CS) run $(NP) --param setup.xml
+	$(LD) $(PYCSX) $(CS) run --param setup.xml
+#	echo $(CS)
+#	$(LD) PYTHON_CS_XFLAGS='$(DBFLAGS)' time /share/storage/pub/mstorti/saturne-vof/bin/code_saturne run --param setup.xml
+
+	@echo "Ends run at "`date`
+
+run2:
+	$(LD) valgrind ./cs_solver
+
+NFEXT := 20
+#w Make a loop and run a series of cases
+loop:
+	cat /dev/null > ../PROC/results.log
+	for k in `seq 1 $(NFEXT)` ; \
+		do $(MAKE) KFEXT=$$k NFEXT=$(NFEXT) runf ; done
+	$(MAKE) rclean
+
+runf1:
+	$(OCT) --eval "KFEXT=$(KFEXT); NFEXT=$(NFEXT);  mkdata"
+
+runf:
+	$(MAKE) -C ../../../userfuns prog
+	rm -f data.json
+	$(OCT) --eval "KFEXT=$(KFEXT); NFEXT=$(NFEXT);  mkdata"
+	rm -f setup.xml ; ./mksetup.py
+	$(LD) $(CS) run $(NP) --param setup.xml > nohup.log
+	cd ../PROC; $(OCT) proc19.m | grep Abuoy >> results.log
+
+.NOTPARALLEL: prepare
+## Run target for optimization
+prepare:
+	$(OCT) mkdata.m
+##	rm -f setup-$(RUNID).xml ; ./mksetup.py
+	rm -f setup.xml ; ./mksetup.py
+	$(LD) $(CS) run $(NP) --initialize --id=RUNID-$(RUNID) --param setup.xml
+	rm -f setup.xml
+	mv ../PROC/pyopt/data-$(RUNID).json ../RESU/RUNID-$(RUNID)/data.json
+
+#w Initialize the problem
+init1:
+	rm -f data.json
+	$(OCT) --eval "RUNINDX=[$(RUNINDX)]; mkdata;"
+	rm -f setup.xml ; ./mksetup.py
+##	$(LD) $(CS) run --initialize --id="RESUDIR-BASE" --param setup.xml
+	$(LD) $(CS) run --initialize --param setup.xml
+
+#w Initialize the problem
+init:
+	rm -f data.json
+	$(OCT) --eval "RUNINDX=[$(RUNINDX)]; mkdata;"
+	rm -f setup.xml ; ./mksetup.py
+	$(LD) $(PYCSX) $(CS) run --initialize --param setup.xml
+
+#w Make a XDMF geometry for including in ParaView
+vg:
+	rm -f data.json
+	$(OCT) --eval "dump_solid_cell_ids=1; mkdata;"
+#	rm -f setup.xml ; ./mksetup.py
+#	$(LD) $(CS) run $(NP) --param setup.xml
+#	cd ../MESH ; $(OCT) mkcyl.m
+	mv -f foil.xmf foil.h5 ../MESH
+
+#w Make a XDMF geometry for including in ParaView
+vg2:
+	rm -f data.json
+	$(OCT) --eval "dump_solid_cell_ids=1; mkdata;"
+	rm -f setup.xml ; ./mksetup.py
+	$(LD) $(CS) run $(NP) --param setup.xml
+	cd ../MESH ; $(OCT) mkcyl.m
+	mv -f foil.xmf foil.h5 ../MESH
+
+init3:
+	RUNID=`$(CS) run --suggest-id` ;	\
+	for k in `seq 1 $(N)` ; do $(MAKE) 	\
+		CSID="--id=$$RUNID.$$k.$(N)"	\
+		RUNINDX=$$k,$(N) init ; done
+
+stats:
+	@echo -n "Total states: " ; \
+		ls -lth postprocessing/*.velocity.* | wc -l
+	@echo -n "Last state: " ; \
+		ls -lth postprocessing/*.velocity.* | head -n 1
+	@echo -n "Post dir size: " ; du -sh postprocessing
+
+test:
+	@echo "KEY $(KEY)"
+
+rclean:
+	$(MAKE) -C ../RESU rclean
+
+#w Do clean, viz and video in PROC
+viz:
+	$(MAKE) -C ../PROC viz2
+
+#w Recompile the userfuns library
+reprog:
+	$(MAKE) -C ../../../userfuns reprog
+
+#w Describe targets
+what:
+	@makewhat.pl -s Makefile

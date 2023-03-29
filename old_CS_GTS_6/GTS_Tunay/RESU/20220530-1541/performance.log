@@ -1,0 +1,418 @@
+
+Local case configuration:
+
+  Date:                lun 30 may 2022 15:41:40 -03
+  System:              Linux 5.4.0-113-generic (Ubuntu 18.04.6 LTS)
+  Machine:             newton
+  Processor:           model name	: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+  Memory:              11140 MB
+  Directory:           /home/user/Documentos/OngoingWork/Modelos geométricos/GTS_Tunay/RESU/20220530-1541
+  OpenMP threads:      1
+  Processors/node:     8
+
+  Compilers used for build:
+    C compiler:        gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+    C++ compiler:      g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+    Fortran compiler:  GNU Fortran (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+
+  I/O read method:     standard input and output, serial access
+  I/O write method:    standard input and output, serial access
+
+--------------------------------------------------------------------------------
+
+Halo creation times summary
+
+  Halo creation:                             0 s
+
+  Total time for halo creation:              0 s
+
+--------------------------------------------------------------------------------
+
+Total elapsed time for all gradient computations:  1066.405 s
+
+Summary of gradient computations for "[cell mass flux divergence update]":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       440
+  Total elapsed time:    223.342
+
+Summary of gradient computations for "[face mass flux update]":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       176
+  Total elapsed time:    89.616
+
+Summary of gradient computations for "[momentum]":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       88
+  Total elapsed time:    78.525
+
+Summary of gradient computations for "[scalar convection-diffusion]":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       2
+  Total elapsed time:    0.524
+
+Summary of gradient computations for "cromo_grad":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       88
+  Total elapsed time:    24.488
+
+Summary of gradient computations for "k":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       264
+  Total elapsed time:    73.968
+
+Summary of gradient computations for "omega":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       264
+  Total elapsed time:    74.079
+
+Summary of gradient computations for "pressure":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       264
+  Total elapsed time:    135.377
+
+Summary of gradient computations for "pressure_increment":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       88
+  Total elapsed time:    44.593
+
+Summary of gradient computations for "velocity":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       352
+  Total elapsed time:    320.832
+
+Summary of gradient computations for "wall_distance":
+
+  Reconstruction type:   Green-Gauss, least-squares gradient face values
+  Number of calls:       4
+  Total elapsed time:    1.061
+
+--------------------------------------------------------------------------------
+
+Total elapsed time for linear equation system solvers:  1069.367 s
+
+Linear solver performance for fields
+------------------------------------
+
+Summary of resolutions for "Velocity" (field id 0)
+
+  Solver type:                   Symmetric Gauss-Seidel
+  Number of setups:                        88
+  Number of calls:                         88
+  Minimum number of iterations:             1
+  Maximum number of iterations:            11
+  Mean number of iterations:                2
+  Total setup time:                     2.037
+  Total solution time:                 54.931
+
+Summary of resolutions for "Pressure" (field id 1)
+
+  Solver type:                   Flexible Conjugate Gradient
+  Preconditioning:               Multigrid
+  Number of setups:                        88
+  Number of calls:                        176
+  Minimum number of iterations:            12
+  Maximum number of iterations:            27
+  Mean number of iterations:               19
+  Total setup time:                    65.182
+  Total solution time:                919.210
+
+  Multigrid:
+    V-cycle
+    Coarsening: default
+    Smoother: Symmetric Gauss-Seidel
+    Coarsest level solver:       Conjugate Gradient
+
+                                               mean      minimum      maximum
+  Number of levels:                              10           10           10
+  Number of cycles:                               1            1            2
+
+                                                           calls         time
+  Construction:                                               88      126.655
+  Resolution:                                               3546      796.047
+
+                                               mean      minimum      maximum
+  Grid level 0:
+    Number of rows:                          480620       480620       480620
+    Number of entries:                      2473652      2473652      2473652
+    Descent smoother iterations:                  1            1            1
+  Grid level 1:
+    Number of rows:                          160185       160185       160185
+    Number of entries:                      1119371      1119371      1119371
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 2:
+    Number of rows:                           53600        53600        53600
+    Number of entries:                       542010       542010       542010
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 3:
+    Number of rows:                           17483        17483        17483
+    Number of entries:                       211885       211885       211885
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 4:
+    Number of rows:                            5854         5854         5854
+    Number of entries:                        74834        74834        74834
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 5:
+    Number of rows:                            2024         2024         2024
+    Number of entries:                        25422        25422        25422
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 6:
+    Number of rows:                             762          762          762
+    Number of entries:                         8502         8502         8502
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 7:
+    Number of rows:                             334          334          334
+    Number of entries:                         2866         2866         2866
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 8:
+    Number of rows:                             189          189          189
+    Number of entries:                         1129         1129         1129
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 9:
+    Number of rows:                             147          147          147
+    Number of entries:                          597          597          597
+    Iterations for solving:                      52            0          158
+                                                           calls         time
+  Grid level 0:
+    build:                                                    88        3.900
+    descent smoothe:                                        6759      542.874
+    restrict:                                               3213       12.452
+    prolong:                                                3213       12.064
+  Grid level 1:
+    build:                                                    88       36.393
+    descent smoothe:                                        3213       85.662
+    ascent smoothe:                                         3213       55.705
+    restrict:                                               3213        3.398
+    prolong:                                                3213        3.327
+  Grid level 2:
+    build:                                                    88       15.138
+    descent smoothe:                                        3213       32.005
+    ascent smoothe:                                         3213       21.188
+    restrict:                                               3213        0.929
+    prolong:                                                3213        0.990
+  Grid level 3:
+    build:                                                    88        6.451
+    descent smoothe:                                        3213        9.436
+    ascent smoothe:                                         3213        6.019
+    restrict:                                               3213        0.291
+    prolong:                                                3213        0.310
+  Grid level 4:
+    build:                                                    88        2.162
+    descent smoothe:                                        3213        3.160
+    ascent smoothe:                                         3213        1.989
+    restrict:                                               3213        0.099
+    prolong:                                                3213        0.104
+  Grid level 5:
+    build:                                                    88        0.713
+    descent smoothe:                                        3213        1.049
+    ascent smoothe:                                         3213        0.660
+    restrict:                                               3213        0.040
+    prolong:                                                3213        0.040
+  Grid level 6:
+    build:                                                    88        0.234
+    descent smoothe:                                        3213        0.364
+    ascent smoothe:                                         3213        0.228
+    restrict:                                               3213        0.020
+    prolong:                                                3213        0.019
+  Grid level 7:
+    build:                                                    88        0.083
+    descent smoothe:                                        3213        0.137
+    ascent smoothe:                                         3213        0.084
+    restrict:                                               3213        0.013
+    prolong:                                                3213        0.012
+  Grid level 8:
+    build:                                                    88        0.033
+    descent smoothe:                                        3213        0.064
+    ascent smoothe:                                         3213        0.038
+    restrict:                                               3213        0.011
+    prolong:                                                3213        0.011
+  Grid level 9:
+    build:                                                    88        0.031
+    solve:                                                  3213        1.089
+
+Summary of resolutions for "k" (field id 2)
+
+  Solver type:                   Symmetric Gauss-Seidel
+  Number of setups:                        88
+  Number of calls:                         88
+  Minimum number of iterations:             1
+  Maximum number of iterations:             5
+  Mean number of iterations:                1
+  Total setup time:                     0.284
+  Total solution time:                  6.494
+
+Summary of resolutions for "omega" (field id 3)
+
+  Solver type:                   Symmetric Gauss-Seidel
+  Number of setups:                        88
+  Number of calls:                         88
+  Minimum number of iterations:             1
+  Maximum number of iterations:            37
+  Mean number of iterations:                1
+  Total setup time:                     0.287
+  Total solution time:                  9.735
+
+Summary of resolutions for "Wall distance" (field id 15)
+
+  Solver type:                   Flexible Conjugate Gradient
+  Preconditioning:               Multigrid
+  Number of setups:                         1
+  Number of calls:                          2
+  Minimum number of iterations:            14
+  Maximum number of iterations:            17
+  Mean number of iterations:               15
+  Total setup time:                     0.743
+  Total solution time:                  8.384
+
+  Multigrid:
+    V-cycle
+    Coarsening: default
+    Smoother: Symmetric Gauss-Seidel
+    Coarsest level solver:       Conjugate Gradient
+
+                                               mean      minimum      maximum
+  Number of levels:                               6            6            6
+  Number of cycles:                               1            1            2
+
+                                                           calls         time
+  Construction:                                                1        1.443
+  Resolution:                                                 33        7.423
+
+                                               mean      minimum      maximum
+  Grid level 0:
+    Number of rows:                          480620       480620       480620
+    Number of entries:                      2473652      2473652      2473652
+    Descent smoother iterations:                  1            1            1
+  Grid level 1:
+    Number of rows:                          160452       160452       160452
+    Number of entries:                      1120580      1120580      1120580
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 2:
+    Number of rows:                           52834        52834        52834
+    Number of entries:                       530066       530066       530066
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 3:
+    Number of rows:                           19440        19440        19440
+    Number of entries:                       218864       218864       218864
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 4:
+    Number of rows:                            9085         9085         9085
+    Number of entries:                        93131        93131        93131
+    Descent smoother iterations:                  1            1            1
+    Ascent smoother iterations:                   1            1            1
+  Grid level 5:
+    Number of rows:                            6127         6127         6127
+    Number of entries:                        51433        51433        51433
+    Iterations for solving:                     105            9          218
+                                                           calls         time
+  Grid level 0:
+    build:                                                     1        0.003
+    descent smoothe:                                          63        4.214
+    restrict:                                                 30        0.102
+    prolong:                                                  30        0.101
+  Grid level 1:
+    build:                                                     1        0.366
+    descent smoothe:                                          30        0.731
+    ascent smoothe:                                           30        0.479
+    restrict:                                                 30        0.029
+    prolong:                                                  30        0.030
+  Grid level 2:
+    build:                                                     1        0.186
+    descent smoothe:                                          30        0.289
+    ascent smoothe:                                           30        0.199
+    restrict:                                                 30        0.009
+    prolong:                                                  30        0.009
+  Grid level 3:
+    build:                                                     1        0.083
+    descent smoothe:                                          30        0.091
+    ascent smoothe:                                           30        0.059
+    restrict:                                                 30        0.003
+    prolong:                                                  30        0.003
+  Grid level 4:
+    build:                                                     1        0.034
+    descent smoothe:                                          30        0.037
+    ascent smoothe:                                           30        0.024
+    restrict:                                                 30        0.002
+    prolong:                                                  30        0.001
+  Grid level 5:
+    build:                                                     1        0.028
+    solve:                                                    30        1.009
+
+--------------------------------------------------------------------------------
+
+Mesh entity selections by criteria statistics:
+
+  entity type     evaluations          time
+  -----------------------------------------
+  cells                     0       0.00000
+  interior faces            0       0.00000
+  boundary faces            7       0.00023
+
+--------------------------------------------------------------------------------
+
+Writing of "results" (EnSight Gold) summary:
+
+  CPU time for meshes:                     0.012
+  CPU time for variables:                  0.049
+  CPU time forcing output:                 0.000
+
+  Elapsed time for meshes:                 0.012
+  Elapsed time for variables:              0.049
+  Elapsed time forcing output:             0.000
+
+--------------------------------------------------------------------------------
+
+Code_Saturne IO files read:
+
+  mesh_input.csm
+    data:      0.17922 s,       54.135 MiB
+    open:      0.18352 s, 2 open(s)
+
+Code_Saturne IO files written:
+
+  checkpoint/auxiliary.csc
+    data:      0.13553 s,       43.970 MiB
+    open:      0.14723 s, 1 open(s)
+  checkpoint/main.csc
+    data:      0.07312 s,       25.671 MiB
+    open:      0.07361 s, 1 open(s)
+
+--------------------------------------------------------------------------------
+
+Calculation time summary:
+
+  User CPU time:           2691.205 s
+  System CPU time:            8.468 s
+
+  Elapsed time:            2700.011 s
+  CPU / elapsed time          1.000
+
+--------------------------------------------------------------------------------
+
+Memory use summary:
+
+  Total memory used:                             881.785 MiB
+  Virtual memory used:                          1016.828 MiB
+  Shared libraries memory used:                   27.602 MiB
+
+--------------------------------------------------------------------------------

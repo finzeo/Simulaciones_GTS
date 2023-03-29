@@ -1,0 +1,18 @@
+
+
+/home/user/Programas/Code-Saturne/src/mesh/cs_mesh_quantities.c:3171: Fatal error.
+
+  4 cells have a Negative volume.
+ Run mesh quality check for post-processing output.
+ In case of mesh joining, this may be due to overly  agressive joining parameters.
+
+
+Call stack:
+   1: 0x7fef1a50e723 <bft_error+0xc0>                 (libsaturne-7.0.so)
+   2: 0x7fef19e562fc <cs_mesh_quantities_check_vol+0x2cb> (libsaturne-7.0.so)
+   3: 0x7fef1b53874a <+0x474a>                        (libcs_solver-7.0.so)
+   4: 0x7fef1b538b20 <main+0x13e>                     (libcs_solver-7.0.so)
+   5: 0x7fef1b164c87 <__libc_start_main+0xe7>         (libc.so.6)
+   6: 0x55de6971b78a <_start+0x2a>                    (cs_solver)
+End of stack
+

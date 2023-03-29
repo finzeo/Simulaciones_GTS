@@ -1,0 +1,18 @@
+SIGINT signal (Control+C or equivalent) received.
+--> computation interrupted by user.
+
+Call stack:
+   1: 0x7fd3601b0c9e <+0x3fbc9e>                      (libsaturne-5.3.so)
+   2: 0x7fd3601bb215 <cs_matrix_set_coefficients+0xc5> (libsaturne-5.3.so)
+   3: 0x7fd3601e9dd6 <cs_sles_solve_native+0x136>     (libsaturne-5.3.so)
+   4: 0x7fd35feed4a9 <cs_equation_iterative_solve_scalar+0x1009> (libsaturne-5.3.so)
+   5: 0x7fd3606847bc <__cs_c_bindings_MOD_codits+0x333> (libsaturne-5.3.so)
+   6: 0x7fd3603610b7 <turbkw_+0x5455>                 (libsaturne-5.3.so)
+   7: 0x7fd360015750 <tridim_+0x4f21>                 (libsaturne-5.3.so)
+   8: 0x7fd35fe7717c <caltri_+0x1caf>                 (libsaturne-5.3.so)
+   9: 0x7fd3616e289f <cs_run+0x55f>                   (libcs_solver-5.3.so)
+  10: 0x7fd3616e21d5 <main+0x125>                     (libcs_solver-5.3.so)
+  11: 0x3d8a01ed20 <__libc_start_main+0x100>        (libc.so.6)
+  12: 0x400999     <>                               (cs_solver)
+End of stack
+

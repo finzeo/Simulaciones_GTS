@@ -1,0 +1,25 @@
+
+
+../../../saturne2-git/src/alge/cs_sles_it.c:5729: Fatal error.
+
+Symmetric Gauss-Seidel: error (divergence) solving for Velocity
+
+
+Call stack:
+   1: 0x7f425d4c27e8 <cs_sles_it_error_post_and_abort+0xd8> (libsaturne.so.6)
+   2: 0x7f425d4a786f <cs_sles_solve+0x2ff>            (libsaturne.so.6)
+   3: 0x7f425d4a98e5 <cs_sles_solve_native+0x385>     (libsaturne.so.6)
+   4: 0x7f425d1914a3 <cs_equation_iterative_solve_vector+0x12b3> (libsaturne.so.6)
+   5: 0x7f425d944b99 <__cs_c_bindings_MOD_coditv+0x319> (libsaturne.so.6)
+   6: 0x7f425d2a803b <predvv_+0xa34b>                 (libsaturne.so.6)
+   7: 0x7f425d286dcc <navstv_+0x134c>                 (libsaturne.so.6)
+   8: 0x7f425d2daec0 <tridim_+0x2ea0>                 (libsaturne.so.6)
+   9: 0x7f425d105e32 <caltri_+0x17c2>                 (libsaturne.so.6)
+  10: 0x7f42622e1bff <cs_run+0x5bf>                   (libcs_solver.so.6)
+  11: 0x7f42622e14d7 <main+0x167>                     (libcs_solver.so.6)
+  12: 0x354a41ed1d <__libc_start_main+0xfd>         (libc.so.6)
+  13: 0x4049f9     <>                               (cs_solver)
+End of stack
+
+[cli_42]: aborting job:
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 42
